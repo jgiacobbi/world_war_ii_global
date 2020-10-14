@@ -1,0 +1,955 @@
+{
+    "Portugal": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Chile": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Afghanistan": {
+        "Neutral_True": {
+            "infantry": 4
+        }
+    },
+    "Turkey": {
+        "Neutral_True": {
+            "infantry": 8
+        }
+    },
+    "Mozambique": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Saudi Arabia": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Switzerland": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Argentina": {
+        "Neutral_True": {
+            "infantry": 4
+        }
+    },
+    "Angola": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Venezuela": {
+        "Neutral_True": {
+            "infantry": 2
+        }
+    },
+    "Sweden": {
+        "Neutral_True": {
+            "infantry": 6
+        }
+    },
+    "Spain": {
+        "Neutral_True": {
+            "infantry": 6
+        }
+    },
+    "Ulaanbaatar": {
+        "Mongolians": {
+            "infantry": 1
+        }
+    },
+    "Buyant-Uhaa": {
+        "Mongolians": {
+            "infantry": 2
+        }
+    },
+    "Olgiy": {
+        "Mongolians": {
+            "infantry": 2
+        }
+    },
+    "Dzavhan": {
+        "Mongolians": {
+            "infantry": 1
+        }
+    },
+    "Brazil": {
+        "Neutral_Allies": {
+            "infantry": 3
+        }
+    },
+    "Persia": {
+        "Neutral_Allies": {
+            "infantry": 2
+        }
+    },
+    "Yugoslavia": {
+        "Neutral_Allies": {
+            "infantry": 5
+        }
+    },
+    "Greece": {
+        "Neutral_Allies": {
+            "infantry": 4
+        }
+    },
+    "Bulgaria": {
+        "Neutral_Axis": {
+            "infantry": 4
+        }
+    },
+    "Iraq": {
+        "Neutral_Axis": {
+            "infantry": 3
+        }
+    },
+    "Finland": {
+        "Neutral_Axis": {
+            "infantry": 4
+        }
+    },
+    "Japan": {
+        "Japanese": {
+            "infantry": 6,
+            "artillery": 2,
+            "armour": 1,
+            "fighter": 2,
+            "tactical_bomber": 2,
+            "bomber": 2,
+            "aaGun": 3,
+            "airfield": 1,
+            "harbour": 1,
+            "factory_major": 1
+        }
+    },
+    "Manchuria": {
+        "Japanese": {
+            "infantry": 6,
+            "mech_infantry": 1,
+            "artillery": 1,
+            "aaGun": 1,
+            "fighter": 2,
+            "tactical_bomber": 2
+        }
+    },
+    "Paulau Island": {
+        "Japanese": {
+            "infantry": 1
+        }
+    },
+    "Kiangsi": {
+        "Japanese": {
+            "infantry": 3,
+            "artillery": 1
+        }
+    },
+    "Formosa": {
+        "Japanese": {
+            "fighter": 1
+        }
+    },
+    "Shantung": {
+        "Japanese": {
+            "infantry": 3,
+            "artillery": 1
+        }
+    },
+    "Kwangsi": {
+        "Japanese": {
+            "infantry": 3,
+            "artillery": 1
+        }
+    },
+    "Iwo Jima": {
+        "Japanese": {
+            "infantry": 1
+        }
+    },
+    "Jehol": {
+        "Japanese": {
+            "infantry": 2,
+            "artillery": 1
+        }
+    },
+    "Caroline Islands": {
+        "Japanese": {
+            "infantry": 2,
+            "aaGun": 1,
+            "airfield": 1,
+            "harbour": 1
+        }
+    },
+    "Siam": {
+        "Japanese": {
+            "infantry": 2
+        }
+    },
+    "Okinawa": {
+        "Japanese": {
+            "infantry": 1,
+            "fighter": 1
+        }
+    },
+    "Kiangsu": {
+        "Japanese": {
+            "infantry": 3,
+            "artillery": 1,
+            "fighter": 1,
+            "tactical_bomber": 1
+        }
+    },
+    "Korea": {
+        "Japanese": {
+            "infantry": 4,
+            "fighter": 1
+        }
+    },
+    "6 Sea Zone": {
+        "Japanese": {
+            "submarine": 1,
+            "destroyer": 2,
+            "carrier": 2,
+            "fighter": 2,
+            "tactical_bomber": 2,
+            "cruiser": 1,
+            "battleship": 1,
+            "transport": 1
+        }
+    },
+    "19 Sea Zone": {
+        "Japanese": {
+            "submarine": 1,
+            "battleship": 1,
+            "destroyer": 1,
+            "transport": 1
+        }
+    },
+    "33 Sea Zone": {
+        "Japanese": {
+            "destroyer": 1,
+            "carrier": 1,
+            "fighter": 1,
+            "tactical_bomber": 1
+        }
+    },
+    "20 Sea Zone": {
+        "Japanese": {
+            "cruiser": 1,
+            "transport": 1
+        }
+    },
+    "New South Wales": {
+        "ANZAC": {
+            "infantry": 2,
+            "aaGun": 2,
+            "factory_minor": 1,
+            "harbour": 1
+        }
+    },
+    "New Zealand": {
+        "ANZAC": {
+            "infantry": 1,
+            "fighter": 2,
+            "airfield": 1,
+            "harbour": 1
+        }
+    },
+    "Queensland": {
+        "ANZAC": {
+            "infantry": 2,
+            "artillery": 1,
+            "fighter": 1,
+            "airfield": 1,
+            "harbour": 1
+        }
+    },
+    "Malaya": {
+        "ANZAC": {
+            "infantry": 1
+        },
+        "British": {
+            "infantry": 3
+        },
+        "UK_Pacific": {
+            "harbour": 1
+        }
+    },
+    "Egypt": {
+        "ANZAC": {
+            "infantry": 2
+        },
+        "British": {
+            "infantry": 1,
+            "artillery": 1,
+            "mech_infantry": 1,
+            "harbour": 1
+        }
+    },
+    "62 Sea Zone": {
+        "ANZAC": {
+            "destroyer": 1,
+            "transport": 1
+        }
+    },
+    "63 Sea Zone": {
+        "ANZAC": {
+            "cruiser": 1
+        }
+    },
+    "Western United States": {
+        "Americans": {
+            "infantry": 2,
+            "mech_infantry": 1,
+            "artillery": 1,
+            "fighter": 1,
+            "aaGun": 2,
+            "airfield": 1,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "Hawaiian Islands": {
+        "Americans": {
+            "infantry": 2,
+            "fighter": 2,
+            "airfield": 1,
+            "harbour": 1
+        }
+    },
+    "Philippines": {
+        "Americans": {
+            "infantry": 2,
+            "fighter": 1,
+            "airfield": 1,
+            "harbour": 1
+        }
+    },
+    "Midway": {
+        "Americans": {
+            "airfield": 1
+        }
+    },
+    "Wake Island": {
+        "Americans": {
+            "airfield": 1
+        }
+    },
+    "Guam": {
+        "Americans": {
+            "airfield": 1
+        }
+    },
+    "Eastern United States": {
+        "Americans": {
+            "infantry": 1,
+            "fighter": 1,
+            "artillery": 1,
+            "aaGun": 2,
+            "airfield": 1,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "Central United States": {
+        "Americans": {
+            "infantry": 1,
+            "mech_infantry": 3,
+            "armour": 1,
+            "bomber": 1,
+            "factory_minor": 1
+        }
+    },
+    "26 Sea Zone": {
+        "Americans": {
+            "submarine": 1,
+            "destroyer": 1,
+            "cruiser": 1,
+            "transport": 1
+        }
+    },
+    "10 Sea Zone": {
+        "Americans": {
+            "battleship": 1,
+            "cruiser": 1,
+            "destroyer": 1,
+            "transport": 1,
+            "carrier": 1,
+            "fighter": 1,
+            "tactical_bomber": 1
+        }
+    },
+    "35 Sea Zone": {
+        "Americans": {
+            "destroyer": 1,
+            "submarine": 1
+        }
+    },
+    "101 Sea Zone": {
+        "Americans": {
+            "cruiser": 1,
+            "transport": 1
+        }
+    },
+    "Szechwan": {
+        "Chinese": {
+            "infantry": 6,
+            "fighter": 1
+        }
+    },
+    "Hunan": {
+        "Chinese": {
+            "infantry": 2
+        }
+    },
+    "Yunnan": {
+        "Chinese": {
+            "infantry": 4
+        }
+    },
+    "Kweichow": {
+        "Chinese": {
+            "infantry": 2
+        }
+    },
+    "Shensi": {
+        "Chinese": {
+            "infantry": 1
+        }
+    },
+    "Suiyuyan": {
+        "Chinese": {
+            "infantry": 2
+        }
+    },
+    "Ontario": {
+        "British": {
+            "infantry": 1,
+            "artillery": 1
+        }
+    },
+    "Quebec": {
+        "British": {
+            "infantry": 1,
+            "armour": 1,
+            "factory_minor": 1
+        }
+    },
+    "New Brunswick Nova Scotia": {
+        "British": {
+            "harbour": 1
+        }
+    },
+    "Iceland": {
+        "British": {
+            "airfield": 1
+        }
+    },
+    "United Kingdom": {
+        "British": {
+            "infantry": 2,
+            "mech_infantry": 1,
+            "fighter": 2,
+            "bomber": 1,
+            "aaGun": 4,
+            "airfield": 1,
+            "harbour": 1,
+            "factory_major": 1
+        },
+        "French": {
+            "infantry": 2,
+            "fighter": 1
+        }
+    },
+    "France": {
+        "British": {
+            "artillery": 1,
+            "armour": 1
+        },
+        "French": {
+            "infantry": 6,
+            "artillery": 1,
+            "armour": 1,
+            "aaGun": 1,
+            "fighter": 1,
+            "airfield": 1,
+            "factory_major": 1
+        }
+    },
+    "Gibraltar": {
+        "British": {
+            "fighter": 1,
+            "harbour": 1
+        }
+    },
+    "Malta": {
+        "British": {
+            "infantry": 1,
+            "fighter": 1,
+            "aaGun": 1
+        }
+    },
+    "Alexandria": {
+        "British": {
+            "infantry": 2,
+            "artillery": 1,
+            "armour": 1
+        }
+    },
+    "Anglo Egyptian Sudan": {
+        "British": {
+            "infantry": 1
+        }
+    },
+    "Union of South Africa": {
+        "British": {
+            "infantry": 2,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "West India": {
+        "British": {
+            "infantry": 1
+        }
+    },
+    "Scotland": {
+        "British": {
+            "infantry": 2,
+            "fighter": 1,
+            "airfield": 1,
+            "aaGun": 1
+        }
+    },
+    "71 Sea Zone": {
+        "British": {
+            "destroyer": 1
+        }
+    },
+    "91 Sea Zone": {
+        "British": {
+            "cruiser": 1
+        }
+    },
+    "98 Sea Zone": {
+        "British": {
+            "cruiser": 1,
+            "destroyer": 1,
+            "carrier": 1,
+            "tactical_bomber": 1,
+            "transport": 1
+        }
+    },
+    "106 Sea Zone": {
+        "British": {
+            "destroyer": 1,
+            "transport": 1
+        }
+    },
+    "109 Sea Zone": {
+        "British": {
+            "destroyer": 1,
+            "transport": 1
+        }
+    },
+    "110 Sea Zone": {
+        "British": {
+            "cruiser": 1,
+            "battleship": 1
+        },
+        "French": {
+            "cruiser": 1
+        }
+    },
+    "111 Sea Zone": {
+        "British": {
+            "destroyer": 1,
+            "battleship": 1,
+            "cruiser": 1
+        }
+    },
+    "Kwangtung": {
+        "British": {
+            "infantry": 2
+        },
+        "UK_Pacific": {
+            "harbour": 1
+        }
+    },
+    "Burma": {
+        "British": {
+            "infantry": 2,
+            "fighter": 1
+        }
+    },
+    "India": {
+        "British": {
+            "infantry": 6,
+            "artillery": 1,
+            "aaGun": 3,
+            "fighter": 1,
+            "tactical_bomber": 1
+        },
+        "UK_Pacific": {
+            "airfield": 1,
+            "harbour": 1,
+            "factory_major": 1
+        }
+    },
+    "37 Sea Zone": {
+        "British": {
+            "battleship": 1
+        }
+    },
+    "39 Sea Zone": {
+        "British": {
+            "destroyer": 1,
+            "cruiser": 1,
+            "transport": 1
+        }
+    },
+    "Normandy Bordeaux": {
+        "French": {
+            "infantry": 1,
+            "artillery": 1,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "Southern France": {
+        "French": {
+            "infantry": 1,
+            "artillery": 1,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "Syria": {
+        "French": {
+            "infantry": 1
+        }
+    },
+    "Tunisia": {
+        "French": {
+            "infantry": 1
+        }
+    },
+    "Morocco": {
+        "French": {
+            "infantry": 1
+        }
+    },
+    "Algeria": {
+        "French": {
+            "infantry": 1
+        }
+    },
+    "French West Africa": {
+        "French": {
+            "infantry": 1
+        }
+    },
+    "72 Sea Zone": {
+        "French": {
+            "destroyer": 1
+        }
+    },
+    "93 Sea Zone": {
+        "French": {
+            "destroyer": 1,
+            "cruiser": 1
+        }
+    },
+    "Holland Belgium": {
+        "Germans": {
+            "infantry": 4,
+            "artillery": 2,
+            "armour": 3,
+            "fighter": 1
+        }
+    },
+    "Western Germany": {
+        "Germans": {
+            "infantry": 3,
+            "artillery": 1,
+            "mech_infantry": 4,
+            "fighter": 2,
+            "tactical_bomber": 3,
+            "aaGun": 3,
+            "factory_major": 1,
+            "harbour": 1,
+            "airfield": 1
+        }
+    },
+    "Greater Southern Germany": {
+        "Germans": {
+            "infantry": 6,
+            "artillery": 2,
+            "armour": 3
+        }
+    },
+    "Germany": {
+        "Germans": {
+            "infantry": 11,
+            "artillery": 3,
+            "tactical_bomber": 1,
+            "bomber": 2,
+            "factory_major": 1,
+            "aaGun": 3
+        }
+    },
+    "Slovakia Hungary": {
+        "Germans": {
+            "infantry": 2,
+            "armour": 1,
+            "fighter": 1
+        }
+    },
+    "Poland": {
+        "Germans": {
+            "infantry": 3,
+            "armour": 1,
+            "tactical_bomber": 1
+        }
+    },
+    "Romania": {
+        "Germans": {
+            "infantry": 2,
+            "armour": 1
+        }
+    },
+    "Norway": {
+        "Germans": {
+            "infantry": 3,
+            "fighter": 1
+        }
+    },
+    "Denmark": {
+        "Germans": {
+            "infantry": 2
+        }
+    },
+    "103 Sea Zone": {
+        "Germans": {
+            "submarine": 1
+        }
+    },
+    "108 Sea Zone": {
+        "Germans": {
+            "submarine": 1
+        }
+    },
+    "113 Sea Zone": {
+        "Germans": {
+            "battleship": 1
+        }
+    },
+    "114 Sea Zone": {
+        "Germans": {
+            "cruiser": 1,
+            "transport": 1
+        }
+    },
+    "117 Sea Zone": {
+        "Germans": {
+            "submarine": 1
+        }
+    },
+    "118 Sea Zone": {
+        "Germans": {
+            "submarine": 1
+        }
+    },
+    "124 Sea Zone": {
+        "Germans": {
+            "submarine": 1
+        }
+    },
+    "Northern Italy": {
+        "Italians": {
+            "infantry": 2,
+            "artillery": 2,
+            "armour": 1,
+            "bomber": 1,
+            "aaGun": 2,
+            "factory_major": 1
+        }
+    },
+    "Southern Italy": {
+        "Italians": {
+            "infantry": 6,
+            "fighter": 2,
+            "aaGun": 2,
+            "harbour": 1,
+            "airfield": 1,
+            "factory_minor": 1
+        }
+    },
+    "Albania": {
+        "Italians": {
+            "infantry": 2,
+            "armour": 1
+        }
+    },
+    "Italian Somaliland": {
+        "Italians": {
+            "infantry": 1
+        }
+    },
+    "Ethiopia": {
+        "Italians": {
+            "infantry": 2,
+            "artillery": 1
+        }
+    },
+    "Libya": {
+        "Italians": {
+            "infantry": 1,
+            "artillery": 1
+        }
+    },
+    "Tobruk": {
+        "Italians": {
+            "infantry": 3,
+            "artillery": 1,
+            "mech_infantry": 1,
+            "armour": 1
+        }
+    },
+    "95 Sea Zone": {
+        "Italians": {
+            "destroyer": 1,
+            "cruiser": 1,
+            "submarine": 1,
+            "transport": 1
+        }
+    },
+    "96 Sea Zone": {
+        "Italians": {
+            "destroyer": 1,
+            "transport": 1
+        }
+    },
+    "97 Sea Zone": {
+        "Italians": {
+            "cruiser": 1,
+            "battleship": 1,
+            "transport": 1
+        }
+    },
+    "Karelia": {
+        "Russians": {
+            "infantry": 2
+        }
+    },
+    "Archangel": {
+        "Russians": {
+            "infantry": 1
+        }
+    },
+    "Russia": {
+        "Russians": {
+            "infantry": 1,
+            "artillery": 1,
+            "mech_infantry": 1,
+            "armour": 1,
+            "fighter": 1,
+            "tactical_bomber": 1,
+            "aaGun": 2,
+            "airfield": 1,
+            "factory_major": 1
+        }
+    },
+    "Volgograd": {
+        "Russians": {
+            "armour": 1,
+            "mech_infantry": 1,
+            "factory_minor": 1
+        }
+    },
+    "Caucasus": {
+        "Russians": {
+            "infantry": 2
+        }
+    },
+    "Bessarabia": {
+        "Russians": {
+            "infantry": 2
+        }
+    },
+    "Western Ukraine": {
+        "Russians": {
+            "infantry": 1,
+            "artillery": 1
+        }
+    },
+    "Eastern Poland": {
+        "Russians": {
+            "infantry": 2
+        }
+    },
+    "Baltic States": {
+        "Russians": {
+            "infantry": 3
+        }
+    },
+    "Belarus": {
+        "Russians": {
+            "infantry": 1
+        }
+    },
+    "Novgorod": {
+        "Russians": {
+            "infantry": 6,
+            "artillery": 1,
+            "fighter": 1,
+            "aaGun": 2,
+            "airfield": 1,
+            "harbour": 1,
+            "factory_minor": 1
+        }
+    },
+    "Vyborg": {
+        "Russians": {
+            "infantry": 3
+        }
+    },
+    "Ukraine": {
+        "Russians": {
+            "infantry": 3,
+            "factory_minor": 1
+        }
+    },
+    "Amur": {
+        "Russians": {
+            "infantry": 6
+        }
+    },
+    "Sakha": {
+        "Russians": {
+            "infantry": 6,
+            "aaGun": 2
+        }
+    },
+    "Buryatia": {
+        "Russians": {
+            "infantry": 6
+        }
+    },
+    "115 Sea Zone": {
+        "Russians": {
+            "cruiser": 1,
+            "submarine": 1
+        }
+    },
+    "127 Sea Zone": {
+        "Russians": {
+            "submarine": 1
+        }
+    }
+}

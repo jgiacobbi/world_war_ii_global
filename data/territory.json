@@ -1,0 +1,2976 @@
+{
+    "Caroline Islands": {
+        "water": false,
+        "connections": [
+            "33 Sea Zone"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Iwo Jima": {
+        "water": false,
+        "connections": [
+            "17 Sea Zone"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Paulau Island": {
+        "water": false,
+        "connections": [
+            "34 Sea Zone"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Marshall Islands": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Shantung": {
+        "water": false,
+        "connections": [
+            "19 Sea Zone",
+            "Kiangsu",
+            "Jehol",
+            "Anhwe"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Formosa": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Kwangsi": {
+        "water": false,
+        "connections": [
+            "Kiangsi",
+            "Kwangtung"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Korea": {
+        "water": false,
+        "connections": [
+            "Manchuria"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Kiangsu": {
+        "water": false,
+        "connections": [
+            "Kiangsi",
+            "Anhwe"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Kiangsi": {
+        "water": false,
+        "connections": [
+            "Kwangtung",
+            "Anhwe"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Japan": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Jehol": {
+        "water": false,
+        "connections": [
+            "Chahar",
+            "Manchuria",
+            "Anhwe"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Okinawa": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Marianas": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Siam": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Manchuria": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Hainan": {
+        "water": false,
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Shensi": {
+        "water": false,
+        "connections": [
+            "Suiyuyan",
+            "Kweichow",
+            "Kansu",
+            "Hopei",
+            "Tsinghai",
+            "Szechwan",
+            "Sikang"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Yunnan": {
+        "water": false,
+        "connections": [
+            "Kweichow",
+            "Shan State",
+            "French Indo China",
+            "Burma",
+            "Hunan",
+            "Kwangsi",
+            "Himalayas",
+            "Szechwan"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Suiyuyan": {
+        "water": false,
+        "connections": [
+            "Kansu",
+            "Hopei",
+            "Central Mongolia",
+            "Chahar",
+            "Tsagaan Olom"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Kweichow": {
+        "water": false,
+        "connections": [
+            "Hunan",
+            "Hopei",
+            "Szechwan",
+            "Anhwe"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Hunan": {
+        "water": false,
+        "connections": [
+            "Kwangsi",
+            "Kiangsi",
+            "Anhwe"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Kansu": {
+        "water": false,
+        "connections": [
+            "Novosibirsk",
+            "Timguska",
+            "Tsinghai",
+            "Tsagaan Olom"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Hopei": {
+        "water": false,
+        "connections": [
+            "Chahar",
+            "Anhwe"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Tsinghai": {
+        "water": false,
+        "connections": [
+            "Sikang",
+            "Kazakhstan"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Szechwan": {
+        "water": false,
+        "connections": [
+            "Sikang"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Chahar": {
+        "water": false,
+        "connections": [
+            "Anhwe"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Sikang": {
+        "water": false,
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Anhwe": {
+        "water": false,
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "Gilbert Islands": {
+        "water": false,
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Fiji": {
+        "water": false,
+        "connections": [
+            "50 Sea Zone"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Ceylon": {
+        "water": false,
+        "connections": [
+            "39 Sea Zone"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Samoa": {
+        "water": false,
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Shan State": {
+        "water": false,
+        "connections": [
+            "French Indo China",
+            "Burma",
+            "Malaya",
+            "Siam"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Burma": {
+        "water": false,
+        "connections": [
+            "India",
+            "Himalayas"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "British Columbia": {
+        "water": false,
+        "connections": [
+            "Alaska",
+            "1 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "India": {
+        "water": false,
+        "connections": [
+            "Himalayas",
+            "West India"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Malaya": {
+        "water": false,
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Borneo": {
+        "water": false,
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Kwangtung": {
+        "water": false,
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Queensland": {
+        "water": false,
+        "connections": [
+            "Northern Territory",
+            "New South Wales",
+            "South Australia",
+            "54 Sea Zone"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "Victoria": {
+        "water": false,
+        "connections": [
+            "New South Wales",
+            "South Australia"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "New Britain": {
+        "water": false,
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "Northern Territory": {
+        "water": false,
+        "connections": [
+            "South Australia",
+            "Western Australia",
+            "55 Sea Zone"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "New Zealand": {
+        "water": false,
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "New South Wales": {
+        "water": false,
+        "connections": [
+            "South Australia"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "South Australia": {
+        "water": false,
+        "connections": [
+            "Western Australia"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "Western Australia": {
+        "water": false,
+        "connections": [
+            "56 Sea Zone"
+        ],
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "Solomon Islands": {
+        "water": false,
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "New Guinea": {
+        "water": false,
+        "owner": [
+            "ANZAC"
+        ]
+    },
+    "Philippines": {
+        "water": false,
+        "connections": [
+            "35 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Line Islands": {
+        "water": false,
+        "connections": [
+            "29 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Mexico": {
+        "water": false,
+        "connections": [
+            "Western United States",
+            "10 Sea Zone",
+            "Southeast Mexico"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Guam": {
+        "water": false,
+        "connections": [
+            "21 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Wake Island": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Western United States": {
+        "water": false,
+        "connections": [
+            "10 Sea Zone",
+            "British Columbia"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Alaska": {
+        "water": false,
+        "connections": [
+            "2 Sea Zone",
+            "1 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Aleutian Islands": {
+        "water": false,
+        "connections": [
+            "8 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Johnston Island": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Hawaiian Islands": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Midway": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Sakha": {
+        "water": false,
+        "connections": [
+            "Amur",
+            "Siberia",
+            "Buryatia"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Evenkiyskiy": {
+        "water": false,
+        "connections": [
+            "Yenisey",
+            "Timguska"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Yenisey": {
+        "water": false,
+        "connections": [
+            "Yakut S.S.R.",
+            "Timguska"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Soviet Far East": {
+        "water": false,
+        "connections": [
+            "Siberia",
+            "3 Sea Zone",
+            "4 Sea Zone",
+            "5 Sea Zone"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Amur": {
+        "water": false,
+        "connections": [
+            "Korea",
+            "Siberia",
+            "5 Sea Zone",
+            "Buyant-Uhaa",
+            "Ulaanbaatar",
+            "Buryatia",
+            "Manchuria"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Yakut S.S.R.": {
+        "water": false,
+        "connections": [
+            "Ulaanbaatar",
+            "Buryatia"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Timguska": {
+        "water": false,
+        "connections": [
+            "Novosibirsk"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Siberia": {
+        "water": false,
+        "connections": [
+            "5 Sea Zone"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Kazakhstan": {
+        "water": false,
+        "connections": [
+            "Sikang",
+            "Samara"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Buryatia": {
+        "water": false,
+        "owner": [
+            "Russians"
+        ]
+    },
+    "French Indo China": {
+        "water": false,
+        "connections": [
+            "Kwangsi",
+            "Siam"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "New Hebrides": {
+        "water": false,
+        "connections": [
+            "53 Sea Zone"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Celebes": {
+        "water": false,
+        "owner": [
+            "Dutch"
+        ]
+    },
+    "Java": {
+        "water": false,
+        "owner": [
+            "Dutch"
+        ]
+    },
+    "Dutch New Guinea": {
+        "water": false,
+        "connections": [
+            "New Guinea"
+        ],
+        "owner": [
+            "Dutch"
+        ]
+    },
+    "Sumatra": {
+        "water": false,
+        "owner": [
+            "Dutch"
+        ]
+    },
+    "42 Sea Zone": {
+        "water": true,
+        "connections": [
+            "41 Sea Zone",
+            "44 Sea Zone",
+            "43 Sea Zone",
+            "45 Sea Zone",
+            "Java",
+            "56 Sea Zone",
+            "57 Sea Zone",
+            "55 Sea Zone"
+        ]
+    },
+    "41 Sea Zone": {
+        "water": true,
+        "connections": [
+            "39 Sea Zone",
+            "38 Sea Zone",
+            "40 Sea Zone",
+            "Sumatra",
+            "58 Sea Zone",
+            "57 Sea Zone"
+        ]
+    },
+    "44 Sea Zone": {
+        "water": true,
+        "connections": [
+            "43 Sea Zone",
+            "45 Sea Zone",
+            "35 Sea Zone",
+            "Celebes"
+        ]
+    },
+    "43 Sea Zone": {
+        "water": true,
+        "connections": [
+            "36 Sea Zone",
+            "35 Sea Zone",
+            "Borneo"
+        ]
+    },
+    "46 Sea Zone": {
+        "water": true,
+        "connections": [
+            "45 Sea Zone",
+            "47 Sea Zone",
+            "49 Sea Zone",
+            "33 Sea Zone",
+            "34 Sea Zone",
+            "New Guinea",
+            "54 Sea Zone",
+            "55 Sea Zone"
+        ]
+    },
+    "45 Sea Zone": {
+        "water": true,
+        "connections": [
+            "35 Sea Zone",
+            "34 Sea Zone",
+            "Dutch New Guinea",
+            "55 Sea Zone"
+        ]
+    },
+    "48 Sea Zone": {
+        "water": true,
+        "connections": [
+            "47 Sea Zone",
+            "49 Sea Zone",
+            "Gilbert Islands",
+            "33 Sea Zone",
+            "32 Sea Zone",
+            "30 Sea Zone"
+        ]
+    },
+    "47 Sea Zone": {
+        "water": true,
+        "connections": [
+            "49 Sea Zone",
+            "33 Sea Zone",
+            "New Britain"
+        ]
+    },
+    "Olgiy": {
+        "water": false,
+        "connections": [
+            "Dzavhan",
+            "Yenisey",
+            "Kansu",
+            "Timguska",
+            "Tsagaan Olom"
+        ],
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "49 Sea Zone": {
+        "water": true,
+        "connections": [
+            "50 Sea Zone",
+            "30 Sea Zone",
+            "Solomon Islands",
+            "54 Sea Zone",
+            "53 Sea Zone"
+        ]
+    },
+    "50 Sea Zone": {
+        "water": true,
+        "connections": [
+            "51 Sea Zone",
+            "30 Sea Zone",
+            "29 Sea Zone",
+            "52 Sea Zone",
+            "53 Sea Zone"
+        ]
+    },
+    "51 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Samoa",
+            "28 Sea Zone",
+            "29 Sea Zone",
+            "52 Sea Zone"
+        ]
+    },
+    "33 Sea Zone": {
+        "water": true,
+        "connections": [
+            "32 Sea Zone",
+            "34 Sea Zone",
+            "23 Sea Zone",
+            "22 Sea Zone"
+        ]
+    },
+    "32 Sea Zone": {
+        "water": true,
+        "connections": [
+            "31 Sea Zone",
+            "30 Sea Zone",
+            "Marshall Islands",
+            "23 Sea Zone"
+        ]
+    },
+    "31 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Wake Island",
+            "24 Sea Zone",
+            "23 Sea Zone",
+            "26 Sea Zone",
+            "25 Sea Zone",
+            "30 Sea Zone"
+        ]
+    },
+    "30 Sea Zone": {
+        "water": true,
+        "connections": [
+            "26 Sea Zone",
+            "27 Sea Zone",
+            "29 Sea Zone",
+            "Johnston Island"
+        ]
+    },
+    "37 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Shan State",
+            "Siam",
+            "Malaya",
+            "38 Sea Zone",
+            "41 Sea Zone",
+            "42 Sea Zone",
+            "43 Sea Zone",
+            "36 Sea Zone"
+        ]
+    },
+    "36 Sea Zone": {
+        "water": true,
+        "connections": [
+            "35 Sea Zone",
+            "20 Sea Zone",
+            "French Indo China",
+            "Kwangsi",
+            "Hainan"
+        ]
+    },
+    "35 Sea Zone": {
+        "water": true,
+        "connections": [
+            "34 Sea Zone",
+            "20 Sea Zone",
+            "21 Sea Zone"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "34 Sea Zone": {
+        "water": true,
+        "connections": [
+            "22 Sea Zone",
+            "21 Sea Zone"
+        ]
+    },
+    "Dzavhan": {
+        "water": false,
+        "connections": [
+            "Yenisey",
+            "Central Mongolia",
+            "Yakut S.S.R.",
+            "Ulaanbaatar",
+            "Tsagaan Olom"
+        ],
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "39 Sea Zone": {
+        "water": true,
+        "connections": [
+            "38 Sea Zone",
+            "40 Sea Zone",
+            "India",
+            "79 Sea Zone",
+            "78 Sea Zone"
+        ]
+    },
+    "38 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Shan State",
+            "Burma"
+        ]
+    },
+    "40 Sea Zone": {
+        "water": true,
+        "connections": [
+            "58 Sea Zone",
+            "78 Sea Zone"
+        ]
+    },
+    "24 Sea Zone": {
+        "water": true,
+        "connections": [
+            "23 Sea Zone",
+            "25 Sea Zone",
+            "17 Sea Zone",
+            "16 Sea Zone"
+        ]
+    },
+    "23 Sea Zone": {
+        "water": true,
+        "connections": [
+            "22 Sea Zone",
+            "17 Sea Zone"
+        ]
+    },
+    "26 Sea Zone": {
+        "water": true,
+        "connections": [
+            "25 Sea Zone",
+            "27 Sea Zone",
+            "13 Sea Zone",
+            "12 Sea Zone",
+            "Hawaiian Islands"
+        ]
+    },
+    "25 Sea Zone": {
+        "water": true,
+        "connections": [
+            "15 Sea Zone",
+            "14 Sea Zone",
+            "13 Sea Zone",
+            "16 Sea Zone",
+            "Midway"
+        ]
+    },
+    "20 Sea Zone": {
+        "water": true,
+        "connections": [
+            "21 Sea Zone",
+            "Formosa",
+            "19 Sea Zone",
+            "Kiangsi",
+            "Kwangtung"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "22 Sea Zone": {
+        "water": true,
+        "connections": [
+            "21 Sea Zone",
+            "18 Sea Zone",
+            "17 Sea Zone",
+            "Marianas"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "21 Sea Zone": {
+        "water": true,
+        "connections": [
+            "19 Sea Zone",
+            "18 Sea Zone"
+        ]
+    },
+    "28 Sea Zone": {
+        "water": true,
+        "connections": [
+            "27 Sea Zone",
+            "29 Sea Zone",
+            "11 Sea Zone"
+        ]
+    },
+    "27 Sea Zone": {
+        "water": true,
+        "connections": [
+            "29 Sea Zone",
+            "12 Sea Zone",
+            "11 Sea Zone"
+        ]
+    },
+    "29 Sea Zone": {
+        "water": true
+    },
+    "15 Sea Zone": {
+        "water": true,
+        "connections": [
+            "14 Sea Zone",
+            "16 Sea Zone",
+            "7 Sea Zone",
+            "8 Sea Zone"
+        ]
+    },
+    "14 Sea Zone": {
+        "water": true,
+        "connections": [
+            "13 Sea Zone",
+            "8 Sea Zone",
+            "9 Sea Zone"
+        ]
+    },
+    "13 Sea Zone": {
+        "water": true,
+        "connections": [
+            "12 Sea Zone",
+            "9 Sea Zone"
+        ]
+    },
+    "12 Sea Zone": {
+        "water": true,
+        "connections": [
+            "11 Sea Zone",
+            "10 Sea Zone",
+            "9 Sea Zone"
+        ]
+    },
+    "11 Sea Zone": {
+        "water": true,
+        "connections": [
+            "10 Sea Zone"
+        ]
+    },
+    "10 Sea Zone": {
+        "water": true,
+        "connections": [
+            "1 Sea Zone",
+            "9 Sea Zone"
+        ]
+    },
+    "19 Sea Zone": {
+        "water": true,
+        "connections": [
+            "18 Sea Zone",
+            "Kiangsu",
+            "Jehol",
+            "Okinawa",
+            "Manchuria"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Central Mongolia": {
+        "water": false,
+        "connections": [
+            "Buyant-Uhaa",
+            "Ulaanbaatar",
+            "Chahar",
+            "Tsagaan Olom"
+        ],
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "18 Sea Zone": {
+        "water": true,
+        "connections": [
+            "17 Sea Zone"
+        ]
+    },
+    "17 Sea Zone": {
+        "water": true,
+        "connections": [
+            "16 Sea Zone"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "16 Sea Zone": {
+        "water": true,
+        "connections": [
+            "7 Sea Zone"
+        ]
+    },
+    "2 Sea Zone": {
+        "water": true,
+        "connections": [
+            "1 Sea Zone",
+            "8 Sea Zone",
+            "3 Sea Zone"
+        ]
+    },
+    "1 Sea Zone": {
+        "water": true,
+        "connections": [
+            "8 Sea Zone",
+            "9 Sea Zone"
+        ]
+    },
+    "7 Sea Zone": {
+        "water": true,
+        "connections": [
+            "8 Sea Zone",
+            "4 Sea Zone",
+            "5 Sea Zone"
+        ]
+    },
+    "Himalayas": {
+        "water": false,
+        "connections": [
+            "Szechwan",
+            "Sikang",
+            "West India",
+            "Afghanistan",
+            "Kazakhstan"
+        ],
+        "owner": [
+            "Chinese"
+        ]
+    },
+    "8 Sea Zone": {
+        "water": true,
+        "connections": [
+            "9 Sea Zone",
+            "3 Sea Zone",
+            "4 Sea Zone"
+        ]
+    },
+    "9 Sea Zone": {
+        "water": true
+    },
+    "3 Sea Zone": {
+        "water": true,
+        "connections": [
+            "4 Sea Zone"
+        ]
+    },
+    "4 Sea Zone": {
+        "water": true,
+        "connections": [
+            "5 Sea Zone"
+        ]
+    },
+    "5 Sea Zone": {
+        "water": true
+    },
+    "6 Sea Zone": {
+        "water": true,
+        "connections": [
+            "19 Sea Zone",
+            "18 Sea Zone",
+            "17 Sea Zone",
+            "16 Sea Zone",
+            "7 Sea Zone",
+            "Japan",
+            "5 Sea Zone",
+            "Korea"
+        ],
+        "owner": [
+            "Japanese"
+        ]
+    },
+    "Buyant-Uhaa": {
+        "water": false,
+        "connections": [
+            "Jehol",
+            "Ulaanbaatar",
+            "Chahar",
+            "Manchuria"
+        ],
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "Ulaanbaatar": {
+        "water": false,
+        "connections": [
+            "Buryatia"
+        ],
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "Tsagaan Olom": {
+        "water": false,
+        "owner": [
+            "Mongolians"
+        ]
+    },
+    "63 Sea Zone": {
+        "water": true,
+        "connections": [
+            "50 Sea Zone",
+            "53 Sea Zone",
+            "New Zealand",
+            "52 Sea Zone"
+        ]
+    },
+    "58 Sea Zone": {
+        "water": true,
+        "connections": [
+            "60 Sea Zone",
+            "59 Sea Zone",
+            "57 Sea Zone",
+            "78 Sea Zone",
+            "75 Sea Zone",
+            "74 Sea Zone"
+        ]
+    },
+    "59 Sea Zone": {
+        "water": true,
+        "connections": [
+            "74 Sea Zone"
+        ]
+    },
+    "56 Sea Zone": {
+        "water": true,
+        "connections": [
+            "57 Sea Zone",
+            "55 Sea Zone"
+        ]
+    },
+    "57 Sea Zone": {
+        "water": true,
+        "connections": [
+            "60 Sea Zone"
+        ]
+    },
+    "54 Sea Zone": {
+        "water": true,
+        "connections": [
+            "63 Sea Zone",
+            "55 Sea Zone",
+            "53 Sea Zone"
+        ]
+    },
+    "55 Sea Zone": {
+        "water": true
+    },
+    "52 Sea Zone": {
+        "water": true
+    },
+    "53 Sea Zone": {
+        "water": true
+    },
+    "62 Sea Zone": {
+        "water": true,
+        "connections": [
+            "61 Sea Zone",
+            "Victoria",
+            "New South Wales",
+            "63 Sea Zone",
+            "54 Sea Zone"
+        ]
+    },
+    "61 Sea Zone": {
+        "water": true,
+        "connections": [
+            "56 Sea Zone",
+            "South Australia"
+        ]
+    },
+    "60 Sea Zone": {
+        "water": true,
+        "connections": [
+            "59 Sea Zone",
+            "56 Sea Zone"
+        ]
+    },
+    "West Indies": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Central United States": {
+        "water": false,
+        "connections": [
+            "101 Sea Zone",
+            "Southeast Mexico",
+            "Ontario",
+            "Eastern United States",
+            "Western United States"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Central America": {
+        "water": false,
+        "connections": [
+            "64 Sea Zone",
+            "Southeast Mexico",
+            "Colombia"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Greenland": {
+        "water": false,
+        "connections": [
+            "121 Sea Zone"
+        ],
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Southeast Mexico": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "Eastern United States": {
+        "water": false,
+        "owner": [
+            "Americans"
+        ]
+    },
+    "West India": {
+        "water": false,
+        "connections": [
+            "Eastern Persia",
+            "79 Sea Zone"
+        ],
+        "owner": [
+            "UK_Pacific"
+        ]
+    },
+    "Belgian Congo": {
+        "water": false,
+        "connections": [
+            "Angola",
+            "Kenya",
+            "Anglo Egyptian Sudan",
+            "Rhodesia",
+            "Tanganyika Territory"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Iceland": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "Quebec": {
+        "water": false,
+        "connections": [
+            "106 Sea Zone",
+            "New Brunswick Nova Scotia",
+            "Ontario",
+            "121 Sea Zone",
+            "Eastern United States",
+            "Newfoundland Labrador"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Alberta Saskatchewan Manitoba": {
+        "water": false,
+        "connections": [
+            "Central United States",
+            "Ontario",
+            "121 Sea Zone",
+            "British Columbia"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Trans-Jordan": {
+        "water": false,
+        "connections": [
+            "Iraq",
+            "81 Sea Zone",
+            "98 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "British Somaliland": {
+        "water": false,
+        "connections": [
+            "Italian Somaliland",
+            "Ethiopia"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Alexandria": {
+        "water": false,
+        "connections": [
+            "98 Sea Zone",
+            "Tobruk",
+            "Egypt"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Gibraltar": {
+        "water": false,
+        "connections": [
+            "92 Sea Zone",
+            "Spain",
+            "91 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "New Brunswick Nova Scotia": {
+        "water": false,
+        "connections": [
+            "Eastern United States"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Egypt": {
+        "water": false,
+        "connections": [
+            "81 Sea Zone",
+            "98 Sea Zone",
+            "Anglo Egyptian Sudan",
+            "Trans-Jordan"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Union of South Africa": {
+        "water": false,
+        "connections": [
+            "71 Sea Zone",
+            "South West Africa",
+            "Rhodesia"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Cyprus": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "British Guiana": {
+        "water": false,
+        "connections": [
+            "Brazil",
+            "Venezuela",
+            "Suriname",
+            "88 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Gold Coast": {
+        "water": false,
+        "connections": [
+            "82 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Rio de Oro": {
+        "water": false,
+        "connections": [
+            "91 Sea Zone",
+            "Algeria"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Ontario": {
+        "water": false,
+        "connections": [
+            "Eastern United States"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Scotland": {
+        "water": false,
+        "connections": [
+            "United Kingdom",
+            "109 Sea Zone",
+            "111 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "South West Africa": {
+        "water": false,
+        "connections": [
+            "Rhodesia"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Nigeria": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "Kenya": {
+        "water": false,
+        "connections": [
+            "Anglo Egyptian Sudan",
+            "Tanganyika Territory"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Malta": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "United Kingdom": {
+        "water": false,
+        "connections": [
+            "110 Sea Zone"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Anglo Egyptian Sudan": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "Rhodesia": {
+        "water": false,
+        "connections": [
+            "Tanganyika Territory"
+        ],
+        "owner": [
+            "British"
+        ]
+    },
+    "Tanganyika Territory": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "Newfoundland Labrador": {
+        "water": false,
+        "owner": [
+            "British"
+        ]
+    },
+    "Morocco": {
+        "water": false,
+        "connections": [
+            "Algeria",
+            "92 Sea Zone",
+            "91 Sea Zone",
+            "Rio de Oro"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "French Equatorial Africa": {
+        "water": false,
+        "connections": [
+            "Belgian Congo",
+            "Anglo Egyptian Sudan",
+            "82 Sea Zone",
+            "Nigeria",
+            "French Central Africa"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Normandy Bordeaux": {
+        "water": false,
+        "connections": [
+            "Southern France",
+            "Holland Belgium",
+            "France",
+            "Spain",
+            "110 Sea Zone",
+            "105 Sea Zone"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "French Central Africa": {
+        "water": false,
+        "connections": [
+            "Nigeria",
+            "French West Africa"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "French Madagascar": {
+        "water": false,
+        "owner": [
+            "French"
+        ]
+    },
+    "French Guiana": {
+        "water": false,
+        "connections": [
+            "Brazil",
+            "Suriname",
+            "88 Sea Zone"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Algeria": {
+        "water": false,
+        "connections": [
+            "94 Sea Zone",
+            "92 Sea Zone",
+            "Tunisia"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Southern France": {
+        "water": false,
+        "connections": [
+            "93 Sea Zone",
+            "Northern Italy",
+            "France",
+            "Spain"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Syria": {
+        "water": false,
+        "connections": [
+            "Trans-Jordan",
+            "99 Sea Zone",
+            "Iraq",
+            "98 Sea Zone"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "French West Africa": {
+        "water": false,
+        "connections": [
+            "Nigeria",
+            "82 Sea Zone",
+            "Gold Coast",
+            "83 Sea Zone",
+            "Liberia",
+            "Sierra Leone",
+            "Portuguese Guinea",
+            "87 Sea Zone"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "France": {
+        "water": false,
+        "owner": [
+            "French"
+        ]
+    },
+    "Tunisia": {
+        "water": false,
+        "connections": [
+            "Libya"
+        ],
+        "owner": [
+            "French"
+        ]
+    },
+    "Greater Southern Germany": {
+        "water": false,
+        "connections": [
+            "Slovakia Hungary",
+            "Western Germany",
+            "Germany",
+            "Northern Italy",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Slovakia Hungary": {
+        "water": false,
+        "connections": [
+            "Romania",
+            "Eastern Poland",
+            "Poland",
+            "Germany",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Western Germany": {
+        "water": false,
+        "connections": [
+            "Switzerland",
+            "Germany",
+            "Northern Italy",
+            "Denmark",
+            "Holland Belgium",
+            "France"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Romania": {
+        "water": false,
+        "connections": [
+            "Eastern Poland",
+            "Bessarabia",
+            "Bulgaria",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Poland": {
+        "water": false,
+        "connections": [
+            "Germany",
+            "114 Sea Zone"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Germany": {
+        "water": false,
+        "connections": [
+            "114 Sea Zone"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Norway": {
+        "water": false,
+        "connections": [
+            "Sweden",
+            "126 Sea Zone",
+            "125 Sea Zone",
+            "Finland"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Denmark": {
+        "water": false,
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Holland Belgium": {
+        "water": false,
+        "connections": [
+            "France",
+            "110 Sea Zone"
+        ],
+        "owner": [
+            "Germans"
+        ]
+    },
+    "Tobruk": {
+        "water": false,
+        "connections": [
+            "96 Sea Zone"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Albania": {
+        "water": false,
+        "connections": [
+            "Bulgaria",
+            "Greece",
+            "97 Sea Zone",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Northern Italy": {
+        "water": false,
+        "connections": [
+            "97 Sea Zone",
+            "France",
+            "Southern Italy",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Libya": {
+        "water": false,
+        "connections": [
+            "Tobruk"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Sicily": {
+        "water": false,
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Italian Somaliland": {
+        "water": false,
+        "connections": [
+            "Ethiopia",
+            "Kenya"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Southern Italy": {
+        "water": false,
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Ethiopia": {
+        "water": false,
+        "connections": [
+            "Kenya",
+            "Anglo Egyptian Sudan"
+        ],
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Sardinia": {
+        "water": false,
+        "owner": [
+            "Italians"
+        ]
+    },
+    "Belarus": {
+        "water": false,
+        "connections": [
+            "Baltic States",
+            "Bryansk",
+            "Archangel",
+            "Eastern Poland",
+            "Novgorod",
+            "Smolensk"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Karelia": {
+        "water": false,
+        "connections": [
+            "Vyborg",
+            "127 Sea Zone",
+            "Novgorod",
+            "Finland"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Baltic States": {
+        "water": false,
+        "connections": [
+            "Eastern Poland",
+            "Poland",
+            "115 Sea Zone",
+            "Novgorod"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Bryansk": {
+        "water": false,
+        "connections": [
+            "Rostov",
+            "Russia",
+            "Tambov",
+            "Ukraine",
+            "Western Ukraine",
+            "Smolensk"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Rostov": {
+        "water": false,
+        "connections": [
+            "Tambov",
+            "Ukraine",
+            "Volgograd",
+            "Caucasus"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Nenetsia": {
+        "water": false,
+        "connections": [
+            "Archangel",
+            "Vologda",
+            "127 Sea Zone"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Urals": {
+        "water": false,
+        "connections": [
+            "Evenkiyskiy",
+            "Timguska",
+            "Vologda",
+            "Nenetsia"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Vyborg": {
+        "water": false,
+        "connections": [
+            "115 Sea Zone",
+            "Novgorod",
+            "Finland"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Archangel": {
+        "water": false,
+        "connections": [
+            "Vologda",
+            "127 Sea Zone",
+            "Novgorod",
+            "Smolensk"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Eastern Poland": {
+        "water": false,
+        "connections": [
+            "Poland",
+            "Bessarabia",
+            "Western Ukraine"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Bessarabia": {
+        "water": false,
+        "connections": [
+            "Ukraine",
+            "Western Ukraine"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Russia": {
+        "water": false,
+        "connections": [
+            "Tambov",
+            "Vologda",
+            "Smolensk",
+            "Samara"
+        ],
+        "owner": [
+            "Russians",
+            "Russians"
+        ]
+    },
+    "Tambov": {
+        "water": false,
+        "connections": [
+            "Volgograd",
+            "Samara"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Ukraine": {
+        "water": false,
+        "connections": [
+            "Western Ukraine"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Western Ukraine": {
+        "water": false,
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Novosibirsk": {
+        "water": false,
+        "connections": [
+            "Urals",
+            "Vologda",
+            "Samara",
+            "Kazakhstan",
+            "Tsinghai"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Vologda": {
+        "water": false,
+        "connections": [
+            "Smolensk",
+            "Samara"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Volgograd": {
+        "water": false,
+        "connections": [
+            "Caucasus",
+            "Kazakhstan",
+            "Samara"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Turkmenistan": {
+        "water": false,
+        "connections": [
+            "Kazakhstan"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Novgorod": {
+        "water": false,
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Caucasus": {
+        "water": false,
+        "connections": [
+            "Kazakhstan"
+        ],
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Smolensk": {
+        "water": false,
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Samara": {
+        "water": false,
+        "owner": [
+            "Russians"
+        ]
+    },
+    "Portugal": {
+        "water": false,
+        "connections": [
+            "104 Sea Zone",
+            "Spain",
+            "91 Sea Zone"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Portuguese Guinea": {
+        "water": false,
+        "connections": [
+            "87 Sea Zone"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "120 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Quebec",
+            "Alberta Saskatchewan Manitoba",
+            "Ontario",
+            "121 Sea Zone"
+        ]
+    },
+    "Ecuador": {
+        "water": false,
+        "connections": [
+            "64 Sea Zone",
+            "Colombia",
+            "Peru"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "112 Sea Zone": {
+        "water": true,
+        "connections": [
+            "113 Sea Zone",
+            "Western Germany",
+            "Norway",
+            "Denmark",
+            "125 Sea Zone",
+            "110 Sea Zone",
+            "111 Sea Zone"
+        ]
+    },
+    "100 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Turkey",
+            "Romania",
+            "Rostov",
+            "Bessarabia",
+            "Bulgaria",
+            "Greece",
+            "Ukraine",
+            "99 Sea Zone",
+            "Caucasus"
+        ]
+    },
+    "119 Sea Zone": {
+        "water": true,
+        "connections": [
+            "123 Sea Zone",
+            "118 Sea Zone",
+            "Eire",
+            "109 Sea Zone",
+            "Scotland",
+            "111 Sea Zone"
+        ]
+    },
+    "124 Sea Zone": {
+        "water": true,
+        "connections": [
+            "119 Sea Zone",
+            "123 Sea Zone",
+            "125 Sea Zone",
+            "111 Sea Zone"
+        ]
+    },
+    "125 Sea Zone": {
+        "water": true,
+        "connections": [
+            "126 Sea Zone",
+            "111 Sea Zone"
+        ]
+    },
+    "Chile": {
+        "water": false,
+        "connections": [
+            "65 Sea Zone",
+            "66 Sea Zone",
+            "Argentina",
+            "Bolivia",
+            "Peru"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Afghanistan": {
+        "water": false,
+        "connections": [
+            "West India",
+            "Eastern Persia",
+            "Turkmenistan",
+            "Kazakhstan"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "80 Sea Zone": {
+        "water": true,
+        "connections": [
+            "76 Sea Zone",
+            "Saudi Arabia",
+            "Iraq",
+            "Eastern Persia",
+            "79 Sea Zone",
+            "77 Sea Zone",
+            "Persia"
+        ]
+    },
+    "113 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Western Germany",
+            "Germany",
+            "Norway",
+            "114 Sea Zone",
+            "Denmark",
+            "Sweden"
+        ]
+    },
+    "96 Sea Zone": {
+        "water": true,
+        "connections": [
+            "95 Sea Zone",
+            "94 Sea Zone",
+            "99 Sea Zone",
+            "97 Sea Zone",
+            "98 Sea Zone",
+            "Malta",
+            "Libya"
+        ]
+    },
+    "123 Sea Zone": {
+        "water": true,
+        "connections": [
+            "122 Sea Zone",
+            "118 Sea Zone",
+            "Iceland",
+            "117 Sea Zone"
+        ]
+    },
+    "116 Sea Zone": {
+        "water": true,
+        "connections": [
+            "122 Sea Zone",
+            "106 Sea Zone",
+            "117 Sea Zone",
+            "121 Sea Zone",
+            "Newfoundland Labrador"
+        ]
+    },
+    "65 Sea Zone": {
+        "water": true,
+        "connections": [
+            "66 Sea Zone",
+            "64 Sea Zone",
+            "51 Sea Zone",
+            "Peru"
+        ]
+    },
+    "Sierra Leone": {
+        "water": false,
+        "connections": [
+            "87 Sea Zone",
+            "Liberia"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "108 Sea Zone": {
+        "water": true,
+        "connections": [
+            "118 Sea Zone",
+            "104 Sea Zone",
+            "109 Sea Zone",
+            "117 Sea Zone",
+            "103 Sea Zone",
+            "107 Sea Zone"
+        ]
+    },
+    "84 Sea Zone": {
+        "water": true,
+        "connections": [
+            "87 Sea Zone",
+            "86 Sea Zone",
+            "67 Sea Zone",
+            "85 Sea Zone",
+            "83 Sea Zone",
+            "68 Sea Zone"
+        ]
+    },
+    "122 Sea Zone": {
+        "water": true,
+        "connections": [
+            "117 Sea Zone",
+            "121 Sea Zone"
+        ]
+    },
+    "73 Sea Zone": {
+        "water": true,
+        "connections": [
+            "75 Sea Zone",
+            "74 Sea Zone",
+            "72 Sea Zone"
+        ]
+    },
+    "Turkey": {
+        "water": false,
+        "connections": [
+            "Syria",
+            "Greece",
+            "99 Sea Zone",
+            "Iraq",
+            "Northwest Persia",
+            "Caucasus"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "70 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Belgian Congo",
+            "Angola",
+            "71 Sea Zone",
+            "82 Sea Zone",
+            "South West Africa",
+            "69 Sea Zone"
+        ]
+    },
+    "76 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Saudi Arabia",
+            "British Somaliland",
+            "72 Sea Zone",
+            "81 Sea Zone",
+            "Italian Somaliland",
+            "77 Sea Zone",
+            "Ethiopia"
+        ]
+    },
+    "Mozambique": {
+        "water": false,
+        "connections": [
+            "Union of South Africa",
+            "72 Sea Zone",
+            "71 Sea Zone",
+            "Rhodesia",
+            "Tanganyika Territory"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "118 Sea Zone": {
+        "water": true,
+        "connections": [
+            "109 Sea Zone",
+            "117 Sea Zone"
+        ]
+    },
+    "104 Sea Zone": {
+        "water": true,
+        "connections": [
+            "109 Sea Zone",
+            "103 Sea Zone",
+            "Spain",
+            "91 Sea Zone",
+            "110 Sea Zone",
+            "105 Sea Zone"
+        ]
+    },
+    "95 Sea Zone": {
+        "water": true,
+        "connections": [
+            "94 Sea Zone",
+            "93 Sea Zone",
+            "Northern Italy",
+            "97 Sea Zone",
+            "Sicily",
+            "Southern Italy",
+            "Sardinia"
+        ]
+    },
+    "Saudi Arabia": {
+        "water": false,
+        "connections": [
+            "Trans-Jordan",
+            "Iraq",
+            "81 Sea Zone"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Paraguay": {
+        "water": false,
+        "connections": [
+            "Argentina",
+            "Brazil",
+            "Bolivia"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "75 Sea Zone": {
+        "water": true,
+        "connections": [
+            "74 Sea Zone",
+            "77 Sea Zone",
+            "78 Sea Zone"
+        ]
+    },
+    "87 Sea Zone": {
+        "water": true,
+        "connections": [
+            "86 Sea Zone",
+            "83 Sea Zone",
+            "Liberia",
+            "91 Sea Zone",
+            "88 Sea Zone"
+        ]
+    },
+    "Switzerland": {
+        "water": false,
+        "connections": [
+            "Northern Italy",
+            "France"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "106 Sea Zone": {
+        "water": true,
+        "connections": [
+            "New Brunswick Nova Scotia",
+            "102 Sea Zone",
+            "117 Sea Zone",
+            "101 Sea Zone",
+            "107 Sea Zone"
+        ]
+    },
+    "86 Sea Zone": {
+        "water": true,
+        "connections": [
+            "85 Sea Zone",
+            "Brazil",
+            "88 Sea Zone"
+        ]
+    },
+    "Pripet Marshes": {
+        "water": false
+    },
+    "94 Sea Zone": {
+        "water": true,
+        "connections": [
+            "93 Sea Zone",
+            "92 Sea Zone",
+            "Tunisia"
+        ]
+    },
+    "67 Sea Zone": {
+        "water": true,
+        "connections": [
+            "66 Sea Zone",
+            "85 Sea Zone",
+            "68 Sea Zone"
+        ]
+    },
+    "89 Sea Zone": {
+        "water": true,
+        "connections": [
+            "West Indies",
+            "102 Sea Zone",
+            "Central America",
+            "90 Sea Zone",
+            "101 Sea Zone",
+            "Southeast Mexico",
+            "Venezuela",
+            "88 Sea Zone"
+        ]
+    },
+    "74 Sea Zone": {
+        "water": true
+    },
+    "102 Sea Zone": {
+        "water": true,
+        "connections": [
+            "90 Sea Zone",
+            "101 Sea Zone",
+            "103 Sea Zone",
+            "107 Sea Zone"
+        ]
+    },
+    "93 Sea Zone": {
+        "water": true,
+        "connections": [
+            "92 Sea Zone",
+            "Spain"
+        ]
+    },
+    "66 Sea Zone": {
+        "water": true,
+        "connections": [
+            "85 Sea Zone",
+            "51 Sea Zone",
+            "52 Sea Zone",
+            "Argentina"
+        ]
+    },
+    "85 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Argentina",
+            "Uruguay",
+            "Brazil"
+        ]
+    },
+    "Eire": {
+        "water": false,
+        "connections": [
+            "109 Sea Zone",
+            "Scotland"
+        ],
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Crete": {
+        "water": false,
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Argentina": {
+        "water": false,
+        "connections": [
+            "Uruguay",
+            "Brazil",
+            "Bolivia"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Bulgaria": {
+        "water": false,
+        "connections": [
+            "Greece",
+            "Yugoslavia"
+        ],
+        "owner": [
+            "Neutral_Axis"
+        ]
+    },
+    "109 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Scotland",
+            "United Kingdom"
+        ]
+    },
+    "117 Sea Zone": {
+        "water": true,
+        "connections": [
+            "107 Sea Zone"
+        ]
+    },
+    "Angola": {
+        "water": false,
+        "connections": [
+            "South West Africa",
+            "Rhodesia"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "64 Sea Zone": {
+        "water": true,
+        "connections": [
+            "89 Sea Zone",
+            "Southeast Mexico",
+            "Colombia",
+            "11 Sea Zone",
+            "28 Sea Zone",
+            "51 Sea Zone"
+        ]
+    },
+    "Greece": {
+        "water": false,
+        "connections": [
+            "99 Sea Zone",
+            "97 Sea Zone"
+        ],
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "99 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Crete",
+            "97 Sea Zone",
+            "Cyprus",
+            "98 Sea Zone"
+        ]
+    },
+    "97 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Southern Italy",
+            "Yugoslavia"
+        ]
+    },
+    "Iraq": {
+        "water": false,
+        "connections": [
+            "Northwest Persia",
+            "Persia"
+        ],
+        "owner": [
+            "Neutral_Axis"
+        ]
+    },
+    "92 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Spain",
+            "91 Sea Zone"
+        ]
+    },
+    "90 Sea Zone": {
+        "water": true,
+        "connections": [
+            "103 Sea Zone",
+            "91 Sea Zone",
+            "88 Sea Zone"
+        ]
+    },
+    "Eastern Persia": {
+        "water": false,
+        "connections": [
+            "Persia",
+            "Turkmenistan"
+        ],
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "72 Sea Zone": {
+        "water": true,
+        "connections": [
+            "French Madagascar",
+            "75 Sea Zone",
+            "71 Sea Zone",
+            "77 Sea Zone",
+            "Kenya",
+            "Tanganyika Territory"
+        ]
+    },
+    "101 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Eastern United States"
+        ]
+    },
+    "114 Sea Zone": {
+        "water": true,
+        "connections": [
+            "115 Sea Zone",
+            "Sweden"
+        ]
+    },
+    "71 Sea Zone": {
+        "water": true
+    },
+    "81 Sea Zone": {
+        "water": true,
+        "connections": [
+            "98 Sea Zone",
+            "Anglo Egyptian Sudan"
+        ]
+    },
+    "79 Sea Zone": {
+        "water": true,
+        "connections": [
+            "77 Sea Zone",
+            "78 Sea Zone"
+        ]
+    },
+    "Uruguay": {
+        "water": false,
+        "connections": [
+            "Brazil"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "83 Sea Zone": {
+        "water": true,
+        "connections": [
+            "82 Sea Zone",
+            "69 Sea Zone",
+            "Liberia",
+            "68 Sea Zone"
+        ]
+    },
+    "77 Sea Zone": {
+        "water": true,
+        "connections": [
+            "78 Sea Zone"
+        ]
+    },
+    "121 Sea Zone": {
+        "water": true
+    },
+    "82 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Nigeria",
+            "69 Sea Zone"
+        ]
+    },
+    "Brazil": {
+        "water": false,
+        "connections": [
+            "Venezuela",
+            "Colombia",
+            "Bolivia",
+            "Peru",
+            "Suriname"
+        ],
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Venezuela": {
+        "water": false,
+        "connections": [
+            "Colombia"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "127 Sea Zone": {
+        "water": true,
+        "connections": [
+            "126 Sea Zone",
+            "Novgorod",
+            "Finland"
+        ]
+    },
+    "Northwest Persia": {
+        "water": false,
+        "connections": [
+            "Persia",
+            "Caucasus"
+        ],
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Persia": {
+        "water": false,
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Sweden": {
+        "water": false,
+        "connections": [
+            "Finland"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "115 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Sweden",
+            "Novgorod",
+            "Finland"
+        ]
+    },
+    "103 Sea Zone": {
+        "water": true,
+        "connections": [
+            "91 Sea Zone",
+            "107 Sea Zone"
+        ]
+    },
+    "Yugoslavia": {
+        "water": false,
+        "owner": [
+            "Neutral_Allies"
+        ]
+    },
+    "Spain": {
+        "water": false,
+        "connections": [
+            "91 Sea Zone",
+            "105 Sea Zone"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Colombia": {
+        "water": false,
+        "connections": [
+            "Peru"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "69 Sea Zone": {
+        "water": true,
+        "connections": [
+            "68 Sea Zone"
+        ]
+    },
+    "Bolivia": {
+        "water": false,
+        "connections": [
+            "Peru"
+        ],
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Liberia": {
+        "water": false,
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "Peru": {
+        "water": false,
+        "owner": [
+            "Neutral_True"
+        ]
+    },
+    "126 Sea Zone": {
+        "water": true
+    },
+    "98 Sea Zone": {
+        "water": true
+    },
+    "91 Sea Zone": {
+        "water": true,
+        "connections": [
+            "88 Sea Zone"
+        ]
+    },
+    "Finland": {
+        "water": false,
+        "owner": [
+            "Neutral_Axis"
+        ]
+    },
+    "78 Sea Zone": {
+        "water": true
+    },
+    "Suriname": {
+        "water": false,
+        "connections": [
+            "88 Sea Zone"
+        ],
+        "owner": [
+            "Dutch"
+        ]
+    },
+    "107 Sea Zone": {
+        "water": true
+    },
+    "110 Sea Zone": {
+        "water": true,
+        "connections": [
+            "109 Sea Zone",
+            "111 Sea Zone",
+            "105 Sea Zone"
+        ]
+    },
+    "111 Sea Zone": {
+        "water": true
+    },
+    "68 Sea Zone": {
+        "water": true
+    },
+    "88 Sea Zone": {
+        "water": true
+    },
+    "105 Sea Zone": {
+        "water": true
+    },
+    "128 Sea Zone": {
+        "water": true,
+        "connections": [
+            "Turkmenistan",
+            "Caucasus",
+            "Kazakhstan",
+            "Northwest Persia",
+            "Persia",
+            "Eastern Persia"
+        ]
+    }
+}
