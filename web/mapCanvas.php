@@ -15,6 +15,12 @@
     for (i = 0; i < mapData.length; i++) {
         var name = mapData[i].name;
         var j;
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+        ctx.fillStyle = bgColor;
+
         for (j = 0; j < mapData[i].landmasses.length; j++) {
             var coordinates = mapData[i].landmasses[j].coordinates;
             var k;
@@ -23,12 +29,6 @@
             for (k = 1; k < coordinates.length; k++) {
                     region.lineTo(coordinates[k][0],coordinates[k][1]);
             }
-            var x = Math.floor(Math.random() * 256);
-            var y = Math.floor(Math.random() * 256);
-            var z = Math.floor(Math.random() * 256);
-            var bgColor = "rgb(" + x + "," + y + "," + z + ")";
-            console.log(bgColor);
-            ctx.fillStyle = bgColor;
             ctx.strokeStyle = "#000000";
             ctx.lineWidth = 3;
             ctx.fill(region, 'evenodd');
