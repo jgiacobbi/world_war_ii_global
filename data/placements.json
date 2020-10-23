@@ -8,7 +8,8 @@
                 "harbour": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Iwo Jima": {
         "units": {
@@ -16,7 +17,8 @@
                 "infantry": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Paulau Island": {
         "units": {
@@ -24,10 +26,12 @@
                 "infantry": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Marshall Islands": {
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Shantung": {
         "units": {
@@ -36,7 +40,8 @@
                 "artillery": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Formosa": {
         "units": {
@@ -44,7 +49,8 @@
                 "fighter": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Kwangsi": {
         "units": {
@@ -53,7 +59,8 @@
                 "artillery": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Korea": {
         "units": {
@@ -62,7 +69,8 @@
                 "fighter": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Kiangsu": {
         "units": {
@@ -73,7 +81,8 @@
                 "tactical_bomber": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Kiangsi": {
         "units": {
@@ -82,7 +91,8 @@
                 "artillery": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Japan": {
         "units": {
@@ -99,7 +109,8 @@
                 "factory_major": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Jehol": {
         "units": {
@@ -108,7 +119,8 @@
                 "artillery": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Okinawa": {
         "units": {
@@ -117,10 +129,12 @@
                 "fighter": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Marianas": {
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Siam": {
         "units": {
@@ -128,7 +142,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Manchuria": {
         "units": {
@@ -141,10 +156,12 @@
                 "tactical_bomber": 2
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Hainan": {
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Shensi": {
         "units": {
@@ -152,7 +169,8 @@
                 "infantry": 1
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Yunnan": {
         "units": {
@@ -160,7 +178,8 @@
                 "infantry": 4
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Suiyuyan": {
         "units": {
@@ -168,7 +187,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Kweichow": {
         "units": {
@@ -176,7 +196,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Hunan": {
         "units": {
@@ -184,16 +205,20 @@
                 "infantry": 2
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Kansu": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Hopei": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Tsinghai": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Szechwan": {
         "units": {
@@ -202,31 +227,40 @@
                 "fighter": 1
             }
         },
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Chahar": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Sikang": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Anhwe": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
     "Gilbert Islands": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Fiji": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Ceylon": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Samoa": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Shan State": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Burma": {
         "units": {
@@ -235,10 +269,12 @@
                 "fighter": 1
             }
         },
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "British Columbia": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "India": {
         "units": {
@@ -255,7 +291,8 @@
                 "factory_major": 1
             }
         },
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Malaya": {
         "units": {
@@ -269,10 +306,12 @@
                 "harbour": 1
             }
         },
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Borneo": {
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Kwangtung": {
         "units": {
@@ -283,7 +322,8 @@
                 "harbour": 1
             }
         },
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Queensland": {
         "units": {
@@ -295,16 +335,20 @@
                 "harbour": 1
             }
         },
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "Victoria": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "New Britain": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "Northern Territory": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "New Zealand": {
         "units": {
@@ -315,7 +359,8 @@
                 "harbour": 1
             }
         },
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "New South Wales": {
         "units": {
@@ -326,19 +371,24 @@
                 "harbour": 1
             }
         },
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "South Australia": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "Western Australia": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "Solomon Islands": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "New Guinea": {
-        "owner": "ANZAC"
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
     },
     "Philippines": {
         "units": {
@@ -349,13 +399,16 @@
                 "harbour": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Line Islands": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Mexico": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Guam": {
         "units": {
@@ -363,7 +416,8 @@
                 "airfield": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Wake Island": {
         "units": {
@@ -371,7 +425,8 @@
                 "airfield": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Western United States": {
         "units": {
@@ -386,16 +441,20 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Alaska": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Aleutian Islands": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Johnston Island": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Hawaiian Islands": {
         "units": {
@@ -406,7 +465,8 @@
                 "harbour": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Midway": {
         "units": {
@@ -414,7 +474,8 @@
                 "airfield": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Sakha": {
         "units": {
@@ -423,16 +484,20 @@
                 "aaGun": 2
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Evenkiyskiy": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Yenisey": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Soviet Far East": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Amur": {
         "units": {
@@ -440,19 +505,24 @@
                 "infantry": 6
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Yakut S.S.R.": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Timguska": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Siberia": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Kazakhstan": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Buryatia": {
         "units": {
@@ -460,45 +530,42 @@
                 "infantry": 6
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "French Indo China": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "New Hebrides": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Celebes": {
-        "owner": "Dutch"
+        "owner": "Dutch",
+        "occupier": "Dutch"
     },
     "Java": {
-        "owner": "Dutch"
+        "owner": "Dutch",
+        "occupier": "Dutch"
     },
     "Dutch New Guinea": {
-        "owner": "Dutch"
+        "owner": "Dutch",
+        "occupier": "Dutch"
     },
     "Sumatra": {
-        "owner": "Dutch"
+        "owner": "Dutch",
+        "occupier": "Dutch"
     },
-    "42 Sea Zone": [],
-    "41 Sea Zone": [],
-    "44 Sea Zone": [],
-    "43 Sea Zone": [],
-    "46 Sea Zone": [],
-    "45 Sea Zone": [],
-    "48 Sea Zone": [],
-    "47 Sea Zone": [],
     "Olgiy": {
         "units": {
             "Mongolians": {
                 "infantry": 2
             }
         },
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
-    "49 Sea Zone": [],
-    "50 Sea Zone": [],
-    "51 Sea Zone": [],
     "33 Sea Zone": {
         "units": {
             "Japanese": {
@@ -509,9 +576,6 @@
             }
         }
     },
-    "32 Sea Zone": [],
-    "31 Sea Zone": [],
-    "30 Sea Zone": [],
     "37 Sea Zone": {
         "units": {
             "British": {
@@ -519,7 +583,6 @@
             }
         }
     },
-    "36 Sea Zone": [],
     "35 Sea Zone": {
         "units": {
             "Americans": {
@@ -527,16 +590,17 @@
                 "submarine": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
-    "34 Sea Zone": [],
     "Dzavhan": {
         "units": {
             "Mongolians": {
                 "infantry": 1
             }
         },
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
     "39 Sea Zone": {
         "units": {
@@ -547,10 +611,6 @@
             }
         }
     },
-    "38 Sea Zone": [],
-    "40 Sea Zone": [],
-    "24 Sea Zone": [],
-    "23 Sea Zone": [],
     "26 Sea Zone": {
         "units": {
             "Americans": {
@@ -561,7 +621,6 @@
             }
         }
     },
-    "25 Sea Zone": [],
     "20 Sea Zone": {
         "units": {
             "Japanese": {
@@ -569,20 +628,13 @@
                 "transport": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "22 Sea Zone": {
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
-    "21 Sea Zone": [],
-    "28 Sea Zone": [],
-    "27 Sea Zone": [],
-    "29 Sea Zone": [],
-    "15 Sea Zone": [],
-    "14 Sea Zone": [],
-    "13 Sea Zone": [],
-    "12 Sea Zone": [],
-    "11 Sea Zone": [],
     "10 Sea Zone": {
         "units": {
             "Americans": {
@@ -605,27 +657,21 @@
                 "transport": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Central Mongolia": {
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
-    "18 Sea Zone": [],
     "17 Sea Zone": {
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
-    "16 Sea Zone": [],
-    "2 Sea Zone": [],
-    "1 Sea Zone": [],
-    "7 Sea Zone": [],
     "Himalayas": {
-        "owner": "Chinese"
+        "owner": "Chinese",
+        "occupier": "Chinese"
     },
-    "8 Sea Zone": [],
-    "9 Sea Zone": [],
-    "3 Sea Zone": [],
-    "4 Sea Zone": [],
-    "5 Sea Zone": [],
     "6 Sea Zone": {
         "units": {
             "Japanese": {
@@ -639,7 +685,8 @@
                 "transport": 1
             }
         },
-        "owner": "Japanese"
+        "owner": "Japanese",
+        "occupier": "Japanese"
     },
     "Buyant-Uhaa": {
         "units": {
@@ -647,7 +694,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
     "Ulaanbaatar": {
         "units": {
@@ -655,10 +703,12 @@
                 "infantry": 1
             }
         },
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
     "Tsagaan Olom": {
-        "owner": "Mongolians"
+        "owner": "Mongolians",
+        "occupier": "Mongolians"
     },
     "63 Sea Zone": {
         "units": {
@@ -667,14 +717,6 @@
             }
         }
     },
-    "58 Sea Zone": [],
-    "59 Sea Zone": [],
-    "56 Sea Zone": [],
-    "57 Sea Zone": [],
-    "54 Sea Zone": [],
-    "55 Sea Zone": [],
-    "52 Sea Zone": [],
-    "53 Sea Zone": [],
     "62 Sea Zone": {
         "units": {
             "ANZAC": {
@@ -683,10 +725,9 @@
             }
         }
     },
-    "61 Sea Zone": [],
-    "60 Sea Zone": [],
     "West Indies": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Central United States": {
         "units": {
@@ -698,16 +739,20 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Central America": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Greenland": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Southeast Mexico": {
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "Eastern United States": {
         "units": {
@@ -721,7 +766,8 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Americans"
+        "owner": "Americans",
+        "occupier": "Americans"
     },
     "West India": {
         "units": {
@@ -729,10 +775,12 @@
                 "infantry": 1
             }
         },
-        "owner": "UK_Pacific"
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
     },
     "Belgian Congo": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Iceland": {
         "units": {
@@ -740,7 +788,8 @@
                 "airfield": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Quebec": {
         "units": {
@@ -750,16 +799,20 @@
                 "factory_minor": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Alberta Saskatchewan Manitoba": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Trans-Jordan": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "British Somaliland": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Alexandria": {
         "units": {
@@ -769,7 +822,8 @@
                 "armour": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Gibraltar": {
         "units": {
@@ -778,7 +832,8 @@
                 "harbour": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "New Brunswick Nova Scotia": {
         "units": {
@@ -786,7 +841,8 @@
                 "harbour": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Egypt": {
         "units": {
@@ -800,7 +856,8 @@
                 "harbour": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Union of South Africa": {
         "units": {
@@ -810,19 +867,24 @@
                 "factory_minor": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Cyprus": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "British Guiana": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Gold Coast": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Rio de Oro": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Ontario": {
         "units": {
@@ -831,7 +893,8 @@
                 "artillery": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Scotland": {
         "units": {
@@ -842,16 +905,20 @@
                 "aaGun": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "South West Africa": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Nigeria": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Kenya": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Malta": {
         "units": {
@@ -861,7 +928,8 @@
                 "aaGun": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "United Kingdom": {
         "units": {
@@ -880,7 +948,8 @@
                 "fighter": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Anglo Egyptian Sudan": {
         "units": {
@@ -888,16 +957,20 @@
                 "infantry": 1
             }
         },
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Rhodesia": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Tanganyika Territory": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Newfoundland Labrador": {
-        "owner": "British"
+        "owner": "British",
+        "occupier": "British"
     },
     "Morocco": {
         "units": {
@@ -905,10 +978,12 @@
                 "infantry": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "French Equatorial Africa": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Normandy Bordeaux": {
         "units": {
@@ -919,16 +994,20 @@
                 "factory_minor": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "French Central Africa": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "French Madagascar": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "French Guiana": {
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Algeria": {
         "units": {
@@ -936,7 +1015,8 @@
                 "infantry": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Southern France": {
         "units": {
@@ -947,7 +1027,8 @@
                 "factory_minor": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Syria": {
         "units": {
@@ -955,7 +1036,8 @@
                 "infantry": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "French West Africa": {
         "units": {
@@ -963,7 +1045,8 @@
                 "infantry": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "France": {
         "units": {
@@ -981,7 +1064,8 @@
                 "factory_major": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Tunisia": {
         "units": {
@@ -989,7 +1073,8 @@
                 "infantry": 1
             }
         },
-        "owner": "French"
+        "owner": "French",
+        "occupier": "French"
     },
     "Greater Southern Germany": {
         "units": {
@@ -999,7 +1084,8 @@
                 "armour": 3
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Slovakia Hungary": {
         "units": {
@@ -1009,7 +1095,8 @@
                 "fighter": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Western Germany": {
         "units": {
@@ -1025,7 +1112,8 @@
                 "airfield": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Romania": {
         "units": {
@@ -1034,7 +1122,8 @@
                 "armour": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Poland": {
         "units": {
@@ -1044,7 +1133,8 @@
                 "tactical_bomber": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Germany": {
         "units": {
@@ -1057,7 +1147,8 @@
                 "aaGun": 3
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Norway": {
         "units": {
@@ -1066,7 +1157,8 @@
                 "fighter": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Denmark": {
         "units": {
@@ -1074,7 +1166,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Holland Belgium": {
         "units": {
@@ -1085,7 +1178,8 @@
                 "fighter": 1
             }
         },
-        "owner": "Germans"
+        "owner": "Germans",
+        "occupier": "Germans"
     },
     "Tobruk": {
         "units": {
@@ -1096,7 +1190,8 @@
                 "armour": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Albania": {
         "units": {
@@ -1105,7 +1200,8 @@
                 "armour": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Northern Italy": {
         "units": {
@@ -1118,7 +1214,8 @@
                 "factory_major": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Libya": {
         "units": {
@@ -1127,10 +1224,12 @@
                 "artillery": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Sicily": {
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Italian Somaliland": {
         "units": {
@@ -1138,7 +1237,8 @@
                 "infantry": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Southern Italy": {
         "units": {
@@ -1151,7 +1251,8 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Ethiopia": {
         "units": {
@@ -1160,10 +1261,12 @@
                 "artillery": 1
             }
         },
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Sardinia": {
-        "owner": "Italians"
+        "owner": "Italians",
+        "occupier": "Italians"
     },
     "Belarus": {
         "units": {
@@ -1171,7 +1274,8 @@
                 "infantry": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Karelia": {
         "units": {
@@ -1179,7 +1283,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Baltic States": {
         "units": {
@@ -1187,19 +1292,24 @@
                 "infantry": 3
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Bryansk": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Rostov": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Nenetsia": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Urals": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Vyborg": {
         "units": {
@@ -1207,7 +1317,8 @@
                 "infantry": 3
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Archangel": {
         "units": {
@@ -1215,7 +1326,8 @@
                 "infantry": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Eastern Poland": {
         "units": {
@@ -1223,7 +1335,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Bessarabia": {
         "units": {
@@ -1231,7 +1344,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Russia": {
         "units": {
@@ -1247,10 +1361,12 @@
                 "factory_major": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Tambov": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Ukraine": {
         "units": {
@@ -1259,7 +1375,8 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Western Ukraine": {
         "units": {
@@ -1268,13 +1385,16 @@
                 "artillery": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Novosibirsk": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Vologda": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Volgograd": {
         "units": {
@@ -1284,10 +1404,12 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Turkmenistan": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Novgorod": {
         "units": {
@@ -1301,7 +1423,8 @@
                 "factory_minor": 1
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Caucasus": {
         "units": {
@@ -1309,13 +1432,16 @@
                 "infantry": 2
             }
         },
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Smolensk": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Samara": {
-        "owner": "Russians"
+        "owner": "Russians",
+        "occupier": "Russians"
     },
     "Portugal": {
         "units": {
@@ -1323,18 +1449,17 @@
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Portuguese Guinea": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "120 Sea Zone": [],
     "Ecuador": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "112 Sea Zone": [],
-    "100 Sea Zone": [],
-    "119 Sea Zone": [],
     "124 Sea Zone": {
         "units": {
             "Germans": {
@@ -1342,14 +1467,14 @@
             }
         }
     },
-    "125 Sea Zone": [],
     "Chile": {
         "units": {
             "Neutral_True": {
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Afghanistan": {
         "units": {
@@ -1357,9 +1482,9 @@
                 "infantry": 4
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "80 Sea Zone": [],
     "113 Sea Zone": {
         "units": {
             "Germans": {
@@ -1375,11 +1500,9 @@
             }
         }
     },
-    "123 Sea Zone": [],
-    "116 Sea Zone": [],
-    "65 Sea Zone": [],
     "Sierra Leone": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "108 Sea Zone": {
         "units": {
@@ -1388,26 +1511,23 @@
             }
         }
     },
-    "84 Sea Zone": [],
-    "122 Sea Zone": [],
-    "73 Sea Zone": [],
     "Turkey": {
         "units": {
             "Neutral_True": {
                 "infantry": 8
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "70 Sea Zone": [],
-    "76 Sea Zone": [],
     "Mozambique": {
         "units": {
             "Neutral_True": {
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "118 Sea Zone": {
         "units": {
@@ -1416,7 +1536,6 @@
             }
         }
     },
-    "104 Sea Zone": [],
     "95 Sea Zone": {
         "units": {
             "Italians": {
@@ -1433,20 +1552,21 @@
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Paraguay": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "75 Sea Zone": [],
-    "87 Sea Zone": [],
     "Switzerland": {
         "units": {
             "Neutral_True": {
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "106 Sea Zone": {
         "units": {
@@ -1456,13 +1576,6 @@
             }
         }
     },
-    "86 Sea Zone": [],
-    "Pripet Marshes": [],
-    "94 Sea Zone": [],
-    "67 Sea Zone": [],
-    "89 Sea Zone": [],
-    "74 Sea Zone": [],
-    "102 Sea Zone": [],
     "93 Sea Zone": {
         "units": {
             "French": {
@@ -1471,13 +1584,13 @@
             }
         }
     },
-    "66 Sea Zone": [],
-    "85 Sea Zone": [],
     "Eire": {
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Crete": {
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Argentina": {
         "units": {
@@ -1485,7 +1598,8 @@
                 "infantry": 4
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Bulgaria": {
         "units": {
@@ -1493,7 +1607,8 @@
                 "infantry": 4
             }
         },
-        "owner": "Neutral_Axis"
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
     },
     "109 Sea Zone": {
         "units": {
@@ -1516,18 +1631,18 @@
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "64 Sea Zone": [],
     "Greece": {
         "units": {
             "Neutral_Allies": {
                 "infantry": 4
             }
         },
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
-    "99 Sea Zone": [],
     "97 Sea Zone": {
         "units": {
             "Italians": {
@@ -1543,12 +1658,12 @@
                 "infantry": 3
             }
         },
-        "owner": "Neutral_Axis"
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
     },
-    "92 Sea Zone": [],
-    "90 Sea Zone": [],
     "Eastern Persia": {
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "72 Sea Zone": {
         "units": {
@@ -1580,22 +1695,18 @@
             }
         }
     },
-    "81 Sea Zone": [],
-    "79 Sea Zone": [],
     "Uruguay": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "83 Sea Zone": [],
-    "77 Sea Zone": [],
-    "121 Sea Zone": [],
-    "82 Sea Zone": [],
     "Brazil": {
         "units": {
             "Neutral_Allies": {
                 "infantry": 3
             }
         },
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Venezuela": {
         "units": {
@@ -1603,7 +1714,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "127 Sea Zone": {
         "units": {
@@ -1613,7 +1725,8 @@
         }
     },
     "Northwest Persia": {
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Persia": {
         "units": {
@@ -1621,7 +1734,8 @@
                 "infantry": 2
             }
         },
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Sweden": {
         "units": {
@@ -1629,7 +1743,8 @@
                 "infantry": 6
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "115 Sea Zone": {
         "units": {
@@ -1652,7 +1767,8 @@
                 "infantry": 5
             }
         },
-        "owner": "Neutral_Allies"
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
     },
     "Spain": {
         "units": {
@@ -1660,22 +1776,25 @@
                 "infantry": 6
             }
         },
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Colombia": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "69 Sea Zone": [],
     "Bolivia": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Liberia": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
     "Peru": {
-        "owner": "Neutral_True"
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
     },
-    "126 Sea Zone": [],
     "98 Sea Zone": {
         "units": {
             "British": {
@@ -1700,13 +1819,13 @@
                 "infantry": 4
             }
         },
-        "owner": "Neutral_Axis"
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
     },
-    "78 Sea Zone": [],
     "Suriname": {
-        "owner": "Dutch"
+        "owner": "Dutch",
+        "occupier": "Dutch"
     },
-    "107 Sea Zone": [],
     "110 Sea Zone": {
         "units": {
             "British": {
@@ -1726,9 +1845,5 @@
                 "cruiser": 1
             }
         }
-    },
-    "68 Sea Zone": [],
-    "88 Sea Zone": [],
-    "105 Sea Zone": [],
-    "128 Sea Zone": []
+    }
 }

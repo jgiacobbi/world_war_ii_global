@@ -40,5 +40,19 @@ $app->get('/hello/{name}', function (Request $request, Response $response, $args
     return $response;
 });
 
+$app->get('/geography', function (Request $request, Response $response, $args) {
+    $geo = json_decode(file_get_contents("../data/geography.json"), true);
+    foreach($geo as $name => &$stuff) {
+        unset($stuff["connections"]);
+    }
+    $response->getBody()->write(json_encode($geo, JSON_PRETTY_PRINT));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+$app->get('/placements', function (Request $request, Response $response, $args) {
+    $response->getBody()->write(file_get_contents("../data/placements.json"));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
 // Run app
 $app->run();
