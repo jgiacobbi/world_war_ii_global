@@ -73,7 +73,15 @@
             "Shantung",
             "19 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Shanghai",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Kiangsi": {
         "name": "Kiangsi",
@@ -92,7 +100,15 @@
         "connections": [
             "6 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Tokyo",
+            "coordinates": [
+                5800,
+                888
+            ],
+            "capitol": true
+        }
     },
     "Jehol": {
         "name": "Jehol",
@@ -362,7 +378,15 @@
             "Burma",
             "39 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Calcutta",
+            "coordinates": [
+                3930,
+                2050
+            ],
+            "capitol": true
+        }
     },
     "Malaya": {
         "name": "Malaya",
@@ -386,7 +410,15 @@
             "Kiangsi",
             "20 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Hong Kong",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Queensland": {
         "name": "Queensland",
@@ -439,7 +471,15 @@
             "Victoria",
             "62 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Sydney",
+            "coordinates": [
+                5930,
+                2890
+            ],
+            "capitol": true
+        }
     },
     "South Australia": {
         "name": "South Australia",
@@ -482,7 +522,15 @@
         "connections": [
             "35 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Manila",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Line Islands": {
         "name": "Line Islands",
@@ -522,7 +570,15 @@
             "Mexico",
             "Central United States"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "San Francisco",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Alaska": {
         "name": "Alaska",
@@ -552,7 +608,15 @@
         "connections": [
             "26 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Honolulu",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Midway": {
         "name": "Midway",
@@ -1630,7 +1694,15 @@
             "Ontario",
             "101 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Washington",
+            "coordinates": [
+                715,
+                655
+            ],
+            "capitol": true
+        }
     },
     "West India": {
         "name": "West India",
@@ -1744,7 +1816,15 @@
             "Trans-Jordan",
             "Alexandria"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Cairo",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Union of South Africa": {
         "name": "Union of South Africa",
@@ -1799,7 +1879,15 @@
             "Alberta Saskatchewan Manitoba",
             "120 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Ottawa",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Scotland": {
         "name": "Scotland",
@@ -1859,7 +1947,15 @@
             "Scotland",
             "109 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "London",
+            "coordinates": [
+                1865,
+                475
+            ],
+            "capitol": true
+        }
     },
     "Anglo Egyptian Sudan": {
         "name": "Anglo Egyptian Sudan",
@@ -2020,7 +2116,15 @@
             "Northern Italy",
             "Switzerland"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Paris",
+            "coordinates": [
+                2140,
+                825
+            ],
+            "capitol": true
+        }
     },
     "Tunisia": {
         "name": "Tunisia",
@@ -2090,7 +2194,15 @@
             "Baltic States",
             "Eastern Poland"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Warsaw",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Germany": {
         "name": "Germany",
@@ -2102,7 +2214,15 @@
             "Poland",
             "113 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Berlin",
+            "coordinates": [
+                2470,
+                667
+            ],
+            "capitol": true
+        }
     },
     "Norway": {
         "name": "Norway",
@@ -2202,7 +2322,15 @@
             "95 Sea Zone",
             "97 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Rome",
+            "coordinates": [
+                2365,
+                1305
+            ],
+            "capitol": true
+        }
     },
     "Ethiopia": {
         "name": "Ethiopia",
@@ -2356,7 +2484,15 @@
             "Samara",
             "Bryansk"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Moscow",
+            "cordinates": [
+                3340,
+                470
+            ],
+            "capitol": true
+        }
     },
     "Tambov": {
         "name": "Tambov",
@@ -2425,7 +2561,15 @@
             "Rostov",
             "Tambov"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Stalingrad",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Turkmenistan": {
         "name": "Turkmenistan",
@@ -2448,7 +2592,15 @@
             "127 Sea Zone",
             "115 Sea Zone"
         ],
-        "water": false
+        "water": false,
+        "city": {
+            "name": "Leningrad",
+            "coordinates": [
+                500,
+                500
+            ],
+            "capitol": false
+        }
     },
     "Caucasus": {
         "name": "Caucasus",
