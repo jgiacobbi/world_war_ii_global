@@ -1,0 +1,2325 @@
+{
+    "Caroline Islands": [
+        "33 Sea Zone"
+    ],
+    "Iwo Jima": [
+        "17 Sea Zone"
+    ],
+    "Paulau Island": [
+        "34 Sea Zone"
+    ],
+    "Marshall Islands": [
+        "32 Sea Zone"
+    ],
+    "Shantung": [
+        "19 Sea Zone",
+        "Kiangsu",
+        "Jehol",
+        "Anhwe"
+    ],
+    "Formosa": [
+        "20 Sea Zone"
+    ],
+    "Kwangsi": [
+        "Kiangsi",
+        "Kwangtung",
+        "Yunnan",
+        "Hunan",
+        "French Indo China",
+        "36 Sea Zone"
+    ],
+    "Korea": [
+        "Manchuria",
+        "Amur",
+        "6 Sea Zone"
+    ],
+    "Kiangsu": [
+        "Kiangsi",
+        "Anhwe",
+        "Shantung",
+        "19 Sea Zone"
+    ],
+    "Kiangsi": [
+        "Kwangtung",
+        "Anhwe",
+        "Kwangsi",
+        "Kiangsu",
+        "Hunan",
+        "20 Sea Zone"
+    ],
+    "Japan": [
+        "6 Sea Zone"
+    ],
+    "Jehol": [
+        "Chahar",
+        "Manchuria",
+        "Anhwe",
+        "Shantung",
+        "19 Sea Zone",
+        "Buyant-Uhaa"
+    ],
+    "Okinawa": [
+        "19 Sea Zone"
+    ],
+    "Marianas": [
+        "22 Sea Zone"
+    ],
+    "Siam": [
+        "Shan State",
+        "French Indo China",
+        "37 Sea Zone"
+    ],
+    "Manchuria": [
+        "Korea",
+        "Jehol",
+        "Amur",
+        "19 Sea Zone",
+        "Buyant-Uhaa"
+    ],
+    "Hainan": [
+        "36 Sea Zone"
+    ],
+    "Shensi": [
+        "Suiyuyan",
+        "Kweichow",
+        "Kansu",
+        "Hopei",
+        "Tsinghai",
+        "Szechwan",
+        "Sikang"
+    ],
+    "Yunnan": [
+        "Kweichow",
+        "Shan State",
+        "French Indo China",
+        "Burma",
+        "Hunan",
+        "Kwangsi",
+        "Himalayas",
+        "Szechwan"
+    ],
+    "Suiyuyan": [
+        "Kansu",
+        "Hopei",
+        "Central Mongolia",
+        "Chahar",
+        "Tsagaan Olom",
+        "Shensi"
+    ],
+    "Kweichow": [
+        "Hunan",
+        "Hopei",
+        "Szechwan",
+        "Anhwe",
+        "Shensi",
+        "Yunnan"
+    ],
+    "Hunan": [
+        "Kwangsi",
+        "Kiangsi",
+        "Anhwe",
+        "Yunnan",
+        "Kweichow"
+    ],
+    "Kansu": [
+        "Novosibirsk",
+        "Timguska",
+        "Tsinghai",
+        "Tsagaan Olom",
+        "Shensi",
+        "Suiyuyan",
+        "Olgiy"
+    ],
+    "Hopei": [
+        "Chahar",
+        "Anhwe",
+        "Shensi",
+        "Suiyuyan",
+        "Kweichow"
+    ],
+    "Tsinghai": [
+        "Sikang",
+        "Kazakhstan",
+        "Shensi",
+        "Kansu",
+        "Novosibirsk"
+    ],
+    "Szechwan": [
+        "Sikang",
+        "Shensi",
+        "Yunnan",
+        "Kweichow",
+        "Himalayas"
+    ],
+    "Chahar": [
+        "Anhwe",
+        "Jehol",
+        "Suiyuyan",
+        "Hopei",
+        "Central Mongolia",
+        "Buyant-Uhaa"
+    ],
+    "Sikang": [
+        "Shensi",
+        "Tsinghai",
+        "Szechwan",
+        "Kazakhstan",
+        "Himalayas"
+    ],
+    "Anhwe": [
+        "Shantung",
+        "Kiangsu",
+        "Kiangsi",
+        "Jehol",
+        "Kweichow",
+        "Hunan",
+        "Hopei",
+        "Chahar"
+    ],
+    "Gilbert Islands": [
+        "48 Sea Zone"
+    ],
+    "Fiji": [
+        "50 Sea Zone"
+    ],
+    "Ceylon": [
+        "39 Sea Zone"
+    ],
+    "Samoa": [
+        "51 Sea Zone"
+    ],
+    "Shan State": [
+        "French Indo China",
+        "Burma",
+        "Malaya",
+        "Siam",
+        "Yunnan",
+        "37 Sea Zone",
+        "38 Sea Zone"
+    ],
+    "Burma": [
+        "India",
+        "Himalayas",
+        "Yunnan",
+        "Shan State",
+        "38 Sea Zone"
+    ],
+    "British Columbia": [
+        "Alaska",
+        "1 Sea Zone",
+        "Western United States",
+        "Alberta Saskatchewan Manitoba"
+    ],
+    "India": [
+        "Himalayas",
+        "West India",
+        "Burma",
+        "39 Sea Zone"
+    ],
+    "Malaya": [
+        "Shan State",
+        "37 Sea Zone"
+    ],
+    "Borneo": [
+        "43 Sea Zone"
+    ],
+    "Kwangtung": [
+        "Kwangsi",
+        "Kiangsi",
+        "20 Sea Zone"
+    ],
+    "Queensland": [
+        "Northern Territory",
+        "New South Wales",
+        "South Australia",
+        "54 Sea Zone"
+    ],
+    "Victoria": [
+        "New South Wales",
+        "South Australia",
+        "62 Sea Zone"
+    ],
+    "New Britain": [
+        "47 Sea Zone"
+    ],
+    "Northern Territory": [
+        "South Australia",
+        "Western Australia",
+        "55 Sea Zone",
+        "Queensland"
+    ],
+    "New Zealand": [
+        "63 Sea Zone"
+    ],
+    "New South Wales": [
+        "South Australia",
+        "Queensland",
+        "Victoria",
+        "62 Sea Zone"
+    ],
+    "South Australia": [
+        "Western Australia",
+        "Queensland",
+        "Victoria",
+        "Northern Territory",
+        "New South Wales",
+        "61 Sea Zone"
+    ],
+    "Western Australia": [
+        "56 Sea Zone",
+        "Northern Territory",
+        "South Australia"
+    ],
+    "Solomon Islands": [
+        "49 Sea Zone"
+    ],
+    "New Guinea": [
+        "Dutch New Guinea",
+        "46 Sea Zone"
+    ],
+    "Philippines": [
+        "35 Sea Zone"
+    ],
+    "Line Islands": [
+        "29 Sea Zone"
+    ],
+    "Mexico": [
+        "Western United States",
+        "10 Sea Zone",
+        "Southeast Mexico"
+    ],
+    "Guam": [
+        "21 Sea Zone"
+    ],
+    "Wake Island": [
+        "31 Sea Zone"
+    ],
+    "Western United States": [
+        "10 Sea Zone",
+        "British Columbia",
+        "Mexico",
+        "Central United States"
+    ],
+    "Alaska": [
+        "2 Sea Zone",
+        "1 Sea Zone",
+        "British Columbia"
+    ],
+    "Aleutian Islands": [
+        "8 Sea Zone"
+    ],
+    "Johnston Island": [
+        "30 Sea Zone"
+    ],
+    "Hawaiian Islands": [
+        "26 Sea Zone"
+    ],
+    "Midway": [
+        "25 Sea Zone"
+    ],
+    "Sakha": [
+        "Amur",
+        "Siberia",
+        "Buryatia"
+    ],
+    "Evenkiyskiy": [
+        "Yenisey",
+        "Timguska",
+        "Urals"
+    ],
+    "Yenisey": [
+        "Yakut S.S.R.",
+        "Timguska",
+        "Evenkiyskiy",
+        "Olgiy",
+        "Dzavhan"
+    ],
+    "Soviet Far East": [
+        "Siberia",
+        "3 Sea Zone",
+        "4 Sea Zone",
+        "5 Sea Zone"
+    ],
+    "Amur": [
+        "Korea",
+        "Siberia",
+        "5 Sea Zone",
+        "Buyant-Uhaa",
+        "Ulaanbaatar",
+        "Buryatia",
+        "Manchuria",
+        "Sakha"
+    ],
+    "Yakut S.S.R.": [
+        "Ulaanbaatar",
+        "Buryatia",
+        "Yenisey",
+        "Dzavhan"
+    ],
+    "Timguska": [
+        "Novosibirsk",
+        "Kansu",
+        "Evenkiyskiy",
+        "Yenisey",
+        "Olgiy",
+        "Urals"
+    ],
+    "Siberia": [
+        "5 Sea Zone",
+        "Sakha",
+        "Soviet Far East",
+        "Amur"
+    ],
+    "Kazakhstan": [
+        "Sikang",
+        "Samara",
+        "Tsinghai",
+        "Himalayas",
+        "Novosibirsk",
+        "Volgograd",
+        "Turkmenistan",
+        "Caucasus",
+        "Afghanistan",
+        "128 Sea Zone"
+    ],
+    "Buryatia": [
+        "Sakha",
+        "Amur",
+        "Yakut S.S.R.",
+        "Ulaanbaatar"
+    ],
+    "French Indo China": [
+        "Kwangsi",
+        "Siam",
+        "Yunnan",
+        "Shan State",
+        "36 Sea Zone"
+    ],
+    "New Hebrides": [
+        "53 Sea Zone"
+    ],
+    "Celebes": [
+        "44 Sea Zone"
+    ],
+    "Java": [
+        "42 Sea Zone"
+    ],
+    "Dutch New Guinea": [
+        "New Guinea",
+        "45 Sea Zone"
+    ],
+    "Sumatra": [
+        "41 Sea Zone"
+    ],
+    "42 Sea Zone": [
+        "41 Sea Zone",
+        "44 Sea Zone",
+        "43 Sea Zone",
+        "45 Sea Zone",
+        "Java",
+        "56 Sea Zone",
+        "57 Sea Zone",
+        "55 Sea Zone",
+        "37 Sea Zone"
+    ],
+    "41 Sea Zone": [
+        "39 Sea Zone",
+        "38 Sea Zone",
+        "40 Sea Zone",
+        "Sumatra",
+        "58 Sea Zone",
+        "57 Sea Zone",
+        "42 Sea Zone",
+        "37 Sea Zone"
+    ],
+    "44 Sea Zone": [
+        "43 Sea Zone",
+        "45 Sea Zone",
+        "35 Sea Zone",
+        "Celebes",
+        "42 Sea Zone"
+    ],
+    "43 Sea Zone": [
+        "36 Sea Zone",
+        "35 Sea Zone",
+        "Borneo",
+        "42 Sea Zone",
+        "44 Sea Zone",
+        "37 Sea Zone"
+    ],
+    "46 Sea Zone": [
+        "45 Sea Zone",
+        "47 Sea Zone",
+        "49 Sea Zone",
+        "33 Sea Zone",
+        "34 Sea Zone",
+        "New Guinea",
+        "54 Sea Zone",
+        "55 Sea Zone"
+    ],
+    "45 Sea Zone": [
+        "35 Sea Zone",
+        "34 Sea Zone",
+        "Dutch New Guinea",
+        "55 Sea Zone",
+        "42 Sea Zone",
+        "44 Sea Zone",
+        "46 Sea Zone"
+    ],
+    "48 Sea Zone": [
+        "47 Sea Zone",
+        "49 Sea Zone",
+        "Gilbert Islands",
+        "33 Sea Zone",
+        "32 Sea Zone",
+        "30 Sea Zone"
+    ],
+    "47 Sea Zone": [
+        "49 Sea Zone",
+        "33 Sea Zone",
+        "New Britain",
+        "46 Sea Zone",
+        "48 Sea Zone"
+    ],
+    "Olgiy": [
+        "Dzavhan",
+        "Yenisey",
+        "Kansu",
+        "Timguska",
+        "Tsagaan Olom"
+    ],
+    "49 Sea Zone": [
+        "50 Sea Zone",
+        "30 Sea Zone",
+        "Solomon Islands",
+        "54 Sea Zone",
+        "53 Sea Zone",
+        "46 Sea Zone",
+        "48 Sea Zone",
+        "47 Sea Zone"
+    ],
+    "50 Sea Zone": [
+        "51 Sea Zone",
+        "30 Sea Zone",
+        "29 Sea Zone",
+        "52 Sea Zone",
+        "53 Sea Zone",
+        "Fiji",
+        "49 Sea Zone",
+        "63 Sea Zone"
+    ],
+    "51 Sea Zone": [
+        "Samoa",
+        "28 Sea Zone",
+        "29 Sea Zone",
+        "52 Sea Zone",
+        "50 Sea Zone",
+        "65 Sea Zone",
+        "66 Sea Zone",
+        "64 Sea Zone"
+    ],
+    "33 Sea Zone": [
+        "32 Sea Zone",
+        "34 Sea Zone",
+        "23 Sea Zone",
+        "22 Sea Zone",
+        "Caroline Islands",
+        "46 Sea Zone",
+        "48 Sea Zone",
+        "47 Sea Zone"
+    ],
+    "32 Sea Zone": [
+        "31 Sea Zone",
+        "30 Sea Zone",
+        "Marshall Islands",
+        "23 Sea Zone",
+        "48 Sea Zone",
+        "33 Sea Zone"
+    ],
+    "31 Sea Zone": [
+        "Wake Island",
+        "24 Sea Zone",
+        "23 Sea Zone",
+        "26 Sea Zone",
+        "25 Sea Zone",
+        "30 Sea Zone",
+        "32 Sea Zone"
+    ],
+    "30 Sea Zone": [
+        "26 Sea Zone",
+        "27 Sea Zone",
+        "29 Sea Zone",
+        "Johnston Island",
+        "48 Sea Zone",
+        "49 Sea Zone",
+        "50 Sea Zone",
+        "32 Sea Zone",
+        "31 Sea Zone"
+    ],
+    "37 Sea Zone": [
+        "Shan State",
+        "Siam",
+        "Malaya",
+        "38 Sea Zone",
+        "41 Sea Zone",
+        "42 Sea Zone",
+        "43 Sea Zone",
+        "36 Sea Zone"
+    ],
+    "36 Sea Zone": [
+        "35 Sea Zone",
+        "20 Sea Zone",
+        "French Indo China",
+        "Kwangsi",
+        "Hainan",
+        "43 Sea Zone",
+        "37 Sea Zone"
+    ],
+    "35 Sea Zone": [
+        "34 Sea Zone",
+        "20 Sea Zone",
+        "21 Sea Zone",
+        "Philippines",
+        "44 Sea Zone",
+        "43 Sea Zone",
+        "45 Sea Zone",
+        "36 Sea Zone"
+    ],
+    "34 Sea Zone": [
+        "22 Sea Zone",
+        "21 Sea Zone",
+        "Paulau Island",
+        "46 Sea Zone",
+        "45 Sea Zone",
+        "33 Sea Zone",
+        "35 Sea Zone"
+    ],
+    "Dzavhan": [
+        "Yenisey",
+        "Central Mongolia",
+        "Yakut S.S.R.",
+        "Ulaanbaatar",
+        "Tsagaan Olom",
+        "Olgiy"
+    ],
+    "39 Sea Zone": [
+        "38 Sea Zone",
+        "40 Sea Zone",
+        "India",
+        "79 Sea Zone",
+        "78 Sea Zone",
+        "Ceylon",
+        "41 Sea Zone"
+    ],
+    "38 Sea Zone": [
+        "Shan State",
+        "Burma",
+        "41 Sea Zone",
+        "37 Sea Zone",
+        "39 Sea Zone"
+    ],
+    "40 Sea Zone": [
+        "58 Sea Zone",
+        "78 Sea Zone",
+        "41 Sea Zone",
+        "39 Sea Zone"
+    ],
+    "24 Sea Zone": [
+        "23 Sea Zone",
+        "25 Sea Zone",
+        "17 Sea Zone",
+        "16 Sea Zone",
+        "31 Sea Zone"
+    ],
+    "23 Sea Zone": [
+        "22 Sea Zone",
+        "17 Sea Zone",
+        "33 Sea Zone",
+        "32 Sea Zone",
+        "31 Sea Zone",
+        "24 Sea Zone"
+    ],
+    "26 Sea Zone": [
+        "25 Sea Zone",
+        "27 Sea Zone",
+        "13 Sea Zone",
+        "12 Sea Zone",
+        "Hawaiian Islands",
+        "31 Sea Zone",
+        "30 Sea Zone"
+    ],
+    "25 Sea Zone": [
+        "15 Sea Zone",
+        "14 Sea Zone",
+        "13 Sea Zone",
+        "16 Sea Zone",
+        "Midway",
+        "31 Sea Zone",
+        "24 Sea Zone",
+        "26 Sea Zone"
+    ],
+    "20 Sea Zone": [
+        "21 Sea Zone",
+        "Formosa",
+        "19 Sea Zone",
+        "Kiangsi",
+        "Kwangtung",
+        "36 Sea Zone",
+        "35 Sea Zone"
+    ],
+    "22 Sea Zone": [
+        "21 Sea Zone",
+        "18 Sea Zone",
+        "17 Sea Zone",
+        "Marianas",
+        "33 Sea Zone",
+        "34 Sea Zone",
+        "23 Sea Zone"
+    ],
+    "21 Sea Zone": [
+        "19 Sea Zone",
+        "18 Sea Zone",
+        "Guam",
+        "35 Sea Zone",
+        "34 Sea Zone",
+        "20 Sea Zone",
+        "22 Sea Zone"
+    ],
+    "28 Sea Zone": [
+        "27 Sea Zone",
+        "29 Sea Zone",
+        "11 Sea Zone",
+        "51 Sea Zone",
+        "64 Sea Zone"
+    ],
+    "27 Sea Zone": [
+        "29 Sea Zone",
+        "12 Sea Zone",
+        "11 Sea Zone",
+        "30 Sea Zone",
+        "26 Sea Zone",
+        "28 Sea Zone"
+    ],
+    "29 Sea Zone": [
+        "Line Islands",
+        "50 Sea Zone",
+        "51 Sea Zone",
+        "30 Sea Zone",
+        "28 Sea Zone",
+        "27 Sea Zone"
+    ],
+    "15 Sea Zone": [
+        "14 Sea Zone",
+        "16 Sea Zone",
+        "7 Sea Zone",
+        "8 Sea Zone",
+        "25 Sea Zone"
+    ],
+    "14 Sea Zone": [
+        "13 Sea Zone",
+        "8 Sea Zone",
+        "9 Sea Zone",
+        "25 Sea Zone",
+        "15 Sea Zone"
+    ],
+    "13 Sea Zone": [
+        "12 Sea Zone",
+        "9 Sea Zone",
+        "26 Sea Zone",
+        "25 Sea Zone",
+        "14 Sea Zone"
+    ],
+    "12 Sea Zone": [
+        "11 Sea Zone",
+        "10 Sea Zone",
+        "9 Sea Zone",
+        "26 Sea Zone",
+        "27 Sea Zone",
+        "13 Sea Zone"
+    ],
+    "11 Sea Zone": [
+        "10 Sea Zone",
+        "28 Sea Zone",
+        "27 Sea Zone",
+        "12 Sea Zone",
+        "64 Sea Zone"
+    ],
+    "10 Sea Zone": [
+        "1 Sea Zone",
+        "9 Sea Zone",
+        "Mexico",
+        "Western United States",
+        "12 Sea Zone",
+        "11 Sea Zone"
+    ],
+    "19 Sea Zone": [
+        "18 Sea Zone",
+        "Kiangsu",
+        "Jehol",
+        "Okinawa",
+        "Manchuria",
+        "Shantung",
+        "20 Sea Zone",
+        "21 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "Central Mongolia": [
+        "Buyant-Uhaa",
+        "Ulaanbaatar",
+        "Chahar",
+        "Tsagaan Olom",
+        "Suiyuyan",
+        "Dzavhan"
+    ],
+    "18 Sea Zone": [
+        "17 Sea Zone",
+        "22 Sea Zone",
+        "21 Sea Zone",
+        "19 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "17 Sea Zone": [
+        "16 Sea Zone",
+        "Iwo Jima",
+        "24 Sea Zone",
+        "23 Sea Zone",
+        "22 Sea Zone",
+        "18 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "16 Sea Zone": [
+        "7 Sea Zone",
+        "24 Sea Zone",
+        "25 Sea Zone",
+        "15 Sea Zone",
+        "17 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "2 Sea Zone": [
+        "1 Sea Zone",
+        "8 Sea Zone",
+        "3 Sea Zone",
+        "Alaska"
+    ],
+    "1 Sea Zone": [
+        "8 Sea Zone",
+        "9 Sea Zone",
+        "British Columbia",
+        "Alaska",
+        "10 Sea Zone",
+        "2 Sea Zone"
+    ],
+    "7 Sea Zone": [
+        "8 Sea Zone",
+        "4 Sea Zone",
+        "5 Sea Zone",
+        "15 Sea Zone",
+        "16 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "Himalayas": [
+        "Szechwan",
+        "Sikang",
+        "West India",
+        "Afghanistan",
+        "Kazakhstan",
+        "Yunnan",
+        "Burma",
+        "India"
+    ],
+    "8 Sea Zone": [
+        "9 Sea Zone",
+        "3 Sea Zone",
+        "4 Sea Zone",
+        "Aleutian Islands",
+        "15 Sea Zone",
+        "14 Sea Zone",
+        "2 Sea Zone",
+        "1 Sea Zone",
+        "7 Sea Zone"
+    ],
+    "9 Sea Zone": [
+        "14 Sea Zone",
+        "13 Sea Zone",
+        "12 Sea Zone",
+        "10 Sea Zone",
+        "1 Sea Zone",
+        "8 Sea Zone"
+    ],
+    "3 Sea Zone": [
+        "4 Sea Zone",
+        "Soviet Far East",
+        "2 Sea Zone",
+        "8 Sea Zone"
+    ],
+    "4 Sea Zone": [
+        "5 Sea Zone",
+        "Soviet Far East",
+        "7 Sea Zone",
+        "8 Sea Zone",
+        "3 Sea Zone"
+    ],
+    "5 Sea Zone": [
+        "Soviet Far East",
+        "Amur",
+        "Siberia",
+        "7 Sea Zone",
+        "4 Sea Zone",
+        "6 Sea Zone"
+    ],
+    "6 Sea Zone": [
+        "19 Sea Zone",
+        "18 Sea Zone",
+        "17 Sea Zone",
+        "16 Sea Zone",
+        "7 Sea Zone",
+        "Japan",
+        "5 Sea Zone",
+        "Korea"
+    ],
+    "Buyant-Uhaa": [
+        "Jehol",
+        "Ulaanbaatar",
+        "Chahar",
+        "Manchuria",
+        "Amur",
+        "Central Mongolia"
+    ],
+    "Ulaanbaatar": [
+        "Buryatia",
+        "Amur",
+        "Yakut S.S.R.",
+        "Dzavhan",
+        "Central Mongolia",
+        "Buyant-Uhaa"
+    ],
+    "Tsagaan Olom": [
+        "Suiyuyan",
+        "Kansu",
+        "Olgiy",
+        "Dzavhan",
+        "Central Mongolia"
+    ],
+    "63 Sea Zone": [
+        "50 Sea Zone",
+        "53 Sea Zone",
+        "New Zealand",
+        "52 Sea Zone",
+        "54 Sea Zone",
+        "62 Sea Zone"
+    ],
+    "58 Sea Zone": [
+        "60 Sea Zone",
+        "59 Sea Zone",
+        "57 Sea Zone",
+        "78 Sea Zone",
+        "75 Sea Zone",
+        "74 Sea Zone",
+        "41 Sea Zone",
+        "40 Sea Zone"
+    ],
+    "59 Sea Zone": [
+        "74 Sea Zone",
+        "58 Sea Zone",
+        "60 Sea Zone"
+    ],
+    "56 Sea Zone": [
+        "57 Sea Zone",
+        "55 Sea Zone",
+        "Western Australia",
+        "42 Sea Zone",
+        "61 Sea Zone",
+        "60 Sea Zone"
+    ],
+    "57 Sea Zone": [
+        "60 Sea Zone",
+        "42 Sea Zone",
+        "41 Sea Zone",
+        "58 Sea Zone",
+        "56 Sea Zone"
+    ],
+    "54 Sea Zone": [
+        "63 Sea Zone",
+        "55 Sea Zone",
+        "53 Sea Zone",
+        "Queensland",
+        "46 Sea Zone",
+        "49 Sea Zone",
+        "62 Sea Zone"
+    ],
+    "55 Sea Zone": [
+        "Northern Territory",
+        "42 Sea Zone",
+        "46 Sea Zone",
+        "45 Sea Zone",
+        "56 Sea Zone",
+        "54 Sea Zone"
+    ],
+    "52 Sea Zone": [
+        "50 Sea Zone",
+        "51 Sea Zone",
+        "63 Sea Zone",
+        "66 Sea Zone"
+    ],
+    "53 Sea Zone": [
+        "New Hebrides",
+        "49 Sea Zone",
+        "50 Sea Zone",
+        "63 Sea Zone",
+        "54 Sea Zone"
+    ],
+    "62 Sea Zone": [
+        "61 Sea Zone",
+        "Victoria",
+        "New South Wales",
+        "63 Sea Zone",
+        "54 Sea Zone"
+    ],
+    "61 Sea Zone": [
+        "56 Sea Zone",
+        "South Australia",
+        "62 Sea Zone"
+    ],
+    "60 Sea Zone": [
+        "59 Sea Zone",
+        "56 Sea Zone",
+        "58 Sea Zone",
+        "57 Sea Zone"
+    ],
+    "West Indies": [
+        "89 Sea Zone"
+    ],
+    "Central United States": [
+        "101 Sea Zone",
+        "Southeast Mexico",
+        "Ontario",
+        "Eastern United States",
+        "Western United States",
+        "Alberta Saskatchewan Manitoba"
+    ],
+    "Central America": [
+        "64 Sea Zone",
+        "Southeast Mexico",
+        "Colombia",
+        "89 Sea Zone"
+    ],
+    "Greenland": [
+        "121 Sea Zone"
+    ],
+    "Southeast Mexico": [
+        "Mexico",
+        "Central United States",
+        "Central America",
+        "89 Sea Zone",
+        "64 Sea Zone"
+    ],
+    "Eastern United States": [
+        "Central United States",
+        "Quebec",
+        "New Brunswick Nova Scotia",
+        "Ontario",
+        "101 Sea Zone"
+    ],
+    "West India": [
+        "Eastern Persia",
+        "79 Sea Zone",
+        "India",
+        "Himalayas",
+        "Afghanistan"
+    ],
+    "Belgian Congo": [
+        "Angola",
+        "Kenya",
+        "Anglo Egyptian Sudan",
+        "Rhodesia",
+        "Tanganyika Territory",
+        "French Equatorial Africa",
+        "70 Sea Zone"
+    ],
+    "Iceland": [
+        "123 Sea Zone"
+    ],
+    "Quebec": [
+        "106 Sea Zone",
+        "New Brunswick Nova Scotia",
+        "Ontario",
+        "121 Sea Zone",
+        "Eastern United States",
+        "Newfoundland Labrador",
+        "120 Sea Zone"
+    ],
+    "Alberta Saskatchewan Manitoba": [
+        "Central United States",
+        "Ontario",
+        "121 Sea Zone",
+        "British Columbia",
+        "120 Sea Zone"
+    ],
+    "Trans-Jordan": [
+        "Iraq",
+        "81 Sea Zone",
+        "98 Sea Zone",
+        "Egypt",
+        "Syria",
+        "Saudi Arabia"
+    ],
+    "British Somaliland": [
+        "Italian Somaliland",
+        "Ethiopia",
+        "76 Sea Zone"
+    ],
+    "Alexandria": [
+        "98 Sea Zone",
+        "Tobruk",
+        "Egypt"
+    ],
+    "Gibraltar": [
+        "92 Sea Zone",
+        "Spain",
+        "91 Sea Zone"
+    ],
+    "New Brunswick Nova Scotia": [
+        "Eastern United States",
+        "Quebec",
+        "106 Sea Zone"
+    ],
+    "Egypt": [
+        "81 Sea Zone",
+        "98 Sea Zone",
+        "Anglo Egyptian Sudan",
+        "Trans-Jordan",
+        "Alexandria"
+    ],
+    "Union of South Africa": [
+        "71 Sea Zone",
+        "South West Africa",
+        "Rhodesia",
+        "Mozambique"
+    ],
+    "Cyprus": [
+        "99 Sea Zone"
+    ],
+    "British Guiana": [
+        "Brazil",
+        "Venezuela",
+        "Suriname",
+        "88 Sea Zone"
+    ],
+    "Gold Coast": [
+        "82 Sea Zone",
+        "French West Africa"
+    ],
+    "Rio de Oro": [
+        "91 Sea Zone",
+        "Algeria",
+        "Morocco"
+    ],
+    "Ontario": [
+        "Eastern United States",
+        "Central United States",
+        "Quebec",
+        "Alberta Saskatchewan Manitoba",
+        "120 Sea Zone"
+    ],
+    "Scotland": [
+        "United Kingdom",
+        "109 Sea Zone",
+        "111 Sea Zone",
+        "119 Sea Zone",
+        "Eire",
+        "109 Sea Zone"
+    ],
+    "South West Africa": [
+        "Rhodesia",
+        "Union of South Africa",
+        "70 Sea Zone",
+        "Angola"
+    ],
+    "Nigeria": [
+        "French Equatorial Africa",
+        "French Central Africa",
+        "French West Africa",
+        "82 Sea Zone"
+    ],
+    "Kenya": [
+        "Anglo Egyptian Sudan",
+        "Tanganyika Territory",
+        "Belgian Congo",
+        "Italian Somaliland",
+        "Ethiopia",
+        "72 Sea Zone"
+    ],
+    "Malta": [
+        "96 Sea Zone"
+    ],
+    "United Kingdom": [
+        "110 Sea Zone",
+        "Scotland",
+        "109 Sea Zone"
+    ],
+    "Anglo Egyptian Sudan": [
+        "Belgian Congo",
+        "Egypt",
+        "Kenya",
+        "French Equatorial Africa",
+        "Ethiopia",
+        "81 Sea Zone"
+    ],
+    "Rhodesia": [
+        "Tanganyika Territory",
+        "Belgian Congo",
+        "Union of South Africa",
+        "South West Africa",
+        "Mozambique",
+        "Angola"
+    ],
+    "Tanganyika Territory": [
+        "Belgian Congo",
+        "Kenya",
+        "Rhodesia",
+        "Mozambique",
+        "72 Sea Zone"
+    ],
+    "Newfoundland Labrador": [
+        "Quebec",
+        "116 Sea Zone"
+    ],
+    "Morocco": [
+        "Algeria",
+        "92 Sea Zone",
+        "91 Sea Zone",
+        "Rio de Oro"
+    ],
+    "French Equatorial Africa": [
+        "Belgian Congo",
+        "Anglo Egyptian Sudan",
+        "82 Sea Zone",
+        "Nigeria",
+        "French Central Africa"
+    ],
+    "Normandy Bordeaux": [
+        "Southern France",
+        "Holland Belgium",
+        "France",
+        "Spain",
+        "110 Sea Zone",
+        "105 Sea Zone"
+    ],
+    "French Central Africa": [
+        "Nigeria",
+        "French West Africa",
+        "French Equatorial Africa"
+    ],
+    "French Madagascar": [
+        "72 Sea Zone"
+    ],
+    "French Guiana": [
+        "Brazil",
+        "Suriname",
+        "88 Sea Zone"
+    ],
+    "Algeria": [
+        "94 Sea Zone",
+        "92 Sea Zone",
+        "Tunisia",
+        "Rio de Oro",
+        "Morocco"
+    ],
+    "Southern France": [
+        "93 Sea Zone",
+        "Northern Italy",
+        "France",
+        "Spain",
+        "Normandy Bordeaux"
+    ],
+    "Syria": [
+        "Trans-Jordan",
+        "99 Sea Zone",
+        "Iraq",
+        "98 Sea Zone",
+        "Turkey"
+    ],
+    "French West Africa": [
+        "Nigeria",
+        "82 Sea Zone",
+        "Gold Coast",
+        "83 Sea Zone",
+        "Liberia",
+        "Sierra Leone",
+        "Portuguese Guinea",
+        "87 Sea Zone",
+        "French Central Africa"
+    ],
+    "France": [
+        "Normandy Bordeaux",
+        "Southern France",
+        "Western Germany",
+        "Holland Belgium",
+        "Northern Italy",
+        "Switzerland"
+    ],
+    "Tunisia": [
+        "Libya",
+        "Algeria",
+        "94 Sea Zone"
+    ],
+    "Greater Southern Germany": [
+        "Slovakia Hungary",
+        "Western Germany",
+        "Germany",
+        "Northern Italy",
+        "Yugoslavia"
+    ],
+    "Slovakia Hungary": [
+        "Romania",
+        "Eastern Poland",
+        "Poland",
+        "Germany",
+        "Yugoslavia",
+        "Greater Southern Germany"
+    ],
+    "Western Germany": [
+        "Switzerland",
+        "Germany",
+        "Northern Italy",
+        "Denmark",
+        "Holland Belgium",
+        "France",
+        "Greater Southern Germany",
+        "112 Sea Zone",
+        "113 Sea Zone"
+    ],
+    "Romania": [
+        "Eastern Poland",
+        "Bessarabia",
+        "Bulgaria",
+        "Yugoslavia",
+        "Slovakia Hungary",
+        "100 Sea Zone"
+    ],
+    "Poland": [
+        "Germany",
+        "114 Sea Zone",
+        "Slovakia Hungary",
+        "Baltic States",
+        "Eastern Poland"
+    ],
+    "Germany": [
+        "114 Sea Zone",
+        "Greater Southern Germany",
+        "Slovakia Hungary",
+        "Western Germany",
+        "Poland",
+        "113 Sea Zone"
+    ],
+    "Norway": [
+        "Sweden",
+        "126 Sea Zone",
+        "125 Sea Zone",
+        "Finland",
+        "112 Sea Zone",
+        "113 Sea Zone"
+    ],
+    "Denmark": [
+        "Western Germany",
+        "112 Sea Zone",
+        "113 Sea Zone"
+    ],
+    "Holland Belgium": [
+        "France",
+        "110 Sea Zone",
+        "Normandy Bordeaux",
+        "Western Germany"
+    ],
+    "Tobruk": [
+        "96 Sea Zone",
+        "Alexandria",
+        "Libya"
+    ],
+    "Albania": [
+        "Bulgaria",
+        "Greece",
+        "97 Sea Zone",
+        "Yugoslavia"
+    ],
+    "Northern Italy": [
+        "97 Sea Zone",
+        "France",
+        "Southern Italy",
+        "Yugoslavia",
+        "Southern France",
+        "Greater Southern Germany",
+        "Western Germany",
+        "95 Sea Zone",
+        "Switzerland"
+    ],
+    "Libya": [
+        "Tobruk",
+        "Tunisia",
+        "96 Sea Zone"
+    ],
+    "Sicily": [
+        "95 Sea Zone"
+    ],
+    "Italian Somaliland": [
+        "Ethiopia",
+        "Kenya",
+        "British Somaliland",
+        "76 Sea Zone"
+    ],
+    "Southern Italy": [
+        "Northern Italy",
+        "95 Sea Zone",
+        "97 Sea Zone"
+    ],
+    "Ethiopia": [
+        "Kenya",
+        "Anglo Egyptian Sudan",
+        "British Somaliland",
+        "Italian Somaliland",
+        "76 Sea Zone"
+    ],
+    "Sardinia": [
+        "95 Sea Zone"
+    ],
+    "Belarus": [
+        "Baltic States",
+        "Bryansk",
+        "Archangel",
+        "Eastern Poland",
+        "Novgorod",
+        "Smolensk"
+    ],
+    "Karelia": [
+        "Vyborg",
+        "127 Sea Zone",
+        "Novgorod",
+        "Finland"
+    ],
+    "Baltic States": [
+        "Eastern Poland",
+        "Poland",
+        "115 Sea Zone",
+        "Novgorod",
+        "Belarus"
+    ],
+    "Bryansk": [
+        "Rostov",
+        "Russia",
+        "Tambov",
+        "Ukraine",
+        "Western Ukraine",
+        "Smolensk",
+        "Belarus"
+    ],
+    "Rostov": [
+        "Tambov",
+        "Ukraine",
+        "Volgograd",
+        "Caucasus",
+        "Bryansk",
+        "100 Sea Zone"
+    ],
+    "Nenetsia": [
+        "Archangel",
+        "Vologda",
+        "127 Sea Zone",
+        "Urals"
+    ],
+    "Urals": [
+        "Evenkiyskiy",
+        "Timguska",
+        "Vologda",
+        "Nenetsia",
+        "Novosibirsk"
+    ],
+    "Vyborg": [
+        "115 Sea Zone",
+        "Novgorod",
+        "Finland",
+        "Karelia"
+    ],
+    "Archangel": [
+        "Vologda",
+        "127 Sea Zone",
+        "Novgorod",
+        "Smolensk",
+        "Belarus",
+        "Nenetsia"
+    ],
+    "Eastern Poland": [
+        "Poland",
+        "Bessarabia",
+        "Western Ukraine",
+        "Slovakia Hungary",
+        "Romania",
+        "Belarus",
+        "Baltic States"
+    ],
+    "Bessarabia": [
+        "Ukraine",
+        "Western Ukraine",
+        "Romania",
+        "Eastern Poland",
+        "100 Sea Zone"
+    ],
+    "Russia": [
+        "Tambov",
+        "Vologda",
+        "Smolensk",
+        "Samara",
+        "Bryansk"
+    ],
+    "Tambov": [
+        "Volgograd",
+        "Samara",
+        "Bryansk",
+        "Rostov",
+        "Russia"
+    ],
+    "Ukraine": [
+        "Western Ukraine",
+        "Bryansk",
+        "Rostov",
+        "Bessarabia",
+        "100 Sea Zone"
+    ],
+    "Western Ukraine": [
+        "Bryansk",
+        "Eastern Poland",
+        "Bessarabia",
+        "Ukraine"
+    ],
+    "Novosibirsk": [
+        "Urals",
+        "Vologda",
+        "Samara",
+        "Kazakhstan",
+        "Tsinghai",
+        "Kansu",
+        "Timguska"
+    ],
+    "Vologda": [
+        "Smolensk",
+        "Samara",
+        "Nenetsia",
+        "Urals",
+        "Archangel",
+        "Russia",
+        "Novosibirsk"
+    ],
+    "Volgograd": [
+        "Caucasus",
+        "Kazakhstan",
+        "Samara",
+        "Rostov",
+        "Tambov"
+    ],
+    "Turkmenistan": [
+        "Kazakhstan",
+        "Afghanistan",
+        "Eastern Persia",
+        "128 Sea Zone"
+    ],
+    "Novgorod": [
+        "Belarus",
+        "Karelia",
+        "Baltic States",
+        "Vyborg",
+        "Archangel",
+        "127 Sea Zone",
+        "115 Sea Zone"
+    ],
+    "Caucasus": [
+        "Kazakhstan",
+        "Rostov",
+        "Volgograd",
+        "100 Sea Zone",
+        "Turkey",
+        "Northwest Persia",
+        "128 Sea Zone"
+    ],
+    "Smolensk": [
+        "Belarus",
+        "Bryansk",
+        "Archangel",
+        "Russia",
+        "Vologda"
+    ],
+    "Samara": [
+        "Kazakhstan",
+        "Russia",
+        "Tambov",
+        "Novosibirsk",
+        "Vologda",
+        "Volgograd"
+    ],
+    "Portugal": [
+        "104 Sea Zone",
+        "Spain",
+        "91 Sea Zone"
+    ],
+    "Portuguese Guinea": [
+        "87 Sea Zone",
+        "French West Africa"
+    ],
+    "120 Sea Zone": [
+        "Quebec",
+        "Alberta Saskatchewan Manitoba",
+        "Ontario",
+        "121 Sea Zone"
+    ],
+    "Ecuador": [
+        "64 Sea Zone",
+        "Colombia",
+        "Peru"
+    ],
+    "112 Sea Zone": [
+        "113 Sea Zone",
+        "Western Germany",
+        "Norway",
+        "Denmark",
+        "125 Sea Zone",
+        "110 Sea Zone",
+        "111 Sea Zone"
+    ],
+    "100 Sea Zone": [
+        "Turkey",
+        "Romania",
+        "Rostov",
+        "Bessarabia",
+        "Bulgaria",
+        "Greece",
+        "Ukraine",
+        "99 Sea Zone",
+        "Caucasus"
+    ],
+    "119 Sea Zone": [
+        "123 Sea Zone",
+        "118 Sea Zone",
+        "Eire",
+        "109 Sea Zone",
+        "Scotland",
+        "111 Sea Zone",
+        "124 Sea Zone"
+    ],
+    "124 Sea Zone": [
+        "119 Sea Zone",
+        "123 Sea Zone",
+        "125 Sea Zone",
+        "111 Sea Zone"
+    ],
+    "125 Sea Zone": [
+        "126 Sea Zone",
+        "111 Sea Zone",
+        "Norway",
+        "112 Sea Zone",
+        "124 Sea Zone"
+    ],
+    "Chile": [
+        "65 Sea Zone",
+        "66 Sea Zone",
+        "Argentina",
+        "Bolivia",
+        "Peru"
+    ],
+    "Afghanistan": [
+        "West India",
+        "Eastern Persia",
+        "Turkmenistan",
+        "Kazakhstan",
+        "Himalayas"
+    ],
+    "80 Sea Zone": [
+        "76 Sea Zone",
+        "Saudi Arabia",
+        "Iraq",
+        "Eastern Persia",
+        "79 Sea Zone",
+        "77 Sea Zone",
+        "Persia"
+    ],
+    "113 Sea Zone": [
+        "Western Germany",
+        "Germany",
+        "Norway",
+        "114 Sea Zone",
+        "Denmark",
+        "Sweden",
+        "112 Sea Zone"
+    ],
+    "96 Sea Zone": [
+        "95 Sea Zone",
+        "94 Sea Zone",
+        "99 Sea Zone",
+        "97 Sea Zone",
+        "98 Sea Zone",
+        "Malta",
+        "Libya",
+        "Tobruk"
+    ],
+    "123 Sea Zone": [
+        "122 Sea Zone",
+        "118 Sea Zone",
+        "Iceland",
+        "117 Sea Zone",
+        "119 Sea Zone",
+        "124 Sea Zone"
+    ],
+    "116 Sea Zone": [
+        "122 Sea Zone",
+        "106 Sea Zone",
+        "117 Sea Zone",
+        "121 Sea Zone",
+        "Newfoundland Labrador"
+    ],
+    "65 Sea Zone": [
+        "66 Sea Zone",
+        "64 Sea Zone",
+        "51 Sea Zone",
+        "Peru",
+        "Chile"
+    ],
+    "Sierra Leone": [
+        "87 Sea Zone",
+        "Liberia",
+        "French West Africa"
+    ],
+    "108 Sea Zone": [
+        "118 Sea Zone",
+        "104 Sea Zone",
+        "109 Sea Zone",
+        "117 Sea Zone",
+        "103 Sea Zone",
+        "107 Sea Zone"
+    ],
+    "84 Sea Zone": [
+        "87 Sea Zone",
+        "86 Sea Zone",
+        "67 Sea Zone",
+        "85 Sea Zone",
+        "83 Sea Zone",
+        "68 Sea Zone"
+    ],
+    "122 Sea Zone": [
+        "117 Sea Zone",
+        "121 Sea Zone",
+        "123 Sea Zone",
+        "116 Sea Zone"
+    ],
+    "73 Sea Zone": [
+        "75 Sea Zone",
+        "74 Sea Zone",
+        "72 Sea Zone"
+    ],
+    "Turkey": [
+        "Syria",
+        "Greece",
+        "99 Sea Zone",
+        "Iraq",
+        "Northwest Persia",
+        "Caucasus",
+        "100 Sea Zone"
+    ],
+    "70 Sea Zone": [
+        "Belgian Congo",
+        "Angola",
+        "71 Sea Zone",
+        "82 Sea Zone",
+        "South West Africa",
+        "69 Sea Zone"
+    ],
+    "76 Sea Zone": [
+        "Saudi Arabia",
+        "British Somaliland",
+        "72 Sea Zone",
+        "81 Sea Zone",
+        "Italian Somaliland",
+        "77 Sea Zone",
+        "Ethiopia",
+        "80 Sea Zone"
+    ],
+    "Mozambique": [
+        "Union of South Africa",
+        "72 Sea Zone",
+        "71 Sea Zone",
+        "Rhodesia",
+        "Tanganyika Territory"
+    ],
+    "118 Sea Zone": [
+        "109 Sea Zone",
+        "117 Sea Zone",
+        "119 Sea Zone",
+        "123 Sea Zone",
+        "108 Sea Zone"
+    ],
+    "104 Sea Zone": [
+        "109 Sea Zone",
+        "103 Sea Zone",
+        "Spain",
+        "91 Sea Zone",
+        "110 Sea Zone",
+        "105 Sea Zone",
+        "Portugal",
+        "108 Sea Zone"
+    ],
+    "95 Sea Zone": [
+        "94 Sea Zone",
+        "93 Sea Zone",
+        "Northern Italy",
+        "97 Sea Zone",
+        "Sicily",
+        "Southern Italy",
+        "Sardinia",
+        "96 Sea Zone"
+    ],
+    "Saudi Arabia": [
+        "Trans-Jordan",
+        "Iraq",
+        "81 Sea Zone",
+        "80 Sea Zone",
+        "76 Sea Zone"
+    ],
+    "Paraguay": [
+        "Argentina",
+        "Brazil",
+        "Bolivia"
+    ],
+    "75 Sea Zone": [
+        "74 Sea Zone",
+        "77 Sea Zone",
+        "78 Sea Zone",
+        "58 Sea Zone",
+        "73 Sea Zone",
+        "72 Sea Zone"
+    ],
+    "87 Sea Zone": [
+        "86 Sea Zone",
+        "83 Sea Zone",
+        "Liberia",
+        "91 Sea Zone",
+        "88 Sea Zone",
+        "French West Africa",
+        "Portuguese Guinea",
+        "Sierra Leone",
+        "84 Sea Zone"
+    ],
+    "Switzerland": [
+        "Northern Italy",
+        "France",
+        "Western Germany"
+    ],
+    "106 Sea Zone": [
+        "New Brunswick Nova Scotia",
+        "102 Sea Zone",
+        "117 Sea Zone",
+        "101 Sea Zone",
+        "107 Sea Zone",
+        "Quebec",
+        "116 Sea Zone"
+    ],
+    "86 Sea Zone": [
+        "85 Sea Zone",
+        "Brazil",
+        "88 Sea Zone",
+        "84 Sea Zone",
+        "87 Sea Zone"
+    ],
+    "Pripet Marshes": [],
+    "94 Sea Zone": [
+        "93 Sea Zone",
+        "92 Sea Zone",
+        "Tunisia",
+        "Algeria",
+        "96 Sea Zone",
+        "95 Sea Zone"
+    ],
+    "67 Sea Zone": [
+        "66 Sea Zone",
+        "85 Sea Zone",
+        "68 Sea Zone",
+        "84 Sea Zone"
+    ],
+    "89 Sea Zone": [
+        "West Indies",
+        "102 Sea Zone",
+        "Central America",
+        "90 Sea Zone",
+        "101 Sea Zone",
+        "Southeast Mexico",
+        "Venezuela",
+        "88 Sea Zone",
+        "64 Sea Zone"
+    ],
+    "74 Sea Zone": [
+        "58 Sea Zone",
+        "59 Sea Zone",
+        "73 Sea Zone",
+        "75 Sea Zone"
+    ],
+    "102 Sea Zone": [
+        "90 Sea Zone",
+        "101 Sea Zone",
+        "103 Sea Zone",
+        "107 Sea Zone",
+        "106 Sea Zone",
+        "89 Sea Zone"
+    ],
+    "93 Sea Zone": [
+        "92 Sea Zone",
+        "Spain",
+        "Southern France",
+        "95 Sea Zone",
+        "94 Sea Zone"
+    ],
+    "66 Sea Zone": [
+        "85 Sea Zone",
+        "51 Sea Zone",
+        "52 Sea Zone",
+        "Argentina",
+        "Chile",
+        "65 Sea Zone",
+        "67 Sea Zone"
+    ],
+    "85 Sea Zone": [
+        "Argentina",
+        "Uruguay",
+        "Brazil",
+        "84 Sea Zone",
+        "86 Sea Zone",
+        "67 Sea Zone",
+        "66 Sea Zone"
+    ],
+    "Eire": [
+        "109 Sea Zone",
+        "Scotland",
+        "119 Sea Zone"
+    ],
+    "Crete": [
+        "99 Sea Zone"
+    ],
+    "Argentina": [
+        "Uruguay",
+        "Brazil",
+        "Bolivia",
+        "Chile",
+        "Paraguay",
+        "66 Sea Zone",
+        "85 Sea Zone"
+    ],
+    "Bulgaria": [
+        "Greece",
+        "Yugoslavia",
+        "Romania",
+        "Albania",
+        "100 Sea Zone"
+    ],
+    "109 Sea Zone": [
+        "Scotland",
+        "United Kingdom",
+        "Scotland",
+        "119 Sea Zone",
+        "108 Sea Zone",
+        "118 Sea Zone",
+        "104 Sea Zone",
+        "Eire",
+        "110 Sea Zone"
+    ],
+    "117 Sea Zone": [
+        "107 Sea Zone",
+        "123 Sea Zone",
+        "116 Sea Zone",
+        "108 Sea Zone",
+        "122 Sea Zone",
+        "118 Sea Zone",
+        "106 Sea Zone"
+    ],
+    "Angola": [
+        "South West Africa",
+        "Rhodesia",
+        "Belgian Congo",
+        "70 Sea Zone"
+    ],
+    "64 Sea Zone": [
+        "89 Sea Zone",
+        "Southeast Mexico",
+        "Colombia",
+        "11 Sea Zone",
+        "28 Sea Zone",
+        "51 Sea Zone",
+        "Central America",
+        "Ecuador",
+        "65 Sea Zone"
+    ],
+    "Greece": [
+        "99 Sea Zone",
+        "97 Sea Zone",
+        "Albania",
+        "100 Sea Zone",
+        "Turkey",
+        "Bulgaria"
+    ],
+    "99 Sea Zone": [
+        "Crete",
+        "97 Sea Zone",
+        "Cyprus",
+        "98 Sea Zone",
+        "Syria",
+        "100 Sea Zone",
+        "96 Sea Zone",
+        "Turkey",
+        "Greece"
+    ],
+    "97 Sea Zone": [
+        "Southern Italy",
+        "Yugoslavia",
+        "Albania",
+        "Northern Italy",
+        "96 Sea Zone",
+        "95 Sea Zone",
+        "Greece",
+        "99 Sea Zone"
+    ],
+    "Iraq": [
+        "Northwest Persia",
+        "Persia",
+        "Trans-Jordan",
+        "Syria",
+        "80 Sea Zone",
+        "Turkey",
+        "Saudi Arabia"
+    ],
+    "92 Sea Zone": [
+        "Spain",
+        "91 Sea Zone",
+        "Gibraltar",
+        "Morocco",
+        "Algeria",
+        "94 Sea Zone",
+        "93 Sea Zone"
+    ],
+    "90 Sea Zone": [
+        "103 Sea Zone",
+        "91 Sea Zone",
+        "88 Sea Zone",
+        "89 Sea Zone",
+        "102 Sea Zone"
+    ],
+    "Eastern Persia": [
+        "Persia",
+        "Turkmenistan",
+        "West India",
+        "Afghanistan",
+        "80 Sea Zone",
+        "128 Sea Zone"
+    ],
+    "72 Sea Zone": [
+        "French Madagascar",
+        "75 Sea Zone",
+        "71 Sea Zone",
+        "77 Sea Zone",
+        "Kenya",
+        "Tanganyika Territory",
+        "73 Sea Zone",
+        "76 Sea Zone",
+        "Mozambique"
+    ],
+    "101 Sea Zone": [
+        "Eastern United States",
+        "Central United States",
+        "106 Sea Zone",
+        "89 Sea Zone",
+        "102 Sea Zone"
+    ],
+    "114 Sea Zone": [
+        "115 Sea Zone",
+        "Sweden",
+        "Poland",
+        "Germany",
+        "113 Sea Zone"
+    ],
+    "71 Sea Zone": [
+        "Union of South Africa",
+        "70 Sea Zone",
+        "Mozambique",
+        "72 Sea Zone"
+    ],
+    "81 Sea Zone": [
+        "98 Sea Zone",
+        "Anglo Egyptian Sudan",
+        "Trans-Jordan",
+        "Egypt",
+        "76 Sea Zone",
+        "Saudi Arabia"
+    ],
+    "79 Sea Zone": [
+        "77 Sea Zone",
+        "78 Sea Zone",
+        "39 Sea Zone",
+        "West India",
+        "80 Sea Zone"
+    ],
+    "Uruguay": [
+        "Brazil",
+        "85 Sea Zone",
+        "Argentina"
+    ],
+    "83 Sea Zone": [
+        "82 Sea Zone",
+        "69 Sea Zone",
+        "Liberia",
+        "68 Sea Zone",
+        "French West Africa",
+        "84 Sea Zone",
+        "87 Sea Zone"
+    ],
+    "77 Sea Zone": [
+        "78 Sea Zone",
+        "80 Sea Zone",
+        "76 Sea Zone",
+        "75 Sea Zone",
+        "72 Sea Zone",
+        "79 Sea Zone"
+    ],
+    "121 Sea Zone": [
+        "Greenland",
+        "Quebec",
+        "Alberta Saskatchewan Manitoba",
+        "120 Sea Zone",
+        "116 Sea Zone",
+        "122 Sea Zone"
+    ],
+    "82 Sea Zone": [
+        "Nigeria",
+        "69 Sea Zone",
+        "Gold Coast",
+        "French Equatorial Africa",
+        "French West Africa",
+        "70 Sea Zone",
+        "83 Sea Zone"
+    ],
+    "Brazil": [
+        "Venezuela",
+        "Colombia",
+        "Bolivia",
+        "Peru",
+        "Suriname",
+        "British Guiana",
+        "French Guiana",
+        "Paraguay",
+        "86 Sea Zone",
+        "85 Sea Zone",
+        "Argentina",
+        "Uruguay"
+    ],
+    "Venezuela": [
+        "Colombia",
+        "British Guiana",
+        "89 Sea Zone",
+        "Brazil"
+    ],
+    "127 Sea Zone": [
+        "126 Sea Zone",
+        "Novgorod",
+        "Finland",
+        "Karelia",
+        "Nenetsia",
+        "Archangel"
+    ],
+    "Northwest Persia": [
+        "Persia",
+        "Caucasus",
+        "Turkey",
+        "Iraq",
+        "128 Sea Zone"
+    ],
+    "Persia": [
+        "80 Sea Zone",
+        "Iraq",
+        "Eastern Persia",
+        "Northwest Persia",
+        "128 Sea Zone"
+    ],
+    "Sweden": [
+        "Finland",
+        "Norway",
+        "113 Sea Zone",
+        "114 Sea Zone",
+        "115 Sea Zone"
+    ],
+    "115 Sea Zone": [
+        "Sweden",
+        "Novgorod",
+        "Finland",
+        "Baltic States",
+        "Vyborg",
+        "114 Sea Zone"
+    ],
+    "103 Sea Zone": [
+        "91 Sea Zone",
+        "107 Sea Zone",
+        "108 Sea Zone",
+        "104 Sea Zone",
+        "102 Sea Zone",
+        "90 Sea Zone"
+    ],
+    "Yugoslavia": [
+        "Greater Southern Germany",
+        "Slovakia Hungary",
+        "Romania",
+        "Albania",
+        "Northern Italy",
+        "Bulgaria",
+        "97 Sea Zone"
+    ],
+    "Spain": [
+        "91 Sea Zone",
+        "105 Sea Zone",
+        "Gibraltar",
+        "Normandy Bordeaux",
+        "Southern France",
+        "Portugal",
+        "104 Sea Zone",
+        "93 Sea Zone",
+        "92 Sea Zone"
+    ],
+    "Colombia": [
+        "Peru",
+        "Central America",
+        "Ecuador",
+        "64 Sea Zone",
+        "Brazil",
+        "Venezuela"
+    ],
+    "69 Sea Zone": [
+        "68 Sea Zone",
+        "70 Sea Zone",
+        "83 Sea Zone",
+        "82 Sea Zone"
+    ],
+    "Bolivia": [
+        "Peru",
+        "Chile",
+        "Paraguay",
+        "Argentina",
+        "Brazil"
+    ],
+    "Liberia": [
+        "French West Africa",
+        "Sierra Leone",
+        "87 Sea Zone",
+        "83 Sea Zone"
+    ],
+    "Peru": [
+        "Ecuador",
+        "Chile",
+        "65 Sea Zone",
+        "Brazil",
+        "Colombia",
+        "Bolivia"
+    ],
+    "126 Sea Zone": [
+        "Norway",
+        "125 Sea Zone",
+        "127 Sea Zone"
+    ],
+    "98 Sea Zone": [
+        "Trans-Jordan",
+        "Alexandria",
+        "Egypt",
+        "Syria",
+        "96 Sea Zone",
+        "99 Sea Zone",
+        "81 Sea Zone"
+    ],
+    "91 Sea Zone": [
+        "88 Sea Zone",
+        "Gibraltar",
+        "Rio de Oro",
+        "Morocco",
+        "Portugal",
+        "104 Sea Zone",
+        "87 Sea Zone",
+        "92 Sea Zone",
+        "90 Sea Zone",
+        "103 Sea Zone",
+        "Spain"
+    ],
+    "Finland": [
+        "Norway",
+        "Karelia",
+        "Vyborg",
+        "127 Sea Zone",
+        "Sweden",
+        "115 Sea Zone"
+    ],
+    "78 Sea Zone": [
+        "39 Sea Zone",
+        "40 Sea Zone",
+        "58 Sea Zone",
+        "75 Sea Zone",
+        "79 Sea Zone",
+        "77 Sea Zone"
+    ],
+    "Suriname": [
+        "88 Sea Zone",
+        "British Guiana",
+        "French Guiana",
+        "Brazil"
+    ],
+    "107 Sea Zone": [
+        "108 Sea Zone",
+        "106 Sea Zone",
+        "102 Sea Zone",
+        "117 Sea Zone",
+        "103 Sea Zone"
+    ],
+    "110 Sea Zone": [
+        "109 Sea Zone",
+        "111 Sea Zone",
+        "105 Sea Zone",
+        "United Kingdom",
+        "Normandy Bordeaux",
+        "Holland Belgium",
+        "112 Sea Zone",
+        "104 Sea Zone"
+    ],
+    "111 Sea Zone": [
+        "Scotland",
+        "112 Sea Zone",
+        "119 Sea Zone",
+        "124 Sea Zone",
+        "125 Sea Zone",
+        "110 Sea Zone"
+    ],
+    "68 Sea Zone": [
+        "84 Sea Zone",
+        "67 Sea Zone",
+        "83 Sea Zone",
+        "69 Sea Zone"
+    ],
+    "88 Sea Zone": [
+        "British Guiana",
+        "French Guiana",
+        "87 Sea Zone",
+        "86 Sea Zone",
+        "89 Sea Zone",
+        "90 Sea Zone",
+        "91 Sea Zone",
+        "Suriname"
+    ],
+    "105 Sea Zone": [
+        "Normandy Bordeaux",
+        "104 Sea Zone",
+        "Spain",
+        "110 Sea Zone"
+    ],
+    "128 Sea Zone": [
+        "Turkmenistan",
+        "Caucasus",
+        "Kazakhstan",
+        "Northwest Persia",
+        "Persia",
+        "Eastern Persia"
+    ]
+}
