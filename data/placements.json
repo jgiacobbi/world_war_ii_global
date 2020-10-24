@@ -272,7 +272,7 @@
         "owner": "UK_Pacific",
         "occupier": "UK_Pacific"
     },
-    "Britain Columbia": {
+    "British Columbia": {
         "owner": "Britain",
         "occupier": "Britain"
     },
@@ -533,7 +533,7 @@
         "owner": "Russia",
         "occupier": "Russia"
     },
-    "France Indo China": {
+    "French Indo China": {
         "owner": "France",
         "occupier": "France"
     },
@@ -810,7 +810,7 @@
         "owner": "Britain",
         "occupier": "Britain"
     },
-    "Britain Somaliland": {
+    "British Somaliland": {
         "owner": "Britain",
         "occupier": "Britain"
     },
@@ -874,7 +874,7 @@
         "owner": "Britain",
         "occupier": "Britain"
     },
-    "Britain Guiana": {
+    "British Guiana": {
         "owner": "Britain",
         "occupier": "Britain"
     },
@@ -981,7 +981,7 @@
         "owner": "France",
         "occupier": "France"
     },
-    "France Equatorial Africa": {
+    "French Equatorial Africa": {
         "owner": "France",
         "occupier": "France"
     },
@@ -997,15 +997,15 @@
         "owner": "France",
         "occupier": "France"
     },
-    "France Central Africa": {
+    "French Central Africa": {
         "owner": "France",
         "occupier": "France"
     },
-    "France Madagascar": {
+    "French Madagascar": {
         "owner": "France",
         "occupier": "France"
     },
-    "France Guiana": {
+    "French Guiana": {
         "owner": "France",
         "occupier": "France"
     },
@@ -1039,7 +1039,7 @@
         "owner": "France",
         "occupier": "France"
     },
-    "France West Africa": {
+    "French West Africa": {
         "units": {
             "France": {
                 "infantry": 1
