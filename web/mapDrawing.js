@@ -6,21 +6,21 @@ color.Neutral="#d8ba7c";
 color.Neutral_True="#b88a6c";
 color.Neutral_Axis="#6A5B3D";
 color.Neutral_Allies="3d8ba7c";
-color.Italians="#58360E";
+color.Italy="#58360E";
 color.British="#916400";
 color.UK_Europe="#916400";
 color.UK_Pacific="#8E6600";
-color.French="#156CC4";
+color.France="#156CC4";
 color.Impassable="#d8ba7c";
-color.Americans="#5a5a00";
-color.Russians="#af2828";
-color.Germans="#5a5a5a";
-color.Japanese="#DCB53F";
-color.Chinese="#713778";
+color.America="#5a5a00";
+color.Russia="#af2828";
+color.Germany="#5a5a5a";
+color.Japan="#DCB53F";
+color.China="#713778";
 color.Canada="#bf0010";
 color.ANZAC="#4d7f7f";
 color.Dutch="#ff6d00";
-color.Mongolians="#d8ba7c";
+color.Mongolia="#d8ba7c";
 
 
 function drawCapitals() {
@@ -85,6 +85,6 @@ function selectColor(territoryName) {
     if (territoryName.search("Sea Zone") !== -1) {
         return "#0000ff";
     } else {
-        return color[placements[territoryName][occupier]];
+        return color[placements[territoryName].occupier];
     }
 }
