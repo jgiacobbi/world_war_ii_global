@@ -1,11 +1,13 @@
+
 canvas.addEventListener('click', function(e) {
     var bounds= canvas.getBoundingClientRect();
     var mouseXY = [e.clientX-bounds.left, e.clientY-bounds.top]
-    for (i = 0; i < mapData.length; i++) {
-        var name = mapData[i].name;
+    var polygonKeys = Object.keys(polygons);
+    for (i = 0; i < polygonKeys.length; i++) {
+        var name = polygonKeys[i];
         var j;
-        for (j = 0; j < mapData[i].landmasses.length; j++) {
-            var coordinates = mapData[i].landmasses[j].coordinates;
+        for (j = 0; j < polygons[name].length; j++) {
+            var coordinates = polygons[name][j];
             var k;
             let region = new Path2D();
             region.moveTo(coordinates[0][0],coordinates[0][1]);
@@ -18,5 +20,4 @@ canvas.addEventListener('click', function(e) {
             }
         }
     }
-
 });
