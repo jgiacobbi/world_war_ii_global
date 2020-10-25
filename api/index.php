@@ -54,5 +54,11 @@ $app->get('/placements', function (Request $request, Response $response, $args) 
     return $response->withHeader('Content-Type', 'application/json');
 });
 
+$app->get('/polygons', function (Request $request, Response $response, $args) {
+    $response->getBody()->write(file_get_contents("../data/polygons.json"));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+
 // Run app
 $app->run();
