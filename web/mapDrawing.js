@@ -1,26 +1,28 @@
 var canvas = document.getElementById("mycanvas");
 var ctx = canvas.getContext("2d");
 
-var color = Object;
-color.Neutral="#d8ba7c";
-color.Neutral_True="#b88a6c";
-color.Neutral_Axis="#6A5B3D";
-color.Neutral_Allies="3d8ba7c";
-color.Italy="#58360E";
-color.British="#916400";
-color.UK_Europe="#916400";
-color.UK_Pacific="#8E6600";
-color.France="#156CC4";
-color.Impassable="#d8ba7c";
-color.America="#5a5a00";
-color.Russia="#af2828";
-color.Germany="#5a5a5a";
-color.Japan="#DCB53F";
-color.China="#713778";
-color.Canada="#bf0010";
-color.ANZAC="#4d7f7f";
-color.Dutch="#ff6d00";
-color.Mongolia="#d8ba7c";
+var color = {
+    "Neutral": "#d8ba7c",
+    "Neutral_True": "#b88a6c",
+    "Neutral_Axis": "#6A5B3D",
+    "Neutral_Allies": "3d8ba7c",
+    "Italy": "#58360E",
+    "British": "#916400",
+    "Britain": "#916400",
+    "UK_Europe": "#916400",
+    "UK_Pacific": "#8E6600",
+    "France": "#156CC4",
+    "Impassable": "#d8ba7c",
+    "America": "#5a5a00",
+    "Russia": "#af2828",
+    "Germany": "#5a5a5a",
+    "Japan": "#DCB53F",
+    "China": "#713778",
+    "Canada": "#bf0010",
+    "ANZAC": "#4d7f7f",
+    "Dutch": "#ff6d00",
+    "Mongolia": "#d8ba7c"
+};
 
 
 function drawCapitals() {
@@ -48,21 +50,30 @@ function drawCapitals() {
 
 function drawMap() {
     var i;
-    // Draw background country colors
-    for (i = 0; i < polygons.length; i++) {
-        drawTerritory(true, polygons[i]);
+    var polygonKeys = Object.keys(polygons);
+    // Draw Waters
+    for (i = 0; i < polygonKeys.length; i++) {
+        if (polygonKeys[i].search("Sea Zone") !== -1) {
+            drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
+        }
     }
-    // Draw territory boundaries
-    for (i = 0; i < polygons.length; i++) {
-        drawTerritory(false, polygons[i]);
+    // Draw background country colors
+    for (i = 0; i < polygonKeys.length; i++) {
+        if (polygonKeys[i].search("Sea Zone") === -1) {
+            drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
+        }
+    }
+    // Draw territory and sea boundaries
+    for (i = 0; i < polygonKeys.length; i++) {
+        drawTerritory(false, polygons[polygonKeys[i]], polygonKeys[i]);
     }
 }
 
-function drawTerritory(fill, territory) {
-    ctx.fillStyle = selectColor(territory.name);
+function drawTerritory(fill, territory, territoryName) {
+    ctx.fillStyle = selectColor(territoryName);
     var i;
-    for (i = 0; i < territory.landmasses.length; i++) {
-        var coordinates = territory.landmasses[i].coordinates;
+    for (i = 0; i < territory.length; i++) {
+        var coordinates = territory[i];
         var j;
         ctx.beginPath();
         ctx.moveTo(coordinates[0][0],coordinates[0][1]);
@@ -85,6 +96,14 @@ function selectColor(territoryName) {
     if (territoryName.search("Sea Zone") !== -1) {
         return "#0000ff";
     } else {
-        return color[placements[territoryName].occupier];
+        if (placements.hasOwnProperty(territoryName)) {
+            if (placements[territoryName].hasOwnProperty('occupier')) {
+                return color[placements[territoryName].occupier];
+            } else {
+                return "#ffffff";
+            }
+        } else {
+            return "#ffffff";
+        }
     }
 }
