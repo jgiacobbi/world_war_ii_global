@@ -3,7 +3,9 @@
    <script src="jquery-3.5.1.min.js"></script>
    </head>
    <body>
-      <canvas id="mycanvas" width="7705" height="3213"></canvas>
+      <canvas id="mycanvas" width="7705" height="3213">
+         background-color: blue;
+      </canvas>
    </body>
 
 <script src="mapDrawing.js"></script>

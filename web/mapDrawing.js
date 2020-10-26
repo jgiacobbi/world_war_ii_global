@@ -80,11 +80,12 @@ function drawTerritory(fill, territory, territoryName) {
         for (j = 0; j < coordinates.length; j++) {
             ctx.lineTo(coordinates[j][0],coordinates[j][1]);
         }
+        ctx.lineTo(coordinates[0][0],coordinates[0][1]);
         if (fill) {
             ctx.fill('evenodd');
         } else {
             ctx.strokeStyle = "#ffffff";
-            ctx.lineWidth = 5;
+            ctx.lineWidth = 1;
             console.log("stroking");
             ctx.stroke();
         }
