@@ -1,6 +1,10 @@
 var canvas = document.getElementById("mycanvas");
 var ctx = canvas.getContext("2d");
 
+// Set background blue for lakes
+ctx.fillStyle = "blue";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
 var color = {
     "Neutral": "#d8ba7c",
     "Neutral_True": "#b88a6c",
