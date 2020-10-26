@@ -73,7 +73,7 @@ $app->get('/load/{user}/{gameid}', function (Request $request, Response $respons
     $json = ["success" => false, "reason" => "unknown"]; 
     if ($placements === false) {
         $json["reason"] = "Missing placements";
-    } else if ($sate === false) {
+    } else if ($state === false) {
          $json["reason"] = "Missing sate";
     } else {
         $json["success"] = true;
