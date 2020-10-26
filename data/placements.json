@@ -1,0 +1,1849 @@
+{
+    "Caroline Islands": {
+        "units": {
+            "Japan": {
+                "infantry": 2,
+                "aaGun": 1,
+                "airfield": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Iwo Jima": {
+        "units": {
+            "Japan": {
+                "infantry": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Palau Island": {
+        "units": {
+            "Japan": {
+                "infantry": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Marshall Islands": {
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Shantung": {
+        "units": {
+            "Japan": {
+                "infantry": 3,
+                "artillery": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Formosa": {
+        "units": {
+            "Japan": {
+                "fighter": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Kwangsi": {
+        "units": {
+            "Japan": {
+                "infantry": 3,
+                "artillery": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Korea": {
+        "units": {
+            "Japan": {
+                "infantry": 4,
+                "fighter": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Kiangsu": {
+        "units": {
+            "Japan": {
+                "infantry": 3,
+                "artillery": 1,
+                "fighter": 1,
+                "tactical_bomber": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Kiangsi": {
+        "units": {
+            "Japan": {
+                "infantry": 3,
+                "artillery": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Japan": {
+        "units": {
+            "Japan": {
+                "infantry": 6,
+                "artillery": 2,
+                "armour": 1,
+                "fighter": 2,
+                "tactical_bomber": 2,
+                "bomber": 2,
+                "aaGun": 3,
+                "airfield": 1,
+                "harbour": 1,
+                "factory_major": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Jehol": {
+        "units": {
+            "Japan": {
+                "infantry": 2,
+                "artillery": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Okinawa": {
+        "units": {
+            "Japan": {
+                "infantry": 1,
+                "fighter": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Marianas": {
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Siam": {
+        "units": {
+            "Japan": {
+                "infantry": 2
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Manchuria": {
+        "units": {
+            "Japan": {
+                "infantry": 6,
+                "mech_infantry": 1,
+                "artillery": 1,
+                "aaGun": 1,
+                "fighter": 2,
+                "tactical_bomber": 2
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Hainan": {
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Shensi": {
+        "units": {
+            "China": {
+                "infantry": 1
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Yunnan": {
+        "units": {
+            "China": {
+                "infantry": 4
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Suiyuyan": {
+        "units": {
+            "China": {
+                "infantry": 2
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Kweichow": {
+        "units": {
+            "China": {
+                "infantry": 2
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Hunan": {
+        "units": {
+            "China": {
+                "infantry": 2
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Kansu": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Hopei": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Tsinghai": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Szechwan": {
+        "units": {
+            "China": {
+                "infantry": 6,
+                "fighter": 1
+            }
+        },
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Chahar": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Sikang": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Anhwe": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "Gilbert Islands": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Fiji": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Ceylon": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Samoa": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Shan State": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Burma": {
+        "units": {
+            "Britain": {
+                "infantry": 2,
+                "fighter": 1
+            }
+        },
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "British Columbia": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "India": {
+        "units": {
+            "Britain": {
+                "infantry": 6,
+                "artillery": 1,
+                "aaGun": 3,
+                "fighter": 1,
+                "tactical_bomber": 1
+            },
+            "UK_Pacific": {
+                "airfield": 1,
+                "harbour": 1,
+                "factory_major": 1
+            }
+        },
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Malaya": {
+        "units": {
+            "ANZAC": {
+                "infantry": 1
+            },
+            "Britain": {
+                "infantry": 3
+            },
+            "UK_Pacific": {
+                "harbour": 1
+            }
+        },
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Borneo": {
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Kwangtung": {
+        "units": {
+            "Britain": {
+                "infantry": 2
+            },
+            "UK_Pacific": {
+                "harbour": 1
+            }
+        },
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Queensland": {
+        "units": {
+            "ANZAC": {
+                "infantry": 2,
+                "artillery": 1,
+                "fighter": 1,
+                "airfield": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "Victoria": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "New Britain": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "Northern Territory": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "New Zealand": {
+        "units": {
+            "ANZAC": {
+                "infantry": 1,
+                "fighter": 2,
+                "airfield": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "New South Wales": {
+        "units": {
+            "ANZAC": {
+                "infantry": 2,
+                "aaGun": 2,
+                "factory_minor": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "South Australia": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "Western Australia": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "Solomon Islands": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "New Guinea": {
+        "owner": "ANZAC",
+        "occupier": "ANZAC"
+    },
+    "Philippines": {
+        "units": {
+            "America": {
+                "infantry": 2,
+                "fighter": 1,
+                "airfield": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Line Islands": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Mexico": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Guam": {
+        "units": {
+            "America": {
+                "airfield": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Wake Island": {
+        "units": {
+            "America": {
+                "airfield": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Western United States": {
+        "units": {
+            "America": {
+                "infantry": 2,
+                "mech_infantry": 1,
+                "artillery": 1,
+                "fighter": 1,
+                "aaGun": 2,
+                "airfield": 1,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Alaska": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Aleutian Islands": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Johnston Island": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Hawaiian Islands": {
+        "units": {
+            "America": {
+                "infantry": 2,
+                "fighter": 2,
+                "airfield": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Midway": {
+        "units": {
+            "America": {
+                "airfield": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Sakha": {
+        "units": {
+            "Russia": {
+                "infantry": 6,
+                "aaGun": 2
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Evenkiyskiy": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Yenisey": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Soviet Far East": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Amur": {
+        "units": {
+            "Russia": {
+                "infantry": 6
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Yakut S.S.R.": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Timguska": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Siberia": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Kazakhstan": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Buryatia": {
+        "units": {
+            "Russia": {
+                "infantry": 6
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "French Indo China": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "New Hebrides": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Celebes": {
+        "owner": "Dutch",
+        "occupier": "Dutch"
+    },
+    "Java": {
+        "owner": "Dutch",
+        "occupier": "Dutch"
+    },
+    "Dutch New Guinea": {
+        "owner": "Dutch",
+        "occupier": "Dutch"
+    },
+    "Sumatra": {
+        "owner": "Dutch",
+        "occupier": "Dutch"
+    },
+    "Olgiy": {
+        "units": {
+            "Mongolia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "33 Sea Zone": {
+        "units": {
+            "Japan": {
+                "destroyer": 1,
+                "carrier": 1,
+                "fighter": 1,
+                "tactical_bomber": 1
+            }
+        }
+    },
+    "37 Sea Zone": {
+        "units": {
+            "Britain": {
+                "battleship": 1
+            }
+        }
+    },
+    "35 Sea Zone": {
+        "units": {
+            "America": {
+                "destroyer": 1,
+                "submarine": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Dzavhan": {
+        "units": {
+            "Mongolia": {
+                "infantry": 1
+            }
+        },
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "39 Sea Zone": {
+        "units": {
+            "Britain": {
+                "destroyer": 1,
+                "cruiser": 1,
+                "transport": 1
+            }
+        }
+    },
+    "26 Sea Zone": {
+        "units": {
+            "America": {
+                "submarine": 1,
+                "destroyer": 1,
+                "cruiser": 1,
+                "transport": 1
+            }
+        }
+    },
+    "20 Sea Zone": {
+        "units": {
+            "Japan": {
+                "cruiser": 1,
+                "transport": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "22 Sea Zone": {
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "10 Sea Zone": {
+        "units": {
+            "America": {
+                "battleship": 1,
+                "cruiser": 1,
+                "destroyer": 1,
+                "transport": 1,
+                "carrier": 1,
+                "fighter": 1,
+                "tactical_bomber": 1
+            }
+        }
+    },
+    "19 Sea Zone": {
+        "units": {
+            "Japan": {
+                "submarine": 1,
+                "battleship": 1,
+                "destroyer": 1,
+                "transport": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Central Mongolia": {
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "17 Sea Zone": {
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Himalayas": {
+        "owner": "China",
+        "occupier": "China"
+    },
+    "6 Sea Zone": {
+        "units": {
+            "Japan": {
+                "submarine": 1,
+                "destroyer": 2,
+                "carrier": 2,
+                "fighter": 2,
+                "tactical_bomber": 2,
+                "cruiser": 1,
+                "battleship": 1,
+                "transport": 1
+            }
+        },
+        "owner": "Japan",
+        "occupier": "Japan"
+    },
+    "Buyant-Uhaa": {
+        "units": {
+            "Mongolia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "Ulaanbaatar": {
+        "units": {
+            "Mongolia": {
+                "infantry": 1
+            }
+        },
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "Tsagaan Olom": {
+        "owner": "Mongolia",
+        "occupier": "Mongolia"
+    },
+    "63 Sea Zone": {
+        "units": {
+            "ANZAC": {
+                "cruiser": 1
+            }
+        }
+    },
+    "62 Sea Zone": {
+        "units": {
+            "ANZAC": {
+                "destroyer": 1,
+                "transport": 1
+            }
+        }
+    },
+    "West Indies": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Central United States": {
+        "units": {
+            "America": {
+                "infantry": 1,
+                "mech_infantry": 3,
+                "armour": 1,
+                "bomber": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Central America": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Greenland": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Southeast Mexico": {
+        "owner": "America",
+        "occupier": "America"
+    },
+    "Eastern United States": {
+        "units": {
+            "America": {
+                "infantry": 1,
+                "fighter": 1,
+                "artillery": 1,
+                "aaGun": 2,
+                "airfield": 1,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "America",
+        "occupier": "America"
+    },
+    "West India": {
+        "units": {
+            "Britain": {
+                "infantry": 1
+            }
+        },
+        "owner": "UK_Pacific",
+        "occupier": "UK_Pacific"
+    },
+    "Belgian Congo": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Iceland": {
+        "units": {
+            "Britain": {
+                "airfield": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Quebec": {
+        "units": {
+            "Britain": {
+                "infantry": 1,
+                "armour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Alberta Saskatchewan Manitoba": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Trans-Jordan": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "British Somaliland": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Alexandria": {
+        "units": {
+            "Britain": {
+                "infantry": 2,
+                "artillery": 1,
+                "armour": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Gibraltar": {
+        "units": {
+            "Britain": {
+                "fighter": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "New Brunswick Nova Scotia": {
+        "units": {
+            "Britain": {
+                "harbour": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Egypt": {
+        "units": {
+            "ANZAC": {
+                "infantry": 2
+            },
+            "Britain": {
+                "infantry": 1,
+                "artillery": 1,
+                "mech_infantry": 1,
+                "harbour": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Union of South Africa": {
+        "units": {
+            "Britain": {
+                "infantry": 2,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Cyprus": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "British Guiana": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Gold Coast": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Rio de Oro": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Ontario": {
+        "units": {
+            "Britain": {
+                "infantry": 1,
+                "artillery": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Scotland": {
+        "units": {
+            "Britain": {
+                "infantry": 2,
+                "fighter": 1,
+                "airfield": 1,
+                "aaGun": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "South West Africa": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Nigeria": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Kenya": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Malta": {
+        "units": {
+            "Britain": {
+                "infantry": 1,
+                "fighter": 1,
+                "aaGun": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "United Kingdom": {
+        "units": {
+            "Britain": {
+                "infantry": 2,
+                "mech_infantry": 1,
+                "fighter": 2,
+                "bomber": 1,
+                "aaGun": 4,
+                "airfield": 1,
+                "harbour": 1,
+                "factory_major": 1
+            },
+            "France": {
+                "infantry": 2,
+                "fighter": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Anglo Egyptian Sudan": {
+        "units": {
+            "Britain": {
+                "infantry": 1
+            }
+        },
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Rhodesia": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Tanganyika Territory": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Newfoundland Labrador": {
+        "owner": "Britain",
+        "occupier": "Britain"
+    },
+    "Morocco": {
+        "units": {
+            "France": {
+                "infantry": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "French Equatorial Africa": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Normandy Bordeaux": {
+        "units": {
+            "France": {
+                "infantry": 1,
+                "artillery": 1,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "French Central Africa": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "French Madagascar": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "French Guiana": {
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Algeria": {
+        "units": {
+            "France": {
+                "infantry": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Southern France": {
+        "units": {
+            "France": {
+                "infantry": 1,
+                "artillery": 1,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Syria": {
+        "units": {
+            "France": {
+                "infantry": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "French West Africa": {
+        "units": {
+            "France": {
+                "infantry": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "France": {
+        "units": {
+            "Britain": {
+                "artillery": 1,
+                "armour": 1
+            },
+            "France": {
+                "infantry": 6,
+                "artillery": 1,
+                "armour": 1,
+                "aaGun": 1,
+                "fighter": 1,
+                "airfield": 1,
+                "factory_major": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Tunisia": {
+        "units": {
+            "France": {
+                "infantry": 1
+            }
+        },
+        "owner": "France",
+        "occupier": "France"
+    },
+    "Greater Southern Germany": {
+        "units": {
+            "Germany": {
+                "infantry": 6,
+                "artillery": 2,
+                "armour": 3
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Slovakia Hungary": {
+        "units": {
+            "Germany": {
+                "infantry": 2,
+                "armour": 1,
+                "fighter": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Western Germany": {
+        "units": {
+            "Germany": {
+                "infantry": 3,
+                "artillery": 1,
+                "mech_infantry": 4,
+                "fighter": 2,
+                "tactical_bomber": 3,
+                "aaGun": 3,
+                "factory_major": 1,
+                "harbour": 1,
+                "airfield": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Romania": {
+        "units": {
+            "Germany": {
+                "infantry": 2,
+                "armour": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Poland": {
+        "units": {
+            "Germany": {
+                "infantry": 3,
+                "armour": 1,
+                "tactical_bomber": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Germany": {
+        "units": {
+            "Germany": {
+                "infantry": 11,
+                "artillery": 3,
+                "tactical_bomber": 1,
+                "bomber": 2,
+                "factory_major": 1,
+                "aaGun": 3
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Norway": {
+        "units": {
+            "Germany": {
+                "infantry": 3,
+                "fighter": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Denmark": {
+        "units": {
+            "Germany": {
+                "infantry": 2
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Holland Belgium": {
+        "units": {
+            "Germany": {
+                "infantry": 4,
+                "artillery": 2,
+                "armour": 3,
+                "fighter": 1
+            }
+        },
+        "owner": "Germany",
+        "occupier": "Germany"
+    },
+    "Tobruk": {
+        "units": {
+            "Italy": {
+                "infantry": 3,
+                "artillery": 1,
+                "mech_infantry": 1,
+                "armour": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Albania": {
+        "units": {
+            "Italy": {
+                "infantry": 2,
+                "armour": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Northern Italy": {
+        "units": {
+            "Italy": {
+                "infantry": 2,
+                "artillery": 2,
+                "armour": 1,
+                "bomber": 1,
+                "aaGun": 2,
+                "factory_major": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Libya": {
+        "units": {
+            "Italy": {
+                "infantry": 1,
+                "artillery": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Sicily": {
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Italian Somaliland": {
+        "units": {
+            "Italy": {
+                "infantry": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Southern Italy": {
+        "units": {
+            "Italy": {
+                "infantry": 6,
+                "fighter": 2,
+                "aaGun": 2,
+                "harbour": 1,
+                "airfield": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Ethiopia": {
+        "units": {
+            "Italy": {
+                "infantry": 2,
+                "artillery": 1
+            }
+        },
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Sardinia": {
+        "owner": "Italy",
+        "occupier": "Italy"
+    },
+    "Belarus": {
+        "units": {
+            "Russia": {
+                "infantry": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Karelia": {
+        "units": {
+            "Russia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Baltic States": {
+        "units": {
+            "Russia": {
+                "infantry": 3
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Bryansk": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Rostov": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Nenetsia": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Urals": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Vyborg": {
+        "units": {
+            "Russia": {
+                "infantry": 3
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Archangel": {
+        "units": {
+            "Russia": {
+                "infantry": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Eastern Poland": {
+        "units": {
+            "Russia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Bessarabia": {
+        "units": {
+            "Russia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Russia": {
+        "units": {
+            "Russia": {
+                "infantry": 1,
+                "artillery": 1,
+                "mech_infantry": 1,
+                "armour": 1,
+                "fighter": 1,
+                "tactical_bomber": 1,
+                "aaGun": 2,
+                "airfield": 1,
+                "factory_major": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Tambov": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Ukraine": {
+        "units": {
+            "Russia": {
+                "infantry": 3,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Western Ukraine": {
+        "units": {
+            "Russia": {
+                "infantry": 1,
+                "artillery": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Novosibirsk": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Vologda": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Volgograd": {
+        "units": {
+            "Russia": {
+                "armour": 1,
+                "mech_infantry": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Turkmenistan": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Novgorod": {
+        "units": {
+            "Russia": {
+                "infantry": 6,
+                "artillery": 1,
+                "fighter": 1,
+                "aaGun": 2,
+                "airfield": 1,
+                "harbour": 1,
+                "factory_minor": 1
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Caucasus": {
+        "units": {
+            "Russia": {
+                "infantry": 2
+            }
+        },
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Smolensk": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Samara": {
+        "owner": "Russia",
+        "occupier": "Russia"
+    },
+    "Portugal": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Portuguese Guinea": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Ecuador": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "124 Sea Zone": {
+        "units": {
+            "Germany": {
+                "submarine": 1
+            }
+        }
+    },
+    "Chile": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Afghanistan": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 4
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "113 Sea Zone": {
+        "units": {
+            "Germany": {
+                "battleship": 1
+            }
+        }
+    },
+    "96 Sea Zone": {
+        "units": {
+            "Italy": {
+                "destroyer": 1,
+                "transport": 1
+            }
+        }
+    },
+    "Sierra Leone": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "108 Sea Zone": {
+        "units": {
+            "Germany": {
+                "submarine": 1
+            }
+        }
+    },
+    "Turkey": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 8
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Mozambique": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "118 Sea Zone": {
+        "units": {
+            "Germany": {
+                "submarine": 1
+            }
+        }
+    },
+    "95 Sea Zone": {
+        "units": {
+            "Italy": {
+                "destroyer": 1,
+                "cruiser": 1,
+                "submarine": 1,
+                "transport": 1
+            }
+        }
+    },
+    "Saudi Arabia": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Paraguay": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Switzerland": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "106 Sea Zone": {
+        "units": {
+            "Britain": {
+                "destroyer": 1,
+                "transport": 1
+            }
+        }
+    },
+    "93 Sea Zone": {
+        "units": {
+            "France": {
+                "destroyer": 1,
+                "cruiser": 1
+            }
+        }
+    },
+    "Eire": {
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Crete": {
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Argentina": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 4
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Bulgaria": {
+        "units": {
+            "Neutral_Axis": {
+                "infantry": 4
+            }
+        },
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
+    },
+    "109 Sea Zone": {
+        "units": {
+            "Britain": {
+                "destroyer": 1,
+                "transport": 1
+            }
+        }
+    },
+    "117 Sea Zone": {
+        "units": {
+            "Germany": {
+                "submarine": 1
+            }
+        }
+    },
+    "Angola": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Greece": {
+        "units": {
+            "Neutral_Allies": {
+                "infantry": 4
+            }
+        },
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "97 Sea Zone": {
+        "units": {
+            "Italy": {
+                "cruiser": 1,
+                "battleship": 1,
+                "transport": 1
+            }
+        }
+    },
+    "Iraq": {
+        "units": {
+            "Neutral_Axis": {
+                "infantry": 3
+            }
+        },
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
+    },
+    "Eastern Persia": {
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "72 Sea Zone": {
+        "units": {
+            "France": {
+                "destroyer": 1
+            }
+        }
+    },
+    "101 Sea Zone": {
+        "units": {
+            "America": {
+                "cruiser": 1,
+                "transport": 1
+            }
+        }
+    },
+    "114 Sea Zone": {
+        "units": {
+            "Germany": {
+                "cruiser": 1,
+                "transport": 1
+            }
+        }
+    },
+    "71 Sea Zone": {
+        "units": {
+            "Britain": {
+                "destroyer": 1
+            }
+        }
+    },
+    "Uruguay": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Brazil": {
+        "units": {
+            "Neutral_Allies": {
+                "infantry": 3
+            }
+        },
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Venezuela": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "127 Sea Zone": {
+        "units": {
+            "Russia": {
+                "submarine": 1
+            }
+        }
+    },
+    "Northwest Persia": {
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Persia": {
+        "units": {
+            "Neutral_Allies": {
+                "infantry": 2
+            }
+        },
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Sweden": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 6
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "115 Sea Zone": {
+        "units": {
+            "Russia": {
+                "cruiser": 1,
+                "submarine": 1
+            }
+        }
+    },
+    "103 Sea Zone": {
+        "units": {
+            "Germany": {
+                "submarine": 1
+            }
+        }
+    },
+    "Yugoslavia": {
+        "units": {
+            "Neutral_Allies": {
+                "infantry": 5
+            }
+        },
+        "owner": "Neutral_Allies",
+        "occupier": "Neutral_Allies"
+    },
+    "Spain": {
+        "units": {
+            "Neutral_True": {
+                "infantry": 6
+            }
+        },
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Colombia": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Bolivia": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Liberia": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "Peru": {
+        "owner": "Neutral_True",
+        "occupier": "Neutral_True"
+    },
+    "98 Sea Zone": {
+        "units": {
+            "Britain": {
+                "cruiser": 1,
+                "destroyer": 1,
+                "carrier": 1,
+                "tactical_bomber": 1,
+                "transport": 1
+            }
+        }
+    },
+    "91 Sea Zone": {
+        "units": {
+            "Britain": {
+                "cruiser": 1
+            }
+        }
+    },
+    "Finland": {
+        "units": {
+            "Neutral_Axis": {
+                "infantry": 4
+            }
+        },
+        "owner": "Neutral_Axis",
+        "occupier": "Neutral_Axis"
+    },
+    "Suriname": {
+        "owner": "Dutch",
+        "occupier": "Dutch"
+    },
+    "110 Sea Zone": {
+        "units": {
+            "Britain": {
+                "cruiser": 1,
+                "battleship": 1
+            },
+            "France": {
+                "cruiser": 1
+            }
+        }
+    },
+    "111 Sea Zone": {
+        "units": {
+            "Britain": {
+                "destroyer": 1,
+                "battleship": 1,
+                "cruiser": 1
+            }
+        }
+    }
+}

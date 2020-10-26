@@ -1,0 +1,19 @@
+{
+    "name": "meat/axis",
+    "description": "dice",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Justin Giacobbi",
+            "email": "jkg9009@rit.edu"
+        },
+	{
+            "name": "Michael Corbeil",
+	    "email": "mcorbeil@meatalicious.meat"
+	}
+    ],
+    "require": {
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.2"
+    }
+}
