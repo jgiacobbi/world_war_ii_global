@@ -71,6 +71,9 @@ function drawMap() {
     for (i = 0; i < polygonKeys.length; i++) {
         drawTerritory(false, polygons[polygonKeys[i]], polygonKeys[i]);
     }
+
+    // Draw small red circles for capitals
+    drawCapitals();
 }
 
 function drawTerritory(fill, territory, territoryName) {
@@ -108,7 +111,7 @@ function selectColor(territoryName) {
                 return "#ffffff";
             }
         } else {
-            return "#ffffff";
+            return "#000000";
         }
     }
 }
