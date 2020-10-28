@@ -54,8 +54,34 @@ $app->get('/placements', function (Request $request, Response $response, $args) 
     return $response->withHeader('Content-Type', 'application/json');
 });
 
+$app->get('/state', function (Request $request, Response $response, $args) {
+   $response->getBody()->write(file_get_contents("../data/state.json"));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
 $app->get('/polygons', function (Request $request, Response $response, $args) {
     $response->getBody()->write(file_get_contents("../data/polygons.json"));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+$app->get('/load/{user}/{gameid}', function (Request $request, Response $response, $args) {
+    //I really want to use extract here
+    $user = $args["user"];
+    $gameid = $args["gameid"];
+    $placements = file_get_contents("../games/$user/$gameid/placements.json");
+    $state = file_get_contents("../games/$user/$gameid/state.json");
+    $json = ["success" => false, "reason" => "unknown"]; 
+    if ($placements === false) {
+        $json["reason"] = "Missing placements";
+    } else if ($state === false) {
+         $json["reason"] = "Missing sate";
+    } else {
+        $json["success"] = true;
+        $json["placements"] = json_decode($placements, true);
+        $json["state"] = json_decode($state, true);
+    }
+
+    $response->getBody()->write(json_encode($json, JSON_PRETTY_PRINT));
     return $response->withHeader('Content-Type', 'application/json');
 });
 

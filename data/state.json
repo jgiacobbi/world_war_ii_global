@@ -1,0 +1,198 @@
+{
+    "turn": "Germany",
+    "phase": "research",
+    "dollars": {
+        "Germany": 30,
+        "Russia": 28,
+        "Japan": 26,
+        "America": 52,
+        "China": 12,
+        "Britain": 28,
+        "UK_Pacific": 17,
+        "Italy": 10,
+        "Anzac": 10,
+        "France": 19
+    },
+    "research": {
+        "Germany": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "Russia": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "Japan": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "America": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "China": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "Britain": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "UK_Pacific": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "Italy": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "Anzac": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "France": {
+            "1": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "2": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ]
+        }
+    }
+}
