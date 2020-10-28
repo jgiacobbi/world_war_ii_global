@@ -12,8 +12,14 @@
 	    "email": "mcorbeil@meatalicious.meat"
 	}
     ],
+    "autoload": {
+	"psr-4": {
+	    "Axis\\" : "src"
+	}
+    },
     "require": {
         "slim/slim": "^4.5",
-        "slim/psr7": "^1.2"
+        "slim/psr7": "^1.2",
+        "cboden/ratchet": "^0.4.3"
     }
 }
