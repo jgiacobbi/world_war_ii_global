@@ -68,8 +68,8 @@ $app->get('/load/{user}/{gameid}', function (Request $request, Response $respons
     //I really want to use extract here
     $user = $args["user"];
     $gameid = $args["gameid"];
-    $placements = file_get_contents("../games/$user/$gameid/placements.json");
-    $state = file_get_contents("../games/$user/$gameid/state.json");
+    $placements = file_get_contents("../files/$user/$gameid/placements.json");
+    $state = file_get_contents("../files/$user/$gameid/state.json");
     $json = ["success" => false, "reason" => "unknown"]; 
     if ($placements === false) {
         $json["reason"] = "Missing placements";

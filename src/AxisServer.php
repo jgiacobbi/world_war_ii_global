@@ -8,36 +8,37 @@ use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
-    protected $clients;
     protected $logger;
+    protected $users;
 
     public function __construct() {
-        $clients = new \SplObjectStorage;
-        $logger = new Logger('axis',
+        $this->logger = new Logger('axis',
             [
                 new RotatingFileHandler("/var/log/axis/all.log", 10),
                 new RotatingFileHandler("/var/log/axis/error.log", 10, Logger::ERROR)
             ]
         );
+
+        $this->users = new Users($this->logger);
     }
 
     public function onOpen(ConnectionInterface $conn) {
-        $logger->info("New connection! ({$conn->resourceId})");
-        $this->clients->attach($conn);
+        $this->logger->info("New connection! ({$conn->resourceId})");
+        ConnectionRegistry::Add($conn);
     }
 
     public function onMessage(ConnectionInterface $from, $msg) {
-        $logger->debug("Message from {$from->resourceId} : $msg");
+        $this->logger->debug("Message from {$from->resourceId} : $msg");
         $this->handleMessage($from, $msg);
     }
 
     public function onClose(ConnectionInterface $conn) {
-        $logger->info("Connection {$conn->resourceId} has disconnected");
-        $this->clients->detach($conn);
+        $this->logger->info("Connection {$conn->resourceId} has disconnected");
+        ConnectionRegistry::Remove($conn);
     }
 
     public function onError(ConnectionInterface $conn, \Exception $e) {
-        $logger->critical("An error has occurred: {$e->getMessage()}");
+        $this->logger->critical("An error has occurred: {$e->getMessage()}");
 
         $conn->close();
     }
@@ -46,7 +47,7 @@ class AxisServer implements MessageComponentInterface {
         $message = json_decode($msg, true);
 
         if ($message == null) {
-            $logger->error("Invalid Json: $msg");
+            $this->logger->error("Invalid Json: $msg");
             $conn->send("Invalid Json");
             return;
         }
