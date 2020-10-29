@@ -17,8 +17,8 @@ class Users {
         if (file_exists($this->path)) {
             $json = file_get_contents($this->path);
         } else {
-            $json = "[]";
-            file_put_contents($this->path, "[]");
+            $json = json_encode([]);
+            file_put_contents($this->path, $json);
         }
 
         $users = json_decode($json, true);
