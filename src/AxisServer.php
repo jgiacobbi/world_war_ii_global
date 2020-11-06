@@ -8,14 +8,18 @@ use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
+    protected const $logRoot = "/var/log/axis";
     protected $logger;
     protected $users;
+    protected array $lobbies = [];
 
     public function __construct() {
+        @mkdir($logRoot, 0777, true);
+
         $this->logger = new Logger('axis',
             [
-                new RotatingFileHandler("/var/log/axis/all.log", 10),
-                new RotatingFileHandler("/var/log/axis/error.log", 10, Logger::ERROR)
+                new RotatingFileHandler("$logRoot/all.log", 10),
+                new RotatingFileHandler("$logRoot/error.log", 10, Logger::ERROR)
             ]
         );
 
