@@ -13,7 +13,7 @@ class Lobby
             $name = "lobby-" + substr(md5(mt_rand()), 0, 5);
         }
 
-        $this->name = $name;
+        $this->rename($name);
     }
 
     public function rename(string $name) {
