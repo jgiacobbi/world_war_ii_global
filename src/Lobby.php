@@ -25,17 +25,15 @@ class Lobby
     }
 
     public function add(int $id) {
-        if (!$this->member($id)) {
-            $members[] = $id;
-        }
+        $this->members[$id] = $id;
     }
 
     public function remove(int $id) {
-        $members = array_diff($members, $id);
+        @unset($this->members[$id]);
     }
 
     public function member(int $id) {
-        return in_array($id, $members)
+        return isset($this->members[$id]);
     }
 
     public function message(array $payload, int $id) {
@@ -43,7 +41,10 @@ class Lobby
             throw new Exception("Connection Id $id is not a member of this room")
         }
         $message = ""; //$payload["some key"]; probably
-        $recipients = ConnectionRegistry::GetListByIds(array_diff($members, $id));
+        $recipients = ConnectionRegistry::GetListByIds(
+            array_diff(array_values($members), [$id])
+        );
+
         //TODO sort out name -> id mapping, probably in ConnectionRegistry
         $response = json_encode(["from" => $id, "message" => $message]);
         foreach ($recipients as $conn) {
