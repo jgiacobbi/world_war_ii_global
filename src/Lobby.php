@@ -8,16 +8,12 @@ class Lobby
     private array $members = [];
     private string $name;
 
-    public function __construct(?string $name = null) {
-        if ($name == null) {
-            $name = "lobby-" + substr(md5(mt_rand()), 0, 5);
-        }
-
-        $this->rename($name);
+    public function __construct(string $name) {
+        $this->setName($name);
     }
 
-    public function rename(string $name) {
-        $this->name = preg_replace("/[^a-zA-Z0-9\-]/", "", $name);
+    public function setName(string $name) {
+        $this->name = $name;
     }
 
     public function name() {
@@ -40,13 +36,24 @@ class Lobby
         if (!$this->member($id)) {
             throw new Exception("Connection Id $id is not a member of this room")
         }
-        $message = ""; //$payload["some key"]; probably
+        $message = $payload["message"];
         $recipients = ConnectionRegistry::GetListByIds(
             array_diff(array_values($members), [$id])
         );
 
-        //TODO sort out name -> id mapping, probably in ConnectionRegistry
-        $response = json_encode(["from" => $id, "message" => $message]);
+        $response = json_encode(
+            [
+                "message" => "lobby",
+                "payload" => 
+                [
+                    "lobby" => $this->name,
+                    "from" => ConnectionRegistry::GetNameById($id) ?? "Unknown",
+                    "time" => time(),
+                    "message" => $message
+                ]
+            ]
+        );
+
         foreach ($recipients as $conn) {
             $conn->send($response);
         }

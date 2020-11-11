@@ -8,10 +8,10 @@ use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
-    protected const $logRoot = "/var/log/axis";
+    protected $logRoot = "/var/log/axis";
     protected $logger;
     protected $users;
-    protected array $lobbies = [];
+    protected $lobbies;
 
     public function __construct() {
         @mkdir($logRoot, 0777, true);
@@ -24,6 +24,7 @@ class AxisServer implements MessageComponentInterface {
         );
 
         $this->users = new Users($this->logger);
+        $this->lobbies = new LobbyContainer();
     }
 
     public function onOpen(ConnectionInterface $conn) {

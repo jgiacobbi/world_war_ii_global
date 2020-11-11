@@ -8,6 +8,7 @@ use Ratchet\ConnectionInterface;
 class ConnectionRegistry {
     private static bool $initialized = false;
     protected static \SplObjectStorage $clients;
+    protected static array $names = [];
 
     public static function Init() {
         if (!$initialized) {
@@ -21,7 +22,22 @@ class ConnectionRegistry {
     }
 
     public static function Remove(ConnectionInterface $client) {
+        unset($this->names[$client->resourceId]);
         $this->clients->detach($client);
+    }
+
+    public static function SetName(int $id, string $name) {
+        if (self::GetById($id) != null) {
+            $names[$id] = $name;
+        }
+    }
+
+    public static function GetNameById(int $id) {
+        if (isset($this->$names[$id])) {
+            return $this->names[$id];
+        }
+
+        return null;
     }
 
     public static function GetById(int $id) : ?ConnectionInterface {

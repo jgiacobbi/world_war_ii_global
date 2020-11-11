@@ -7,3 +7,21 @@ json message format
         "field N": "CONTENTS"
     }
 }
+
+{
+    "message": "lobby",
+    "payload": {
+        "lobby": "LOBBY_NAME",
+        "message": "MESSAGE"
+    }
+}
+
+{
+    "message": "lobby",
+    "payload": [
+        "lobby": "LOBBY_NAME",
+        "from": "USER_NAME",
+        "time": UNIX_TIME,
+        "message": "MESSAGE"
+    ]
+}
