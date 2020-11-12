@@ -1,0 +1,25 @@
+{
+  "name": "axis-client",
+  "version": "1.0.0",
+  "description": "fire up the ovens",
+  "main": "./web/index.html",
+  "dependencies": {
+    "sockette": "^2.0.6",
+    "websocket-as-promised": "^1.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --public-url '.' web/index_source.html",
+    "clean": "rm web/index.html 2>/dev/null && rm web/index.*.js && rm web/*.map || exit 0",
+    "rebuild": "npm run clean && npm run build",
+    "rebuild-full": "rm -rf .parcel-cache/ && npm run rebuild"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "author": "",
+  "license": "MIT"
+}

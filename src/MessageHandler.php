@@ -24,7 +24,7 @@ class MessageHandler {
                 $this->lobbies->message($payload);
                 break;
             default:
-                throw new Exception("what?");
+                throw new \Exception("what?");
         }
     }
 }

@@ -11,37 +11,37 @@ class ConnectionRegistry {
     protected static array $names = [];
 
     public static function Init() {
-        if (!$initialized) {
-            $this->clients = new \SplObjectStorage();
-            $initialized = true;
+        if (!self::$initialized) {
+            self::$clients = new \SplObjectStorage();
+            self::$initialized = true;
         }
     }
 
     public static function Add(ConnectionInterface $client) {
-        $this->clients->attach($client);
+        self::$clients->attach($client);
     }
 
     public static function Remove(ConnectionInterface $client) {
-        unset($this->names[$client->resourceId]);
-        $this->clients->detach($client);
+        unset(self::$names[$client->resourceId]);
+        self::$clients->detach($client);
     }
 
     public static function SetName(int $id, string $name) {
         if (self::GetById($id) != null) {
-            $names[$id] = $name;
+            self::$names[$id] = $name;
         }
     }
 
     public static function GetNameById(int $id) {
-        if (isset($this->$names[$id])) {
-            return $this->names[$id];
+        if (isset(self::$$names[$id])) {
+            return self::$names[$id];
         }
 
         return null;
     }
 
     public static function GetById(int $id) : ?ConnectionInterface {
-        foreach ($this->clients as $client) {
+        foreach (self::$clients as $client) {
             if ($client->resourceId == $id) {
                 return $client;
             }
@@ -53,7 +53,7 @@ class ConnectionRegistry {
     //$ids should be int, return value is an array of ConnectionInterfaces
     public static function GetListByIds(array $ids) : array {
         $matches = [];
-        foreach ($this->clients as $client) {
+        foreach (self::$clients as $client) {
             if (in_array($client->resourceId, $ids)) {
                 $matches[] = $client;
             }

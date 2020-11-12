@@ -2,6 +2,7 @@
 
 namespace Axis;
 
+use Monolog\Handler\StreamHandler;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;
 use Ratchet\ConnectionInterface;
@@ -13,12 +14,14 @@ class AxisServer implements MessageComponentInterface {
     protected $handler;
 
     public function __construct() {
-        @mkdir($logRoot, 0777, true);
+        @mkdir($this->logRoot, 0777, true);
 
         $this->logger = new Logger('axis',
             [
-                new RotatingFileHandler("$logRoot/all.log", 10),
-                new RotatingFileHandler("$logRoot/error.log", 10, Logger::ERROR)
+                new StreamHandler("php://stdout"),
+                new RotatingFileHandler("{$this->logRoot}/all.log", 10),
+                new RotatingFileHandler(
+                    "{$this->logRoot}/error.log", 10, Logger::ERROR)
             ]
         );
 

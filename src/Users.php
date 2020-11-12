@@ -23,7 +23,7 @@ class Users {
 
         $users = json_decode($json, true);
 
-        if ($users == null) {
+        if (is_null($users)) {
             $this->logger->warning("Invalid user json: $json");
             file_put_contents($this->path, "[]");
             $this->users = [];
