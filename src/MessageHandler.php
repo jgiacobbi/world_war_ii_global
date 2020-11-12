@@ -17,14 +17,16 @@ class MessageHandler {
     }
 
     public function handle(array $message) {
-        $payload = $message["payload"];
+        if (!isset($message["method"]) || empty($message["method"])) {
+            throw new \Exception("No method specified");
+        }
 
         switch($message["method"]) {
             case "lobbyMessage":
-                $this->lobbies->message($payload);
+                $this->lobbies->message($message["payload"]);
                 break;
             default:
-                throw new \Exception("what?");
+                throw new \Exception("Unknown method: {$message["method"]}");
         }
     }
 }

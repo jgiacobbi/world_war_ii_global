@@ -61,7 +61,13 @@ class AxisServer implements MessageComponentInterface {
         try {
             $this->handler->handle($message);
         } catch (\Exception $e) {
-            $conn->send(json_encode(["error" => $e->getMessage()]));
+            $this->logger->error($e->getMessage());
+            $response = ["error" => $e->getMessage()];
+            if (isset($message["id"])) {
+                $response["id"] = $message["id"];
+            }
+
+            $conn->send(json_encode($response));
         }
     }
 }
