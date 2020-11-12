@@ -10,8 +10,7 @@ use Ratchet\MessageComponentInterface;
 class AxisServer implements MessageComponentInterface {
     protected $logRoot = "/var/log/axis";
     protected $logger;
-    protected $users;
-    protected $lobbies;
+    protected $handler;
 
     public function __construct() {
         @mkdir($logRoot, 0777, true);
@@ -23,8 +22,7 @@ class AxisServer implements MessageComponentInterface {
             ]
         );
 
-        $this->users = new Users($this->logger);
-        $this->lobbies = new LobbyContainer();
+        $this->handler = new MessageHandler($this->logger);
     }
 
     public function onOpen(ConnectionInterface $conn) {
@@ -53,8 +51,14 @@ class AxisServer implements MessageComponentInterface {
 
         if ($message == null) {
             $this->logger->error("Invalid Json: $msg");
-            $conn->send("Invalid Json");
+            $conn->send(json_encode(["error" => "Invalid Json"]));
             return;
+        }
+
+        try {
+            $this->handler->handle($message);
+        } catch (\Exception $e) {
+            $conn->send(json_encode(["error" => $e->getMessage()]));
         }
     }
 }

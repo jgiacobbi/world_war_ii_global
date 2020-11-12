@@ -10,7 +10,7 @@ class LobbyContainer
         return isset($this->lobbies[$name]);
     }
 
-    public function newLobby(?string $name = null) {
+    public function add(?string $name = null) {
         $name = $this->sanitize($name);
 
         if ($this->exists($name)) {

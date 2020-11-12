@@ -1,7 +1,7 @@
 json message format
 
 {
-    "message": "MESSAGE_TYPE",
+    "method": "METHOD",
     "payload": {
         "field 1": "CONTENTS",
         "field N": "CONTENTS"
@@ -9,7 +9,7 @@ json message format
 }
 
 {
-    "message": "lobby",
+    "method": "lobbyMessage",
     "payload": {
         "lobby": "LOBBY_NAME",
         "message": "MESSAGE"
@@ -17,7 +17,7 @@ json message format
 }
 
 {
-    "message": "lobby",
+    "method": "lobbyMessage",
     "payload": [
         "lobby": "LOBBY_NAME",
         "from": "USER_NAME",
