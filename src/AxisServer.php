@@ -52,9 +52,9 @@ class AxisServer implements MessageComponentInterface {
     public function handleMessage(ConnectionInterface $conn, $msg){
         $message = json_decode($msg, true);
 
-        if ($message == null) {
+        if (is_null($message)) {
             $this->logger->error("Invalid Json: $msg");
-            $conn->send(json_encode(["error" => "Invalid Json"]));
+            $conn->send(json_encode(["error" => "Invalid Json: $msg"]));
             return;
         }
 

@@ -44,7 +44,7 @@ class LobbyContainer
     public function message(array $payload) {
         $name = $this->sanitize($this->payload["lobby"]);
 
-        unset($this->payload["lobby"]);
+        unset($name);
 
         if (!$this->exists($name)) {
             throw new Exception("Lobby $name doesn't exist");
@@ -53,7 +53,7 @@ class LobbyContainer
         $this->lobbies[$name]->message($payload);
     }
 
-    public function sanitize(string $name) {
+    public function sanitize(?string $name = null) {
         if (is_null($name)) {
             return "lobby-" + substr(md5(mt_rand()), 0, 5);
         } else {
