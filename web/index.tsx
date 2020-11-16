@@ -3,7 +3,11 @@ const WebSocketAsPromised = require('websocket-as-promised');
 
 document.getElementById("root").innerHTML = "WHAT";
 
-const wsp = new WebSocketAsPromised('ws://135.181.47.219:8080', {
+function buildWebsocketURL() {
+  return `ws://${window.location.hostname}:8080/`;
+}
+
+const wsp = new WebSocketAsPromised(buildWebsocketURL(), {
   packMessage: data => JSON.stringify(data),
   unpackMessage: data => JSON.parse(data),
   attachRequestId: (data, requestId) => Object.assign({id: requestId}, data), // attach requestId to message as `id` field
