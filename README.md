@@ -7,6 +7,15 @@ Built on a LAMP stack running php 7.4 (mysql not actually needed). In the projec
 composer install
 npm install
 npm run build
+
+```
+
+To run a dev server:
+```
+# assuming /var/www/html is your webroot
+sudo cp web/* /var/www/html
+sudo mkdir /var/log/axis
+sudo php websocket/socket.php
 ```
 
 To clean and build in one step use `npm run rebuild`, or `npm run rebuild-full` to also clear the parcel cache
