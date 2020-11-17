@@ -2,24 +2,30 @@
 
 namespace Axis;
 
+use Monolog\Handler\StreamHandler;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
+    protected $logRoot = "/var/log/axis";
     protected $logger;
-    protected $users;
+    protected $handler;
 
     public function __construct() {
+        @mkdir($this->logRoot, 0777, true);
+
         $this->logger = new Logger('axis',
             [
-                new RotatingFileHandler("/var/log/axis/all.log", 10),
-                new RotatingFileHandler("/var/log/axis/error.log", 10, Logger::ERROR)
+                new StreamHandler("php://stdout"),
+                new RotatingFileHandler("{$this->logRoot}/all.log", 10),
+                new RotatingFileHandler(
+                    "{$this->logRoot}/error.log", 10, Logger::ERROR)
             ]
         );
 
-        $this->users = new Users($this->logger);
+        $this->handler = new MessageHandler($this->logger);
     }
 
     public function onOpen(ConnectionInterface $conn) {
@@ -46,10 +52,22 @@ class AxisServer implements MessageComponentInterface {
     public function handleMessage(ConnectionInterface $conn, $msg){
         $message = json_decode($msg, true);
 
-        if ($message == null) {
+        if (is_null($message)) {
             $this->logger->error("Invalid Json: $msg");
-            $conn->send("Invalid Json");
+            $conn->send(json_encode(["error" => "Invalid Json: $msg"]));
             return;
+        }
+
+        try {
+            $this->handler->handle($message);
+        } catch (\Exception $e) {
+            $this->logger->error($e->getMessage());
+            $response = ["error" => $e->getMessage()];
+            if (isset($message["id"])) {
+                $response["id"] = $message["id"];
+            }
+
+            $conn->send(json_encode($response));
         }
     }
 }
