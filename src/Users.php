@@ -41,7 +41,6 @@ class Users {
 
     public function addUser($username, $password) {
         if ($this->userExists($username)) {
-            $this->logger->error("User $username already exists");
             throw new \Exception("User $username already exists");
         }
 
