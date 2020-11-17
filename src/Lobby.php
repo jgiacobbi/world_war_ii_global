@@ -43,14 +43,10 @@ class Lobby
 
         $response = json_encode(
             [
-                "message" => "lobby",
-                "payload" => 
-                [
-                    "lobby" => $this->name,
-                    "from" => ConnectionRegistry::GetNameById($id) ?? "Unknown",
-                    "time" => time(),
-                    "message" => $message
-                ]
+                "lobby" => $this->name,
+                "from" => ConnectionRegistry::GetNameById($id) ?? "Unknown",
+                "time" => time(),
+                "message" => $message
             ]
         );
 
