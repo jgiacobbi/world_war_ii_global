@@ -65,6 +65,7 @@ class LobbyContainer
         }
 
         $this->lobbies[$new] = $this->lobbies[$old];
+        $this->lobbies[$new]->setName($new);
         unset($this->lobbies[$old]);
 
         return ["name" => $new];
