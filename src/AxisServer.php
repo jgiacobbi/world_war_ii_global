@@ -59,7 +59,25 @@ class AxisServer implements MessageComponentInterface {
         }
 
         try {
-            $this->handler->handle($message);
+            $retval = $this->handler->handle($conn, $message);
+
+            if (!is_null($retval)) {
+                $response = [];
+
+                if (isset($message["id"])) {
+                    $response["id"] = $message["id"];
+                }
+
+                if (is_bool($retval)) {
+                    $response["success"] => $retval ? "true" : "false";
+                } else if (is_string($retval) || is_numeric($retval)) {
+                    $response["response"] = $retval;
+                } else if (is_array($retval)) {
+                    $response = array_merge($response, $retval);
+                }
+
+                $conn->send(json_encode($response));
+            }
         } catch (\Exception $e) {
             $this->logger->error($e->getMessage());
             $response = ["error" => $e->getMessage()];

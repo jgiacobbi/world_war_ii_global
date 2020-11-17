@@ -2,6 +2,8 @@
 
 namespace Axis;
 
+use Exception;
+
 class LobbyContainer
 {
     private array $lobbies = [];
@@ -10,8 +12,8 @@ class LobbyContainer
         return isset($this->lobbies[$name]);
     }
 
-    public function add(?string $name = null) {
-        $name = $this->sanitize($name);
+    public function add(array $payload) {
+        $name = $this->sanitize($payload["name"]);
 
         if ($this->exists($name)) {
             throw new Exception("Lobby {$lobby->name()} already exists");
@@ -19,14 +21,39 @@ class LobbyContainer
 
         $this->lobbies[$name] = new Lobby($name);
 
-        return $name;
+        return ["name" => $name];
+    }
+
+    public function addUser(array $payload) {
+        $lobby = $this->sanitize($payload["lobby"]);
+
+        if (!$this->exists($lobby)) {
+            throw new Exception("Lobby $name doesn't exist");
+        }
+
+        $this->lobbies[$lobby]->add($payload["connectionId"]);
+
+        return true;
+    }
+
+    public function removeUser(array $payload) {
+        $lobby = $this->sanitize($payload["lobby"]);
+
+        if ($this->exists($lobby)) {
+            $this->lobbies[$lobby]->remove($payload["connectionId"]);
+        }
+
+        return true;
     }
 
     public function remove(string $old) {
         unset($this->lobbies[$old]);
     }
 
-    public function rename(string $old, string $new) {
+    public function rename(array $payload) {
+        $old = $payload["old"];
+        $new = $payload["new"];
+
         if (!$this->exists($old)) {
             throw new Exception("Old lobby $old doesn't exist");
         }
@@ -39,12 +66,12 @@ class LobbyContainer
 
         $this->lobbies[$new] = $this->lobbies[$old];
         unset($this->lobbies[$old]);
+
+        return ["name" => $new];
     }
 
     public function message(array $payload) {
-        $name = $this->sanitize($this->payload["lobby"]);
-
-        unset($name);
+        $name = $this->sanitize($payload["lobby"]);
 
         if (!$this->exists($name)) {
             throw new Exception("Lobby $name doesn't exist");
