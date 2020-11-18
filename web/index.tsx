@@ -30,7 +30,7 @@ wsp.onUnpackedMessage.addListener(data => console.log(data.error));
 async function homestyleCookery() {
     await wsp.open();
     await meat();
-    meatRequest();
+    meatRequest('braisery', function() {console.log('brahaizedbrah')});
 }
 
 async function meat() {

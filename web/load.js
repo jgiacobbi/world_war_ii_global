@@ -1,6 +1,6 @@
 var polygons = Object;
 var placements = Object;
-
+import * as $ from 'jquery';
 function loadPolygons() {
     meatRequest('loadPolygons', function(data) {
         polygons = data;
