@@ -2,14 +2,14 @@ var polygons = Object;
 var placements = Object;
 
 function loadPolygons() {
-    $.get("../api/polygons", function(data, status) {
+    meatRequest('loadPolygons', function(data) {
         polygons = data;
         drawMap();
     });
 }
 
 function loadPlacements() {
-    $.get("../api/placements", function(data, status) {
+    meatRequest('loadPlacements', function(data) {
         placements = data;
         drawMap();
     });
