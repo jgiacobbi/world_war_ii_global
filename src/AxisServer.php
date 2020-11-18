@@ -69,7 +69,7 @@ class AxisServer implements MessageComponentInterface {
                 }
 
                 if (is_bool($retval)) {
-                    $response["success"] => $retval ? "true" : "false";
+                    $response["success"] = $retval ? "true" : "false";
                 } else if (is_string($retval) || is_numeric($retval)) {
                     $response["response"] = $retval;
                 } else if (is_array($retval)) {
