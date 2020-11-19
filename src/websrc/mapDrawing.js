@@ -1,11 +1,4 @@
-var canvas = document.getElementById("mycanvas");
-var ctx = canvas.getContext("2d");
-
-// Set background blue for lakes
-ctx.fillStyle = "blue";
-ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-var color = {
+export var color = {
     "Neutral": "#d8ba7c",
     "Neutral_True": "#b88a6c",
     "Neutral_Axis": "#6A5B3D",
@@ -29,7 +22,7 @@ var color = {
 };
 
 
-function drawCapitals() {
+export function drawCapitals() {
     var CapitalLocations = 
     {
         "United Kingdom": [1865,475],
@@ -52,9 +45,12 @@ function drawCapitals() {
     });
 }
 
-function drawMap() {
+export function drawMap() {
     var i;
     var polygonKeys = Object.keys(polygons);
+
+    console.log("LESSE" + JSON.stringify(polygons));
+
     // Draw Waters
     for (i = 0; i < polygonKeys.length; i++) {
         if (polygonKeys[i].search("Sea Zone") !== -1) {
@@ -76,7 +72,7 @@ function drawMap() {
     drawCapitals();
 }
 
-function drawTerritory(fill, territory, territoryName) {
+export function drawTerritory(fill, territory, territoryName) {
     ctx.fillStyle = selectColor(territoryName);
     var i;
     for (i = 0; i < territory.length; i++) {
@@ -99,7 +95,7 @@ function drawTerritory(fill, territory, territoryName) {
 }
 
 // take player data and pick player color, or for now just random
-function selectColor(territoryName) {
+export function selectColor(territoryName) {
     if (territoryName.search("Sea Zone") !== -1) {
         return "#0000ff";
     } else {

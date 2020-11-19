@@ -48,10 +48,10 @@ class MessageHandler {
                 return $this->auth->register($payload);
             case "loadPolygons":
                 // This should be static, put it where you want it
-                return file_get_contents("../data/polygons.json");
+                return file_get_contents(dirname(__DIR__) . "/data/polygons.json");
             case "loadPlacements":
                 // This is the initial map load for lobby player selecting, once game starts state changes should go through some other method
-                return return file_get_contents("../data/placements.json");
+                return file_get_contents(dirname(__DIR__) . "/data/placements.json");
             default:
                 throw new \Exception("Unknown method: {$message["method"]}");
         }
