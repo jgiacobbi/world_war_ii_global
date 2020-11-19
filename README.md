@@ -15,12 +15,10 @@ To run a dev server:
 # assuming /var/www/html is your webroot
 sudo cp web/* /var/www/html
 sudo mkdir /var/log/axis
-sudo php websocket/socket.php
+sudo php src/websocket/socket.php
 ```
 
 To clean and build in one step use `npm run rebuild`, or `npm run rebuild-full` to also clear the parcel cache
-
-Setup symlinks in your document root as ROOT/api -> PROJECT/api and ROOT/ui to PROJECT/ui
 
 ### Todo
 - UI
@@ -29,16 +27,11 @@ Setup symlinks in your document root as ROOT/api -> PROJECT/api and ROOT/ui to P
     - Territory IPC counts
     - Unit and facility placement mechanism
     - Territory textures
-  - Lobby
-    - Assign lobby members to countries
-    - Start game
-    - Load game
-    - Optional chat support
   - Landing screen
-    - Login
-    - Start Lobby
-    - Join Lobby
-    - Join game in progress
+    - Select name
+    - Load game option
+    - Invite other players URL
+    - Select countries
   - Game
     - Movement
     - Purchase Units dialogue
