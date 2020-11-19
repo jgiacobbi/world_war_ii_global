@@ -1,8 +1,6 @@
 const WebSocketAsPromised = require('websocket-as-promised');
 //const Sockette = require('sockette');
 
-document.getElementById("root").innerHTML = "WHAT";
-
 function buildWebsocketURL() {
   return `ws://${window.location.hostname}:8080/`;
 }
@@ -32,7 +30,7 @@ wsp.onUnpackedMessage.addListener(data => console.log(data.error));
 async function homestyleCookery() {
     await wsp.open();
     await meat();
-    meatRequest();
+    meatRequest('braisery', function() {console.log('brahaizedbrah')});
 }
 
 async function meat() {
@@ -44,10 +42,15 @@ async function meat() {
 }
 
 //TODO: what's the async equivalent for the response?
-function meatRequest() {
+function meatRequest(method, callback) {
     try {
-        wsp.sendRequest({method: 'braise'})
-            .then(response => console.log(response));
+      var requestMeat = {'method': method};
+        wsp.sendRequest(requestMeat)
+            .then(
+              function(response) {
+                response => console.log(response);
+                callback(response);
+              });
     } catch (e) {
         console.error(e);
     }

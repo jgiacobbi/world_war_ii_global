@@ -2,22 +2,33 @@ var polygons = Object;
 var placements = Object;
 
 function loadPolygons() {
-    $.get("../api/polygons", function(data, status) {
-        polygons = data;
+    ws.onmessage = function(evt) {
+        var response = JSON.parse(evt.data);
+        polygons = JSON.parse(response);
+        alert('polygons loaded');
+        console.log(polygons);
         drawMap();
-    });
+        loadPlacements();
+    };
+
+    socketSend('loadPolygons');
 }
 
 function loadPlacements() {
-    $.get("../api/placements", function(data, status) {
-        placements = data;
+    ws.onmessage = function(evt) {
+        var response = JSON.parse(evt.data);
+        placements = JSON.parse(response);
+        alert('placements loaded');
+        console.log(placements);
         drawMap();
-    });
+    };
+
+    socketSend('loadPlacements');
 }
 
 $(document).ready( function() {
-    loadPolygons();
-    loadPlacements();
-    drawMap();
-    drawCapitals();
+    // Should initiate ws var
+    InitiateWebSocketConnection('beef', 'beefpass', function() {
+        loadPolygons();
+    });
 });

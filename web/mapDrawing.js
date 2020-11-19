@@ -93,7 +93,6 @@ function drawTerritory(fill, territory, territoryName) {
         } else {
             ctx.strokeStyle = "#ffffff";
             ctx.lineWidth = 1;
-            console.log("stroking");
             ctx.stroke();
         }
     }

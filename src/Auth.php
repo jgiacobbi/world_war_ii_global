@@ -25,7 +25,7 @@ class Auth {
 
     public function login(array $payload) : array {
         if (isset($payload["username"], $payload["password"])) {
-            return loginWithCredentials($payload["username"], $payload["password"])
+            return loginWithCredentials($payload["username"], $payload["password"]);
         } else if (isset($payload["key"])){
             return loginWithKey($payload["key"]);
         }
@@ -35,8 +35,8 @@ class Auth {
 
     public function loginWithCredentials(string $username, string $password) : array {
         if (!$this->users->userExists($username)) {
-            throw new \Exception("User doesn't exist"])
-        } else if (!this->users->checkUser($username, $password)) {
+            throw new \Exception("User doesn't exist");
+        } else if (!$this->users->checkUser($username, $password)) {
             throw new \Exception("Invalid password");
         } else {
             $expiry = time() + 86400; //24h
