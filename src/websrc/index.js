@@ -22,16 +22,10 @@ $(document).ready(async function() {
     await wsp.open();
 
     console.log("Calling for the meat");
-    await Promise.all(
+    [polygons, placements] = await Promise.all(
       [
-        wsp.sendRequest({method: 'loadPolygons'})
-          .then(response => {
-            polygons = JSON.parse(response.response);
-          }),
-        wsp.sendRequest({method: 'loadPlacements'})
-          .then(response => {
-            placements = JSON.parse(response.response);
-          })
+        wsp.RequestResponse({method: 'loadPolygons'}),
+        wsp.RequestResponse({method: 'loadPlacements'})
       ]
     );
 

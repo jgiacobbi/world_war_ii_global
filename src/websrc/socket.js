@@ -1,5 +1,16 @@
 const WebSocketAsPromised = require('websocket-as-promised');
 
+//there might be a better way to do this but the docs are sparse
+WebSocketAsPromised.prototype.RequestResponse = async function(request) {
+    var body;
+    await this.sendRequest(request)
+        .then(response => {
+            body = response.body;
+        });
+
+    return body;
+};
+
 export default function() {
     var wsp = new WebSocketAsPromised(
       `ws://${window.location.hostname}:8080/`,

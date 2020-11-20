@@ -64,16 +64,17 @@ class AxisServer implements MessageComponentInterface {
             if (!is_null($retval)) {
                 $response = [];
 
-                if (isset($message["id"])) {
-                    $response["id"] = $message["id"];
+                if (is_array($retval)) {
+                    $response = $retval;
+                } else {
+                    $response["result"] = $retval;
                 }
 
-                if (is_bool($retval)) {
-                    $response["success"] = $retval ? "true" : "false";
-                } else if (is_string($retval) || is_numeric($retval)) {
-                    $response["response"] = $retval;
-                } else if (is_array($retval)) {
-                    $response = array_merge($response, $retval);
+                if (isset($message["id"])) {
+                    $response = [
+                        "id" => $message["id"],
+                        "body" => $response
+                    ];
                 }
 
                 $conn->send(json_encode($response));
