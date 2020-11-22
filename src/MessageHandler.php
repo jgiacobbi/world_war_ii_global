@@ -22,7 +22,9 @@ class MessageHandler {
             throw new \Exception("No method specified");
         }
 
-        $payload = $message["payload"];
+        return $this->{$message["method"]}($message["payload"] ?? []);
+
+        /*$payload = $message["payload"];
 
         switch($message["method"]) {
             case "createLobby":
@@ -44,16 +46,23 @@ class MessageHandler {
                 ConnectionRegistry::SetName($conn->resourceId, $response["name"]);
 
                 return $response;
-            case "register":
-                return $this->auth->register($payload);
-            case "loadPolygons":
-                // This should be static, put it where you want it
-                return json_decode(file_get_contents(dirname(__DIR__) . "/data/polygons.json"), true);
-            case "loadPlacements":
-                // This is the initial map load for lobby player selecting, once game starts state changes should go through some other method
-                return json_decode(file_get_contents(dirname(__DIR__) . "/data/placements.json"), true);
             default:
                 throw new \Exception("Unknown method: {$message["method"]}");
-        }
+        }*/
+    }
+
+    private function loadPolygons() {
+        return json_decode(file_get_contents(dirname(__DIR__) . "/data/polygons.json"), true);
+    }
+
+    private function loadPlacements() {
+        return json_decode(file_get_contents(dirname(__DIR__) . "/data/placements.json"), true);
+    }
+
+    public function __call($name, $arguments) {
+        // Returning this error to the client through the top level exception handler is preferable to
+        // PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::lolwut() in Command line code:1
+
+        throw new \Exception("Unknown method: $name");
     }
 }

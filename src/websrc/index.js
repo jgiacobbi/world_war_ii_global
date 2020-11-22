@@ -21,15 +21,12 @@ AddClickHandler(canvas);
 $(document).ready(async function() {
     await wsp.open();
 
-    console.log("Calling for the meat");
     [polygons, placements] = await Promise.all(
       [
         wsp.RequestResponse({method: 'loadPolygons'}),
         wsp.RequestResponse({method: 'loadPlacements'})
       ]
     );
-
-    console.log("Executing the meat");
 
     drawMap();
 });
