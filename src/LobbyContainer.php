@@ -9,7 +9,7 @@ class LobbyContainer
     private array $lobbies = [];
 
     public function getAllNames() {
-        return array_keys($lobbies);
+        return array_keys($this->lobbies);
     }
 
     public function exists(string $name) {

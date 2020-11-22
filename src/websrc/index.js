@@ -33,8 +33,6 @@ async function loadInitMapData() {
 async function setPlayerName() {
     // TODO:: backend shoudl return reconnect tokenry for browser to store for reconnects
     await wsp.RequestResponse({ method: 'setPlayerName', payload: {name: window.playerName}})
-    $("#nameForm").hide();
-    $("#lobbyForm").show();
 }
 
 async function loadExistingLobbies() {
@@ -48,9 +46,6 @@ async function addToLobby() {
     // TODO:: Should we add some sort of lobby/token id? or is player/connect-id sufficient? just thinking mid-game name changes to "slayer of dave"
     await wsp.RequestResponse({method: 'addToLobby', payload: {lobbyName: window.lobbyName}});
 
-    // Hide lobby bullshit now we have playerName/lobbyName
-    $('#lobbyDiv').hide();
-
     // The above will block until this gets called right?  if so we can just use the same call for loading new or joining existing games
     loadInitMapData();
 }
@@ -61,11 +56,14 @@ $(document).ready(async function () {
     $('#nameButton').on('click', function () {
         window.playerName = $('#name').val();
         setPlayerName();
+        $("#nameForm").hide();
+        $("#lobbyForm").show();
         loadExistingLobbies();
     });
     $('#lobbyButton').on('click', function () {
         window.lobbyName = $('#lobby').val();
         addToLobby();
+        $('#lobbyDiv').hide();
     });
 
 });
