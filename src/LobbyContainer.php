@@ -8,6 +8,10 @@ class LobbyContainer
 {
     private array $lobbies = [];
 
+    public function getAllNames() {
+        return array_keys($lobbies);
+    }
+
     public function exists(string $name) {
         return isset($this->lobbies[$name]);
     }

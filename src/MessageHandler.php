@@ -59,6 +59,26 @@ class MessageHandler {
         return json_decode(file_get_contents(dirname(__DIR__) . "/data/placements.json"), true);
     }
 
+    private function setPlayerName($payload) {
+        $name = $payload['name'];
+        // Do thing to associate this socket to this player name need this to handle dropped sockets gracefully
+        // Should give back some token of some kind browser can store to pass back on socket-disconnect
+        return json_decode(['nomen' => $name]);
+    }
+
+    private function listLobbies($payload) {
+        return $this->lobbies->getAllNames();
+    }
+
+    private function addToLobby($payload) {
+        $lobbyName = $payload['lobbyName'];
+        if ($this->lobbies->exists($lobbyName)) {
+            $this->lobbies->addUser($payload);
+        } else {
+            $this->lobbies->add($payload);
+        }
+    }
+
     public function __call($name, $arguments) {
         // Returning this error to the client through the top level exception handler is preferable to
         // PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::lolwut() in Command line code:1

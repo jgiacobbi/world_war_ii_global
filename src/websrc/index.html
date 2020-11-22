@@ -3,6 +3,21 @@
         <title>Axis</title>
     </head>
     <body>
+        <div id="lobbyDiv">
+            <div id="nameForm">
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name"><br><br>
+                <input type="submit" value="Submit Name" id="nameButton">
+            </div>
+            <div id="lobbyForm" style="display:none">
+                <label for="lobby">Enter Lobby:</label>
+                <input type="text" id="lobby"><br><br>
+                <input type="submit" value="Submit Lobby" id="lobbyButton">
+            </div>
+            <div id="existingLobbies" style="display:none">
+                No Lobbies Currently Exist
+            </div>
+        </div>
         <canvas id="mycanvas" width="7705" height="3213"></canvas>
         <script src="./index.js"></script>
     </body>
