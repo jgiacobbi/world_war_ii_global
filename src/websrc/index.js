@@ -31,20 +31,32 @@ async function loadInitMapData() {
 }
 
 async function setPlayerName() {
-    // TODO:: backend shoudl return reconnect tokenry for browser to store for reconnects
-    await wsp.RequestResponse({ method: 'setPlayerName', payload: {name: window.playerName}})
+    // TODO:: backend should return reconnect tokenry for browser to store for reconnects
+    try {
+        await wsp.RequestResponse({ method: 'setPlayerName', payload: {name: window.playerName}})
+    } catch (meatErr) {
+        console.log('Meatiness while setting player name', meatErr);
+    }
 }
 
 async function loadExistingLobbies() {
-    lobbyList = await wsp.RequestResponse({ method: 'listLobbies'});
+    try {
+        lobbyList = await wsp.RequestResponse({ method: 'listLobbies'});
+    } catch(meatErr) {
+        console.log('Meatiness while loading existing lobbies', meatErr);
+    }
     console.log(lobbyList);
     $("#existingLobbies").html(lobbyList);
     $("#existingLobbies").show();
 }
 
 async function addToLobby() {
-    // TODO:: Should we add some sort of lobby/token id? or is player/connect-id sufficient? just thinking mid-game name changes to "slayer of dave"
-    await wsp.RequestResponse({method: 'addToLobby', payload: {lobbyName: window.lobbyName}});
+    try {
+        // TODO:: Should we add some sort of lobby/token id? or is player/connect-id sufficient? just thinking mid-game name changes to "slayer of dave"
+        await wsp.RequestResponse({method: 'addToLobby', payload: {lobbyName: window.lobbyName}});
+    } catch (meatErr) {
+        console.log('Meatiness while adding player to lobby', meatErr);
+    }
 
     // The above will block until this gets called right?  if so we can just use the same call for loading new or joining existing games
     loadInitMapData();
