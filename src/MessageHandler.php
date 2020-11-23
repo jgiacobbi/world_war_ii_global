@@ -63,7 +63,7 @@ class MessageHandler {
         $name = $payload['name'];
         // Do thing to associate this socket to this player name need this to handle dropped sockets gracefully
         // Should give back some token of some kind browser can store to pass back on socket-disconnect
-        return json_decode(['nomen' => $name]);
+        return ['nomen' => $name];
     }
 
     private function listLobbies($payload) {
@@ -71,8 +71,8 @@ class MessageHandler {
     }
 
     private function addToLobby($payload) {
-        $lobbyName = $payload['lobbyName'];
-        if ($this->lobbies->exists($lobbyName)) {
+        $name = $payload['name'];
+        if ($this->lobbies->exists($name)) {
             $this->lobbies->addUser($payload);
         } else {
             $this->lobbies->add($payload);

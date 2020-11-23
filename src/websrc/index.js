@@ -53,7 +53,7 @@ async function loadExistingLobbies() {
 async function addToLobby() {
     try {
         // TODO:: Should we add some sort of lobby/token id? or is player/connect-id sufficient? just thinking mid-game name changes to "slayer of dave"
-        await wsp.RequestResponse({method: 'addToLobby', payload: {lobbyName: window.lobbyName}});
+        await wsp.RequestResponse({method: 'addToLobby', payload: {name: window.lobbyName}});
     } catch (meatErr) {
         console.log('Meatiness while adding player to lobby', meatErr);
     }
