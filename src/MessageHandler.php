@@ -73,9 +73,9 @@ class MessageHandler {
     private function addToLobby($payload) {
         $name = $payload['name'];
         if ($this->lobbies->exists($name)) {
-            $this->lobbies->addUser($payload);
+            return $this->lobbies->addUser($payload);
         } else {
-            $this->lobbies->add($payload);
+            return $this->lobbies->add($payload);
         }
     }
 
