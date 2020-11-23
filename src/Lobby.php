@@ -25,7 +25,9 @@ class Lobby
     }
 
     public function remove(int $id) {
-        @unset($this->members[$id]);
+        if ($this->member($id)) {
+            unset($this->members[$id]);
+        }
     }
 
     public function member(int $id) {
