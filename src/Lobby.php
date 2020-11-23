@@ -36,7 +36,7 @@ class Lobby
 
     public function message(array $payload, int $id) {
         if (!$this->member($id)) {
-            throw new Exception("Connection Id $id is not a member of this room")
+            throw new Exception("Connection Id $id is not a member of this room");
         }
         $message = $payload["message"];
         $recipients = ConnectionRegistry::GetListByIds(
