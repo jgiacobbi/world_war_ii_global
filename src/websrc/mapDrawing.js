@@ -2,7 +2,7 @@ export var color = {
     "Neutral": "#d8ba7c",
     "Neutral_True": "#b88a6c",
     "Neutral_Axis": "#6A5B3D",
-    "Neutral_Allies": "3d8ba7c",
+    "Neutral_Allies": "#d8ba7c",
     "Italy": "#58360E",
     "British": "#916400",
     "Britain": "#916400",
