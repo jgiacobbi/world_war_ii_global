@@ -5,7 +5,13 @@ WebSocketAsPromised.prototype.RequestResponse = async function(request) {
     var body;
     await this.sendRequest(request)
         .then(response => {
-            body = response.body;
+            if (response.hasOwnProperty('body')) {
+                body = response.body;
+            } else if (response.hasOwnProperty('error')) {
+                throw response.error;
+            } else {
+                throw 'Unknown error performing request';
+            }
         });
 
     return body;

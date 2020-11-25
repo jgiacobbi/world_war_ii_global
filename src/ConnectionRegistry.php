@@ -8,6 +8,9 @@ use Ratchet\ConnectionInterface;
 class ConnectionRegistry {
     private static bool $initialized = false;
     protected static \SplObjectStorage $clients;
+    //connection -> key
+    protected static array $keys = [];
+    //key -> context
     protected static array $context = [];
 
     public static function Init() {
@@ -27,6 +30,40 @@ class ConnectionRegistry {
         self::$clients->detach($client);
     }
 
+    public static function GetRawContext(int $id) {
+        if (!isset(self::$keys[$id])) {
+            return ["Not connected"];
+        }
+
+        return self::$context[self::$keys[$id]] ?? [];
+    }
+
+    public static function SetKey(int $id, string $key, array $context = []) {
+        self::$keys[$id] = $key;
+
+        if (!self::KeyExists($key)) {
+            self::$context[$key] = $context;
+        }
+    }
+
+    public static function KeyExists(string $key) {
+        return isset(self::$context[$key]);
+    }
+
+    public static function ExpireKey(string $key) {
+        unset(self::$context[$key]);
+        //should revisit how this behaves with 
+        //currently logged in users at some point
+    }
+
+    public static function SetExpiry(int $id, int $expiry) {
+        self::SetValue($id, "expiry", $expiry);
+    }
+
+    public static function GetExpiryByKey(string $key) {
+        return self::GetValueByKey($key, "expiry");
+    }
+
     public static function SetName(int $id, string $name) {
         self::SetValue($id, "name", $name);
     }
@@ -44,14 +81,22 @@ class ConnectionRegistry {
     }
 
     private static function SetValue(int $id, string $key, string $value) {
-        if (isset(self::$context[$id])) {
-            self::$context[$id][$key] = $value;
+        if (isset(self::$keys[$id])) {
+            self::$context[self::$keys[$id]][$key] = $value;
         }
     }
 
     private static function GetValueById(int $id, string $key) {
-        if (isset(self::$context[$id][$key])) {
-            return self::$context[$id][$key];
+        if (isset(self::$keys[$id])) {
+            return self::GetValueByKey(self::$keys[$id], $key);
+        }
+
+        return null;
+    }
+
+    private static function GetValueByKey(string $sessionKey, string $key) {
+        if (isset(self::$context[$sessionKey][$key])) {
+            return self::$context[$sessionKey][$key];
         }
 
         return null;

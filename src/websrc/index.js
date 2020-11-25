@@ -1,9 +1,11 @@
 import GetWebSocket from './socket.js';
-import { drawMap } from './mapDrawing.js';
 import AddClickHandler from './clickHandling.js';
+import * as users from './users.js';
 import $ from 'jquery';
+import Cookies from 'js-cookie'
 
 window.$ = $;
+window.Cookies = Cookies;
 
 //TODO fix global pollution
 window.canvas = document.getElementById('mycanvas'); // this doesn't need to be global
@@ -16,67 +18,27 @@ window.gameName = ''; // not actually sure of required scope, leaving everything
 
 AddClickHandler(canvas);
 
-async function loadInitMapData() {
-    [polygons, placements] = await Promise.all(
-        [
-            wsp.RequestResponse({ method: 'loadPolygons' }),
-            wsp.RequestResponse({ method: 'loadPlacements' })
-        ]
-    );
-
-    // Set background blue for lakes
-    ctx.fillStyle = "blue";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    drawMap();
-}
-
-async function setPlayerName() {
-    // TODO:: set a cookie, auto login if the cookie exists and is not expired
-    // expiry is in unix time
-    // return ["name" => $username, "key" => $key, "expiry" => $expiry];
-    try {
-        await wsp.RequestResponse({ method: 'login', payload: {username: window.playerName}})
-    } catch (meatErr) {
-        console.log('Meatiness while setting player name', meatErr);
-    }
-}
-
-async function loadExistingGames() {
-    try {
-        gameList = await wsp.RequestResponse({ method: 'listGames'});
-    } catch(meatErr) {
-        console.log('Meatiness while loading existing games', meatErr);
-    }
-
-    $("#existingGames").html(gameList.join('<br>'));
-    $("#existingGames").show();
-}
-
-async function joinGame() {
-    try {
-        await wsp.RequestResponse({method: 'joinGame', payload: {name: window.gameName}});
-    } catch (meatErr) {
-        console.log('Meatiness while adding player to game', meatErr);
-    }
-
-    // The above will block until this gets called right?  if so we can just use the same call for loading new or joining existing games
-    loadInitMapData();
-}
-
 $(document).ready(async function () {
-    await wsp.open();
-    // Starting
-    $('#nameButton').on('click', function () {
-        window.playerName = $('#name').val();
-        setPlayerName();
-        $("#nameForm").hide();
-        $("#gameForm").show();
-        loadExistingGames();
-    });
-    $('#gameButton').on('click', function () {
-        window.gameName = $('#game').val();
-        joinGame();
-        $('#startDiv').hide();
-    });
+    openPromise = wsp.open();
 
+    users.assembleStartDiv();
+
+    await openPromise;
+
+    key = Cookies.get('axis-key');
+    console.log("Got Key: " + key);
+
+    if (typeof key !== 'undefined') {
+        inGame = await users.loginWithKey(key);
+        if (inGame) {
+            users.moveToGame();
+        } else {
+            $('#startDiv').show();
+            $("#gameForm").show();
+            users.loadExistingGames();
+        }
+    } else {
+        $('#startDiv').show();
+        $('#nameForm').show();
+    }
 });

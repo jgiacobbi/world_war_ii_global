@@ -22,7 +22,7 @@ class Games {
     }
 
     public function exists(string $name) {
-        return isset($this->list()[$name]);
+        return in_array($name, $this->list());
     }
 
     public function createGame(string $name) {
@@ -30,6 +30,8 @@ class Games {
         @mkdir($folder, 0777, true);
         copy($this->data . "/placements.json", "$folder/placements.json");
         copy($this->data . "/state.json", "$folder/state.json");
+
+        $this->logger->info("Created game $name");
     }
 
     public function deleteGame(string $name) {

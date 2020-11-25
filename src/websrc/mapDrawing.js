@@ -45,6 +45,20 @@ export function drawCapitals() {
     });
 }
 
+export async function loadInitMapData() {
+    [polygons, placements] = await Promise.all(
+        [
+            wsp.RequestResponse({ method: 'loadPolygons' }),
+            wsp.RequestResponse({ method: 'loadPlacements' })
+        ]
+    );
+
+    // Set background blue for lakes
+    ctx.fillStyle = "blue";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    drawMap();
+}
+
 export function drawMap() {
     var i;
     var polygonKeys = Object.keys(polygons);

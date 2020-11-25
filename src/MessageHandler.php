@@ -44,11 +44,7 @@ class MessageHandler {
     }
 
     private function login($payload, ConnectionInterface $conn) {
-        $response = $this->auth->login($payload);
-
-        ConnectionRegistry::SetName($conn->resourceId, $response["name"]);
-
-        return $response;
+        return $this->auth->login($conn->resourceId, $payload);
     }
 
     private function listGames() {
@@ -57,7 +53,7 @@ class MessageHandler {
 
     private function joinGame($payload, ConnectionInterface $conn) {
         if (!isset($payload["name"])) {
-            throw new \Exception("Can't join game without a name");
+            throw new \Exception("Can't join game without a game name");
         }
 
         $name = $this->sanitize($payload["name"]);

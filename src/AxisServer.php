@@ -26,6 +26,9 @@ class AxisServer implements MessageComponentInterface {
             ]
         );
 
+        $this->logger->info("Project root is " . Globals::$root);
+        $this->logger->info("Logging to {$this->logRoot}");
+
         $this->handler = new MessageHandler($this->logger);
     }
 
@@ -77,7 +80,11 @@ class AxisServer implements MessageComponentInterface {
                 ];
             }
         } catch (\Exception $e) {
-            $this->logger->error($e->getMessage());
+            $this->logger->error(
+                $e->getMessage(),
+                ConnectionRegistry::GetRawContext($conn->resourceId)
+            );
+
             $response = ["error" => $e->getMessage()];
             if (isset($message["id"])) {
                 $response["id"] = $message["id"];
