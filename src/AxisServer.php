@@ -9,11 +9,12 @@ use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
-    protected $logRoot = "/var/log/axis";
+    protected $logRoot;
     protected $logger;
     protected $handler;
 
-    public function __construct() {
+    public function __construct(string $logRoot) {
+        $this->logRoot = $logRoot;
         @mkdir($this->logRoot, 0777, true);
 
         $this->logger = new Logger('axis',
@@ -58,26 +59,22 @@ class AxisServer implements MessageComponentInterface {
             return;
         }
 
+        $response = [];
+
         try {
             $retval = $this->handler->handle($conn, $message);
 
-            if (!is_null($retval)) {
-                $response = [];
+            if (is_array($retval)) {
+                $response = $retval;
+            } else {
+                $response["result"] = $retval;
+            }
 
-                if (is_array($retval)) {
-                    $response = $retval;
-                } else {
-                    $response["result"] = $retval;
-                }
-
-                if (isset($message["id"])) {
-                    $response = [
-                        "id" => $message["id"],
-                        "body" => $response
-                    ];
-                }
-
-                $conn->send(json_encode($response));
+            if (isset($message["id"])) {
+                $response = [
+                    "id" => $message["id"],
+                    "body" => $response
+                ];
             }
         } catch (\Exception $e) {
             $this->logger->error($e->getMessage());
@@ -85,7 +82,7 @@ class AxisServer implements MessageComponentInterface {
             if (isset($message["id"])) {
                 $response["id"] = $message["id"];
             }
-
+        } finally {
             $conn->send(json_encode($response));
         }
     }

@@ -49,8 +49,6 @@ export function drawMap() {
     var i;
     var polygonKeys = Object.keys(polygons);
 
-    console.log("LESSE" + JSON.stringify(polygons));
-
     // Draw Waters
     for (i = 0; i < polygonKeys.length; i++) {
         if (polygonKeys[i].search("Sea Zone") !== -1) {

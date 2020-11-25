@@ -8,13 +8,13 @@ use Ratchet\ConnectionInterface;
 class MessageHandler {
     private $logger;
     protected $auth;
-    protected $lobbies;
+    protected $games;
 
     public function __construct(Logger $logger) {
         $this->logger = $logger;
 
         $this->auth = new Auth($this->logger);
-        $this->lobbies = new LobbyContainer();
+        $this->games = new Games($this->logger, Globals::$files, Globals::$data);
     }
 
     public function handle(ConnectionInterface $conn, array $message) {
@@ -22,61 +22,55 @@ class MessageHandler {
             throw new \Exception("No method specified");
         }
 
-        return $this->{$message["method"]}($message["payload"] ?? []);
+        return $this->{$message["method"]}($message["payload"] ?? [], $conn);
+    }
 
-        /*$payload = $message["payload"];
-
-        switch($message["method"]) {
-            case "createLobby":
-                return $this->lobbies->add($payload);
-            case "renameLobby":
-                return $this->lobbies->rename($payload);
-            case "joinLobby":
-                $payload["connectionId"] = $conn->resourceId;
-                return $this->lobbies->addUser($payload);
-            case "leaveLobby":
-                $payload["connectionId"] = $conn->resourceId;
-                return $this->lobbies->removeUser($payload);
-            case "lobbyMessage":
-                $this->lobbies->message($payload);
-                break;
-            case "login":
-                $response = $this->auth->login($payload);
-
-                ConnectionRegistry::SetName($conn->resourceId, $response["name"]);
-
-                return $response;
-            default:
-                throw new \Exception("Unknown method: {$message["method"]}");
-        }*/
+    public function sanitize(string $name) : string {
+        return preg_replace("/[^a-zA-Z0-9\-]/", "", $name);
     }
 
     private function loadPolygons() {
-        return json_decode(file_get_contents(dirname(__DIR__) . "/data/polygons.json"), true);
+        return json_decode(file_get_contents(Globals::$data . "/polygons.json"), true);
     }
 
-    private function loadPlacements() {
-        return json_decode(file_get_contents(dirname(__DIR__) . "/data/placements.json"), true);
-    }
+    private function loadPlacements($payload, ConnectionInterface $conn) {
+        $game = ConnectionRegistry::GetGameById($conn->resourceId);
 
-    private function setPlayerName($payload) {
-        $name = $payload['name'];
-        // Do thing to associate this socket to this player name need this to handle dropped sockets gracefully
-        // Should give back some token of some kind browser can store to pass back on socket-disconnect
-        return ['nomen' => $name];
-    }
-
-    private function listLobbies($payload) {
-        return $this->lobbies->getAllNames();
-    }
-
-    private function addToLobby($payload) {
-        $name = $payload['name'];
-        if ($this->lobbies->exists($name)) {
-            return $this->lobbies->addUser($payload);
-        } else {
-            return $this->lobbies->add($payload);
+        if (is_null($game)) {
+            throw new \Exception("Cannot load a map without joining a game");
         }
+
+        return $this->games->getPlacements($game);
+    }
+
+    private function login($payload, ConnectionInterface $conn) {
+        $response = $this->auth->login($payload);
+
+        ConnectionRegistry::SetName($conn->resourceId, $response["name"]);
+
+        return $response;
+    }
+
+    private function listGames() {
+        return $this->games->list();
+    }
+
+    private function joinGame($payload, ConnectionInterface $conn) {
+        if (!isset($payload["name"])) {
+            throw new \Exception("Can't join game without a name");
+        }
+
+        $name = $this->sanitize($payload["name"]);
+
+        if (!$this->games->exists($name)) {
+            $this->games->createGame($name);
+        }
+
+        ConnectionRegistry::SetGame($conn->resourceId, $name);
+
+        //we have a list of player -> game, should also track game -> players
+        //for broadcast game updates
+        return true;
     }
 
     public function __call($name, $arguments) {

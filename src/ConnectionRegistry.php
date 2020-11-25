@@ -8,7 +8,7 @@ use Ratchet\ConnectionInterface;
 class ConnectionRegistry {
     private static bool $initialized = false;
     protected static \SplObjectStorage $clients;
-    protected static array $names = [];
+    protected static array $context = [];
 
     public static function Init() {
         if (!self::$initialized) {
@@ -19,22 +19,39 @@ class ConnectionRegistry {
 
     public static function Add(ConnectionInterface $client) {
         self::$clients->attach($client);
+        self::$context[$client->resourceId] = [];
     }
 
     public static function Remove(ConnectionInterface $client) {
-        unset(self::$names[$client->resourceId]);
+        unset(self::$context[$client->resourceId]);
         self::$clients->detach($client);
     }
 
     public static function SetName(int $id, string $name) {
-        if (self::GetById($id) != null) {
-            self::$names[$id] = $name;
-        }
+        self::SetValue($id, "name", $name);
     }
 
     public static function GetNameById(int $id) {
-        if (isset(self::$$names[$id])) {
-            return self::$names[$id];
+        return self::GetValueById($id, "name");
+    }
+
+    public static function SetGame(int $id, string $game) {
+        self::SetValue($id, "game", $game);
+    }
+
+    public static function GetGameById(int $id) {
+        return self::GetValueById($id, "game");
+    }
+
+    private static function SetValue(int $id, string $key, string $value) {
+        if (isset(self::$context[$id])) {
+            self::$context[$id][$key] = $value;
+        }
+    }
+
+    private static function GetValueById(int $id, string $key) {
+        if (isset(self::$context[$id][$key])) {
+            return self::$context[$id][$key];
         }
 
         return null;

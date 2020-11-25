@@ -12,7 +12,7 @@ window.polygons = Object; // mapDrawing and clickHandler need this - maybe we ma
 window.placements = Object; // mapDrawing and clickHandler, another candidate for map.js
 window.wsp = GetWebSocket(); // we could probably scope this to index.js, and keep everything ui->backend-comms here?
 window.playerName = ''; // not actually sure of required scope, leaving everything global for debugging
-window.lobbyName = ''; // not actually sure of required scope, leaving everything global for debugging
+window.gameName = ''; // not actually sure of required scope, leaving everything global for debugging
 
 AddClickHandler(canvas);
 
@@ -31,31 +31,32 @@ async function loadInitMapData() {
 }
 
 async function setPlayerName() {
-    // TODO:: backend should return reconnect tokenry for browser to store for reconnects
+    // TODO:: set a cookie, auto login if the cookie exists and is not expired
+    // expiry is in unix time
+    // return ["name" => $username, "key" => $key, "expiry" => $expiry];
     try {
-        await wsp.RequestResponse({ method: 'setPlayerName', payload: {name: window.playerName}})
+        await wsp.RequestResponse({ method: 'login', payload: {username: window.playerName}})
     } catch (meatErr) {
         console.log('Meatiness while setting player name', meatErr);
     }
 }
 
-async function loadExistingLobbies() {
+async function loadExistingGames() {
     try {
-        lobbyList = await wsp.RequestResponse({ method: 'listLobbies'});
+        gameList = await wsp.RequestResponse({ method: 'listGames'});
     } catch(meatErr) {
-        console.log('Meatiness while loading existing lobbies', meatErr);
+        console.log('Meatiness while loading existing games', meatErr);
     }
-    console.log(lobbyList);
-    $("#existingLobbies").html(lobbyList);
-    $("#existingLobbies").show();
+
+    $("#existingGames").html(gameList.join('<br>'));
+    $("#existingGames").show();
 }
 
-async function addToLobby() {
+async function joinGame() {
     try {
-        // TODO:: Should we add some sort of lobby/token id? or is player/connect-id sufficient? just thinking mid-game name changes to "slayer of dave"
-        await wsp.RequestResponse({method: 'addToLobby', payload: {name: window.lobbyName}});
+        await wsp.RequestResponse({method: 'joinGame', payload: {name: window.gameName}});
     } catch (meatErr) {
-        console.log('Meatiness while adding player to lobby', meatErr);
+        console.log('Meatiness while adding player to game', meatErr);
     }
 
     // The above will block until this gets called right?  if so we can just use the same call for loading new or joining existing games
@@ -64,18 +65,18 @@ async function addToLobby() {
 
 $(document).ready(async function () {
     await wsp.open();
-    // Lobbying
+    // Starting
     $('#nameButton').on('click', function () {
         window.playerName = $('#name').val();
         setPlayerName();
         $("#nameForm").hide();
-        $("#lobbyForm").show();
-        loadExistingLobbies();
+        $("#gameForm").show();
+        loadExistingGames();
     });
-    $('#lobbyButton').on('click', function () {
-        window.lobbyName = $('#lobby').val();
-        addToLobby();
-        $('#lobbyDiv').hide();
+    $('#gameButton').on('click', function () {
+        window.gameName = $('#game').val();
+        joinGame();
+        $('#startDiv').hide();
     });
 
 });
