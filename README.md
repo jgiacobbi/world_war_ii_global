@@ -28,19 +28,14 @@ To clean and build in one step use `npm run rebuild`, or `npm run rebuild-full` 
     - Unit and facility placement mechanism
     - Territory textures
   - Landing screen
-    - Select name
-    - Load game option
     - Invite other players URL
-    - Select countries
   - Game
+    - Select countries
     - Movement
     - Purchase Units dialogue
     - Unit Placement dialogue
     - Combat dialogue
 - Backend
-  - Login
-  - Start/Load game
-  - Game persistence
   - Collect Income
   - Purchase Units
   - Unit Placement
@@ -50,6 +45,4 @@ To clean and build in one step use `npm run rebuild`, or `npm run rebuild-full` 
   - 95% incomplete, completely open for discussion
 
 ### Issues
-- The project is not portable because it was developed against one server. Unknown number of issues.
 - Websocket disconnects are not managed. Not sure how serious. Sockette might be the solution.
-- Current services include apache serving static files, slim REST routes, and websocket JSON-RPC with marginal separation of responsibilities.
