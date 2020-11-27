@@ -8,6 +8,7 @@ WebSocketAsPromised.prototype.RequestResponse = async function(request) {
             if (response.hasOwnProperty('body')) {
                 body = response.body;
             } else if (response.hasOwnProperty('error')) {
+                console.log(response.error);
                 throw response.error;
             } else {
                 throw 'Unknown error performing request';

@@ -42,32 +42,32 @@ class Auth {
     }
 
     public function loginWithKey(int $id, string $key) : array {
-        if (ConnectionRegistry::KeyExists($key)) {
-            $time = time();
-
-            $expiration = ConnectionRegistry::GetExpiryByKey($key);
-            if ($time > $expiration) {
-                ConnectionRegistry::ExpireKey($key);
-                throw new \Exception("Key expired: $time > $expiration");
-            }
-
-            ConnectionRegistry::SetKey($id, $key);
-
-            $expiry = $time + 86400;
-            ConnectionRegistry::SetExpiry($id, $expiry);
-            $username = ConnectionRegistry::GetNameById($id);
-
-            $this->logger->info("Connection $id logged in as $username");
-
-            return [
-                "name" => $username,
-                "key" => $key,
-                "expiry" => $expiry,
-                "inGame" => $this->userInGame($id)
-            ];
-        } else {
+        if (!ConnectionRegistry::KeyExists($key)) {
             throw new \Exception("Key not found");
         }
+
+        $time = time();
+
+        $expiration = ConnectionRegistry::GetExpiryByKey($key);
+        if ($time > $expiration) {
+            ConnectionRegistry::ExpireKey($key);
+            throw new \Exception("Key expired: $time > $expiration");
+        }
+
+        ConnectionRegistry::SetKey($id, $key);
+
+        $expiry = $time + 86400;
+        ConnectionRegistry::SetExpiry($id, $expiry);
+        $username = ConnectionRegistry::GetNameById($id);
+
+        $this->logger->info("Connection $id logged in as $username");
+
+        return [
+            "name" => $username,
+            "key" => $key,
+            "expiry" => $expiry,
+            "inGame" => $this->userInGame($id)
+        ];
     }
 
     private function userInGame(int $id) {

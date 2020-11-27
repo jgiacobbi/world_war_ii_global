@@ -25,20 +25,5 @@ $(document).ready(async function () {
 
     await openPromise;
 
-    key = Cookies.get('axis-key');
-    console.log("Got Key: " + key);
-
-    if (typeof key !== 'undefined') {
-        inGame = await users.loginWithKey(key);
-        if (inGame) {
-            users.moveToGame();
-        } else {
-            $('#startDiv').show();
-            $("#gameForm").show();
-            users.loadExistingGames();
-        }
-    } else {
-        $('#startDiv').show();
-        $('#nameForm').show();
-    }
+    users.start();
 });

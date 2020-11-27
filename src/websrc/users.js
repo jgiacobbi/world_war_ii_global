@@ -3,8 +3,9 @@ import { loadInitMapData } from './mapDrawing.js';
 async function joinGame(gameName) {
     try {
         await wsp.RequestResponse({method: 'joinGame', payload: {name: gameName}});
+        return true;
     } catch (meatErr) {
-        console.log('Meatiness while adding player to game', meatErr);
+        return false;
     }
 }
 
@@ -16,7 +17,6 @@ export async function loadExistingGames() {
         }
         
     } catch(meatErr) {
-        console.log('Meatiness while loading existing games', meatErr);
         $("#existingGames").html("Error loading games");
     }
 
@@ -32,15 +32,22 @@ export async function loginWithKey(session_key) {
 }
 
 async function login(payloadObj) {
-    try {
-        response = await wsp.RequestResponse({ method: 'login', payload: payloadObj});
-    } catch (meatErr) {
-        console.log('Meatiness while logging in with ' + payloadObj, meatErr);
+    loginReport = {
+        inGame : false,
+        login : true
     }
 
-    expirationDate = new Date(response.expiry * 1000);
-    Cookies.set('axis-key', response.key, { expires: expirationDate });
-    return response.inGame;
+    try {
+        response = await wsp.RequestResponse({ method: 'login', payload: payloadObj});
+
+        expirationDate = new Date(response.expiry * 1000);
+        Cookies.set('axis-key', response.key, { expires: expirationDate });
+        loginReport.inGame = response.inGame;
+    } catch (meatErr) {
+        loginReport.login = false;
+    }
+
+    return loginReport;
 }
 
 export async function moveToGame() {
@@ -52,20 +59,53 @@ export function assembleStartDiv() {
     $('#startDiv').html(startDivContents());
 
     $('#nameButton').on('click', async function () {
-        inGame = await loginWithName($('#name').val());
-        if (inGame) {
-            moveToGame();
+        loginReport = await loginWithName($('#name').val());
+
+        if (loginReport.login) {
+            inGameCheck(loginReport.inGame);
         } else {
-            $("#nameForm").hide();
-            $("#gameForm").show();
-            loadExistingGames();  
+            alert("Failed to log in, this shouldn't fail");
         }
     });
 
     $('#gameButton').on('click', async function () {
-        await joinGame($('#game').val());
-        moveToGame();
+        if (await joinGame($('#game').val())) {
+            moveToGame();
+        } else {
+            alert('Failed to join game');
+        }
     });
+}
+
+export async function start() {
+    key = Cookies.get('axis-key');
+
+    if (typeof key !== 'undefined') {
+        loginReport = await loginWithKey(key);
+
+        if (loginReport.login) {
+            inGameCheck(loginReport.inGame);
+        } else {
+            alert("Failed to log in, deleting cookies.");
+            Cookies.remove('axis-key');
+            $('#startDiv').show();
+            $('#nameForm').show();
+        }
+    } else {
+        $('#startDiv').show();
+        $('#nameForm').show();
+    }
+}
+
+function inGameCheck(inGame) {
+    if (inGame) {
+        moveToGame();
+    } else {
+        $('#startDiv').show();
+        $("#nameForm").hide();
+        $("#gameForm").show();
+        loadExistingGames();
+    }
 }
 
 function startDivContents() {
