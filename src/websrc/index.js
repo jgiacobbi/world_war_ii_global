@@ -1,6 +1,6 @@
 import GetWebSocket from './socket.js';
 import AddClickHandler from './clickHandling.js';
-import * as users from './users.js';
+import users from './users.js';
 import $ from 'jquery';
 import Cookies from 'js-cookie'
 
