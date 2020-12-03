@@ -2,19 +2,19 @@
 
 namespace Axis;
 
-use Monolog\Logger;
+use Axis\Games\StorageInterface;
+use Axis\Games\GameRunner;
 use Ratchet\ConnectionInterface;
 
 class MessageHandler {
-    private $logger;
-    protected $auth;
-    protected $games;
+    protected Auth $auth;
+    protected GameRunner $gameRunner;
+    protected StorageInterface $gameStorage;
 
-    public function __construct(Logger $logger) {
-        $this->logger = $logger;
-
-        $this->auth = new Auth($this->logger);
-        $this->games = new Games($this->logger, Globals::$files, Globals::$data);
+    public function __construct(Auth $auth, GameRunner $gameRunner) {
+        $this->auth = $auth;
+        $this->gameRunner = $gameRunner;
+        $this->gameStorage = $gameRunner->storage();
     }
 
     public function handle(ConnectionInterface $conn, array $message) {
@@ -26,7 +26,7 @@ class MessageHandler {
     }
 
     public function sanitize(string $name) : string {
-        return preg_replace("/[^a-zA-Z0-9\-]/", "", $name);
+        return preg_replace("/[^a-zA-Z0-9\-\.]/", "", $name);
     }
 
     private function loadPolygons() {
@@ -34,21 +34,27 @@ class MessageHandler {
     }
 
     private function loadPlacements($payload, ConnectionInterface $conn) {
-        $game = ConnectionRegistry::GetGameById($conn->resourceId);
+        $name = ConnectionRegistry::GetGameById($conn->resourceId);
 
-        if (is_null($game)) {
+        if (is_null($name)) {
             throw new \Exception("Cannot load a map without joining a game");
         }
 
-        return $this->games->getPlacements($game);
+        return $this->gameRunner->getGame($name)->getPlacements($name);
     }
 
     private function login($payload, ConnectionInterface $conn) {
+        array_walk($payload, array($this, 'sanitize'));
         return $this->auth->login($conn->resourceId, $payload);
     }
 
+    /**
+     * This currently lists all games. We could differentiate between
+     * games on disk and games in progress, but that seems marginal
+     * right now.
+     */
     private function listGames() {
-        return $this->games->list();
+        return $this->gameStorage->list();
     }
 
     private function joinGame($payload, ConnectionInterface $conn) {
@@ -58,14 +64,10 @@ class MessageHandler {
 
         $name = $this->sanitize($payload["name"]);
 
-        if (!$this->games->exists($name)) {
-            $this->games->createGame($name);
-        }
+        $this->gameRunner->newGame($name)->addPlayer($conn->resourceId);
 
         ConnectionRegistry::SetGame($conn->resourceId, $name);
 
-        //we have a list of player -> game, should also track game -> players
-        //for broadcast game updates
         return true;
     }
 

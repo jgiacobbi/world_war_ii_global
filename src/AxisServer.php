@@ -2,53 +2,44 @@
 
 namespace Axis;
 
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\RotatingFileHandler;
-use Monolog\Logger;
+use Axis\Games\GameRunner;
+use Axis\Games\DiskStorage;
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
 class AxisServer implements MessageComponentInterface {
-    protected $logRoot;
-    protected $logger;
-    protected $handler;
+    protected MessageHandler $handler;
 
-    public function __construct(string $logRoot) {
-        $this->logRoot = $logRoot;
-        @mkdir($this->logRoot, 0777, true);
+    public function __construct(MessageHandler $handler) {
+        $this->handler = $handler;
+    }
 
-        $this->logger = new Logger('axis',
-            [
-                new StreamHandler("php://stdout"),
-                new RotatingFileHandler("{$this->logRoot}/all.log", 10),
-                new RotatingFileHandler(
-                    "{$this->logRoot}/error.log", 10, Logger::ERROR)
-            ]
-        );
+    public static function buildServer(string $files, string $data) : self {
+        $gameStorage = new DiskStorage($files, $data);
+        $gameRunner = new GameRunner($gameStorage);
+        $auth = new Auth();
+        $messageHandler = new MessageHandler($auth, $gameRunner);
 
-        $this->logger->info("Project root is " . Globals::$root);
-        $this->logger->info("Logging to {$this->logRoot}");
-
-        $this->handler = new MessageHandler($this->logger);
+        return new self($messageHandler);
     }
 
     public function onOpen(ConnectionInterface $conn) {
-        $this->logger->info("New connection! ({$conn->resourceId})");
+        Log::info("New connection! ({$conn->resourceId})");
         ConnectionRegistry::Add($conn);
     }
 
     public function onMessage(ConnectionInterface $from, $msg) {
-        $this->logger->debug("Message from {$from->resourceId} : $msg");
+        Log::debug("Message from {$from->resourceId} : $msg");
         $this->handleMessage($from, $msg);
     }
 
     public function onClose(ConnectionInterface $conn) {
-        $this->logger->info("Connection {$conn->resourceId} has disconnected");
+        Log::info("Connection {$conn->resourceId} has disconnected");
         ConnectionRegistry::Remove($conn);
     }
 
     public function onError(ConnectionInterface $conn, \Exception $e) {
-        $this->logger->critical("An error has occurred: {$e->getMessage()}");
+        Log::critical("An error has occurred: {$e->getMessage()}");
 
         $conn->close();
     }
@@ -57,7 +48,7 @@ class AxisServer implements MessageComponentInterface {
         $message = json_decode($msg, true);
 
         if (is_null($message)) {
-            $this->logger->error("Invalid Json: $msg");
+            Log::error("Invalid Json: $msg");
             $conn->send(json_encode(["error" => "Invalid Json: $msg"]));
             return;
         }
@@ -80,7 +71,7 @@ class AxisServer implements MessageComponentInterface {
                 ];
             }
         } catch (\Exception $e) {
-            $this->logger->error(
+            Log::error(
                 $e->getMessage(),
                 ConnectionRegistry::GetRawContext($conn->resourceId)
             );

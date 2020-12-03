@@ -92,12 +92,12 @@ export default {
             } else {
                 alert("Failed to log in, deleting cookies.");
                 Cookies.remove('axis-key');
-                $('#startDiv').show();
                 $('#nameForm').show();
+                this.showStartDiv();
             }
         } else {
-            $('#startDiv').show();
             $('#nameForm').show();
+            this.showStartDiv();
         }
     },
 
@@ -105,15 +105,20 @@ export default {
         if (inGame) {
             this.moveToGame();
         } else {
-            $('#startDiv').show();
+            this.loadExistingGames();
             $("#nameForm").hide();
             $("#gameForm").show();
-            this.loadExistingGames();
+            this.showStartDiv();
         }
     },
 
+    showStartDiv: function() {
+        $('#startDiv').show();
+        document.getElementById('startDiv').scrollIntoView();
+    },
+
     startDivContents: function () {
-        return `
+        return /*html*/`
             <div id="nameForm" style="display:none">
                 <label for="name">Enter Name:</label>
                 <input type="text" id="name"><br><br>

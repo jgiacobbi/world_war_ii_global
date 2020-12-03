@@ -1,27 +1,34 @@
 <?php
 
-namespace Axis;
+namespace Axis\Games;
 
-use Monolog\Logger;
+use Axis\Log;
 
-class Games {
-    private Logger $logger;
+/**
+ * Storage layer for games
+ */
+class DiskStorage implements StorageInterface {
+    /**
+     * Where games are stored
+     */
     private string $games;
+
+    /**
+     * Where immutable starting data is stored
+     */
     private string $data;
 
-    public function __construct(Logger $logger, string $files, string $data) {
-        $this->logger = $logger;
+    public function __construct(string $files, string $data) {
         $this->games = $files . "/games";
         $this->data = $data;
         @mkdir($this->games, 0777, true);
     }
 
-    //probably going to want some kind of caching in this class
     public function list() : array {
         return array_values(array_diff(scandir($this->games), ['.', '..']));
     }
 
-    public function exists(string $name) {
+    public function exists(string $name) : bool {
         return in_array($name, $this->list());
     }
 
@@ -31,23 +38,30 @@ class Games {
         copy($this->data . "/placements.json", "$folder/placements.json");
         copy($this->data . "/state.json", "$folder/state.json");
 
-        $this->logger->info("Created game $name");
+        Log::info("Created game $name");
     }
 
     public function deleteGame(string $name) {
         $folder = gameDir($name);
 
-        $files = glob('$folder/*'); // get all file names
-        foreach($files as $file){
-            if(is_file($file)) {
-                unlink($file);
+        if (is_dir($folder)) {
+            foreach(glob("$folder/*") as $file){
+                if(is_file($file)) {
+                    unlink($file);
+                }
             }
-        }
+    
+            rmdir($folder);
 
-        rmdir($folder);
+            Log::info("Deleted gamed $name");
+        }
     }
 
-    public function getPlacements(string $name) {
+    public function getPowers(): array {
+        return $this->getJson($this->data . "/powers.json");
+    }
+
+    public function getPlacements(string $name): array {
         return $this->getJson($this->gameDir($name) . "/placements.json");
     }
 

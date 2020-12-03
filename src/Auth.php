@@ -2,15 +2,12 @@
 
 namespace Axis;
 
-use Monolog\Logger;
-
+/**
+ * This class deals with logging in, saving and resuming sessions.
+ * Right now no passwords are used and accounts are transient. If
+ * that ever changes this is the place to start.
+ */
 class Auth {
-    private Logger $logger;
-
-    public function __construct(Logger $logger) {
-        $this->logger = $logger;
-    }
-
     public function login(int $id, array $payload) : array {
         if (isset($payload["username"])) {
             return $this->loginWithCredentials($id, $payload["username"]);
@@ -31,7 +28,7 @@ class Auth {
         ConnectionRegistry::SetKey($id, $key, 
             ["name" => $username, "expiry" => $expiry]);
 
-        $this->logger->info("Connection $id logged in as $username");
+        Log::info("Connection $id logged in as $username");
 
         return [
             "name" => $username,
@@ -60,7 +57,7 @@ class Auth {
         ConnectionRegistry::SetExpiry($id, $expiry);
         $username = ConnectionRegistry::GetNameById($id);
 
-        $this->logger->info("Connection $id logged in as $username");
+        Log::info("Connection $id logged in as $username");
 
         return [
             "name" => $username,
