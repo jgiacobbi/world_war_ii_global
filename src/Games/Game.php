@@ -70,6 +70,8 @@ class Game {
         }
 
         $this->powers[$power] = $id;
+        $this->players[$id]->push($power);
+
         $name = ConnectionRegistry::GetNameById($id);
         Log::info("$power is now controlled by $name in game {$this->name}");
     }
@@ -91,9 +93,10 @@ class Game {
 
         //remove the power from the player's list of controlled powers
         if (isset($this->players[$id])) {
-            if (($key = array_search($power, $this->players[$id])) !== false) {
-                unset($this->players[$id][$key]);
-            }
+            $this->players[$id] = array_diff($this->players[$id], [$power]);
         }
+
+        $name = ConnectionRegistry::GetNameById($id);
+        Log::info("$power is no longer controlled by $name in game {$this->name}");
     }
 }
