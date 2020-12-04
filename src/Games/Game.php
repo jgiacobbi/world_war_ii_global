@@ -55,4 +55,45 @@ class Game {
     public function getPlacements(): array {
         return $this->storage->getPlacements($this->name);
     }
+
+    public function coronate(int $id, string $power) {
+        if (!isset($this->powers[$power])) {
+            throw new \Exception("Unknown power [$power]");
+        }
+
+        if (!isset($this->players[$id])) {
+            throw new \Exception("Player $id is not in game {$this->name}");
+        }
+
+        if (!is_null($this->powers[$power])) {
+            throw new \Exception("$power is already being controlled");
+        }
+
+        $this->powers[$power] = $id;
+        $name = ConnectionRegistry::GetNameById($id);
+        Log::info("$power is now controlled by $name in game {$this->name}");
+    }
+
+    public function abdicate(int $id, string $power) {
+        if (!isset($this->powers[$power])) {
+            throw new \Exception("Unknown power [$power]");
+        }
+
+        if (is_null($this->powers[$power])) {
+            return;
+        }
+
+        if ($this->powers[$power] != $id) {
+            throw new \Exception("Cannot abdicate for another player");
+        }
+
+        $this->powers[$power] = null;
+
+        //remove the power from the player's list of controlled powers
+        if (isset($this->players[$id])) {
+            if (($key = array_search($power, $this->players[$id])) !== false) {
+                unset($this->players[$id][$key]);
+            }
+        }
+    }
 }

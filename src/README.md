@@ -2,43 +2,29 @@
 
 ```
 {
-    "method": "METHOD",
+    "method": string,
     "payload": {
-        "field 1": "CONTENTS",
-        "field N": "CONTENTS"
+        "field 1": string,
+        "field N": int
     }
 }
 ```
 ### Login
-Register:
-```
-{
-    "method": "register,
-    "payload": {
-        "username": "USERNAME",
-        "password": "PASSWORD"
-    }
-}
-
-{
-    "success": true
-}
-```
 
 Login (with credentials):
 ```
 {
     "method": "login",
     "payload": {
-        "username": "USERNAME",
-        "password": "PASSWORD"
+        "username": string
     }
 }
 
 {
-    "name": "USERNAME",
-    "key": "LOGIN_KEY",
-    "expiry": "LOGIN_KEY_EXPIRY"
+    "name": string
+    "key": string,
+    "expiry": string,
+    "inGame": boolean
 }
 ```
 
@@ -47,89 +33,14 @@ Login (with key):
 {
     "method": "login",
     "payload": {
-        "key": "KEY",
+        "key": string,
     }
 }
 
 {
-    "name": "USERNAME",
-    "key": "LOGIN_KEY",
-    "expiry": "LOGIN_KEY_EXPIRY"
-}
-```
-### Lobby
-Create:
-```
-{
-    "method": "createLobby",
-    "payload": {
-        "name": "LOBBY_NAME",
-    }
-}
-
-{
-    "name": "CREATED_NAME
-}
-```
-
-Rename:
-```
-{
-    "method": "renameLobby",
-    "payload": {
-        "old": "CURRENT_NAME",
-        "new": "DESIRED_NAME"
-    }
-}
-
-{
-    "name": "NEW_NAME"
-}
-```
-
-Join:
-```
-{
-    "method": "joinLobby",
-    "payload": {
-        "lobby": "LOBBY_NAME",
-    }
-}
-
-{
-    "success" : "true"
-}
-```
-
-Leave:
-```
-{
-    "method": "leaveLobby",
-    "payload": {
-        "lobby": "LOBBY_NAME",
-    }
-}
-
-{
-    "success" : "true"
-}
-
-```
-
-Message:
-```
-{
-    "method": "lobbyMessage",
-    "payload": {
-        "lobby": "LOBBY_NAME",
-        "message": "MESSAGE"
-    }
-}
-
-{
-    "lobby": "LOBBY_NAME",
-    "from": "USER_NAME",
-    "time": UNIX_TIME,
-    "message": "MESSAGE"
+    "name": string
+    "key": string,
+    "expiry": string,
+    "inGame": boolean
 }
 ```

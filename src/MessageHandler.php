@@ -71,6 +71,32 @@ class MessageHandler {
         return true;
     }
 
+    private function coronate($payload, ConnectionInterface $conn) {
+        if (!isset($payload["power"])) {
+            throw new \Exception("No power to gain control off");
+        }
+
+        $gameName = ConnectionRegistry::GetGameById($conn->resourceId);
+        $power = $this->sanitize($payload["power"]);
+
+        $this->gameRunner->getGame($gameName)->coronate($conn->resourceId, $power);
+
+        return true;
+    }
+
+    private function abdicate($payload, ConnectionInterface $conn) {
+        if (!isset($payload["power"])) {
+            throw new \Exception("No power to give up");
+        }
+
+        $gameName = ConnectionRegistry::GetGameById($conn->resourceId);
+        $power = $this->sanitize($payload["power"]);
+
+        $this->gameRunner->getGame($gameName)->abdicate($conn->resourceId, $power);
+
+        return true;
+    }
+
     public function __call($name, $arguments) {
         // Returning this error to the client through the top level exception handler is preferable to
         // PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::lolwut() in Command line code:1
