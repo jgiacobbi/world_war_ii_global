@@ -29,8 +29,17 @@ export default function() {
       }
     );
 
-    //debug stuff
-    //wsp.onResponse.addListener(data => console.log(data));
+    wsp.onUnpackedMessage.addListener(data => handler(data));
 
     return wsp;
 };
+
+/**
+ * Handler for unsolicited server messages
+ * @param message JSON
+ */
+function handler(message) {
+    if (!message.hasOwnProperty('id')) {
+        console.log(message);
+    }
+}
