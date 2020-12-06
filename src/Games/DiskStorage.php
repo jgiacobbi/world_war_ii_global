@@ -53,12 +53,8 @@ class DiskStorage implements StorageInterface {
     
             rmdir($folder);
 
-            Log::info("Deleted gamed $name");
+            Log::info("Deleted game $name");
         }
-    }
-
-    public function getPowers(): array {
-        return $this->getJson($this->data . "/powers.json");
     }
 
     public function getPlacements(string $name): array {
