@@ -40,7 +40,7 @@ class MessageHandler {
             throw new \Exception("Cannot load a map without joining a game");
         }
 
-        return $this->gameRunner->getGame($name)->getPlacements($name);
+        return $this->gameRunner->getGame($name)->getPlacements();
     }
 
     private function login($payload, ConnectionInterface $conn) {
