@@ -1,4 +1,4 @@
-import { loadInitMapData } from './mapDrawing.js';
+import map from './mapDrawing.js';
 
 export default {
     joinGame: async function (gameName) {
@@ -53,7 +53,7 @@ export default {
 
     moveToGame: async function () {
         $('#startDiv').hide();
-        await loadInitMapData();
+        map.init();
     },
 
     assembleStartDiv: function () {

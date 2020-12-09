@@ -6,6 +6,10 @@ use Axis\Games\StorageInterface;
 use Axis\Games\GameRunner;
 use Ratchet\ConnectionInterface;
 
+/**
+ * This class is responsible for dispatching messages and orchestrating
+ * different parts of the program.
+ */
 class MessageHandler {
     protected Auth $auth;
     protected GameRunner $gameRunner;

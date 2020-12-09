@@ -7,6 +7,7 @@ web/index.html
 web/index.*.js
 web/*.map
 
+/.vscode
 /.parcel-cache
 /vendor/
 /node_modules

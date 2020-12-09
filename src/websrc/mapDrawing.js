@@ -1,124 +1,141 @@
-export var color = {
-    "Neutral": "#d8ba7c",
-    "Neutral_True": "#b88a6c",
-    "Neutral_Axis": "#6A5B3D",
-    "Neutral_Allies": "#d8ba7c",
-    "Italy": "#58360E",
-    "British": "#916400",
-    "Britain": "#916400",
-    "UK_Europe": "#916400",
-    "UK_Pacific": "#8E6600",
-    "France": "#156CC4",
-    "Impassable": "#d8ba7c",
-    "America": "#5a5a00",
-    "Russia": "#af2828",
-    "Germany": "#5a5a5a",
-    "Japan": "#DCB53F",
-    "China": "#713778",
-    "Canada": "#bf0010",
-    "ANZAC": "#4d7f7f",
-    "Dutch": "#ff6d00",
-    "Mongolia": "#d8ba7c"
-};
+export default {
+    color: {
+        "Neutral": "#d8ba7c",
+        "Neutral_True": "#b88a6c",
+        "Neutral_Axis": "#6A5B3D",
+        "Neutral_Allies": "#d8ba7c",
+        "Italy": "#58360E",
+        "British": "#916400",
+        "Britain": "#916400",
+        "UK_Europe": "#916400",
+        "UK_Pacific": "#8E6600",
+        "France": "#156CC4",
+        "Impassable": "#d8ba7c",
+        "America": "#5a5a00",
+        "Russia": "#af2828",
+        "Germany": "#5a5a5a",
+        "Japan": "#DCB53F",
+        "China": "#713778",
+        "Canada": "#bf0010",
+        "ANZAC": "#4d7f7f",
+        "Dutch": "#ff6d00",
+        "Mongolia": "#d8ba7c"
+    },
 
-
-export function drawCapitals() {
-    var CapitalLocations = 
-    {
-        "United Kingdom": [1865,475],
-        "Germany": [2470,667],
-        "Southern Italy": [2365,1305],
-        "Eastern United States": [715,655],
-        "France": [2140,825],
-        "Russia": [3340,470],
+    CapitolLocations: {
+        "United Kingdom": [2045,625],
+        "Germany": [2630,770],
+        "Southern Italy": [2358,1260],
+        "Eastern United States": [670,750],
+        "France": [2110,853],
+        "Russia": [3515,590],
         "Himalayas": [4235,1453],
-        "Japan": [5800,888],
-        "New South Wales": [5930,2890],
-        "India": [3930,2050],
-        "Ontario": [490,350]
-    }
-    Object.keys(CapitalLocations).forEach(function(value, index) {
-        ctx.beginPath();
-        ctx.fillStyle = "red";
-        ctx.arc(CapitalLocations[value][0], CapitalLocations[value][1], 2, 0, Math.PI, false);
-        ctx.fill();
-    });
-}
+        "Japan": [5780,967],
+        "New South Wales": [5990,3005],
+        "India": [4080,1850],
+        "Ontario": [600,605],
+    },
 
-export async function loadInitMapData() {
-    [polygons, placements] = await Promise.all(
-        [
-            wsp.RequestResponse({ method: 'loadPolygons' }),
-            wsp.RequestResponse({ method: 'loadPlacements' })
-        ]
-    );
+    VictoryLocations: {
+        "Egypt": [2928,1680],
+        "Poland": [2755,770],
+        "Volgograd": [3540,1085],
+        "Novgorod": [2925,390],
+        "Kwangtung": [4795,1795],
+        "Philippines": [5213,1940],
+        "Kiangsu": [5000,1410],
+        "Western United States": [7460,655],
+        "Hawaiian Islands": [6900,1515],
+    },
 
-    // Set background blue for lakes
-    ctx.fillStyle = "blue";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    drawMap();
-}
-
-export function drawMap() {
-    var i;
-    var polygonKeys = Object.keys(polygons);
-
-    // Draw Waters
-    for (i = 0; i < polygonKeys.length; i++) {
-        if (polygonKeys[i].search("Sea Zone") !== -1) {
-            drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
+    drawCities: function() {
+        for(let [key,value] of Object.entries(this.CapitolLocations)) {
+            ctx.beginPath();
+            ctx.fillStyle = "red";
+            ctx.arc(value[0], value[1], 6, 0, 2 * Math.PI, false);
+            ctx.fill();
         }
-    }
-    // Draw background country colors
-    for (i = 0; i < polygonKeys.length; i++) {
-        if (polygonKeys[i].search("Sea Zone") === -1) {
-            drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
-        }
-    }
-    // Draw territory and sea boundaries
-    for (i = 0; i < polygonKeys.length; i++) {
-        drawTerritory(false, polygons[polygonKeys[i]], polygonKeys[i]);
-    }
 
-    // Draw small red circles for capitals
-    drawCapitals();
-}
-
-export function drawTerritory(fill, territory, territoryName) {
-    ctx.fillStyle = selectColor(territoryName);
-    var i;
-    for (i = 0; i < territory.length; i++) {
-        var coordinates = territory[i];
-        var j;
-        ctx.beginPath();
-        ctx.moveTo(coordinates[0][0],coordinates[0][1]);
-        for (j = 0; j < coordinates.length; j++) {
-            ctx.lineTo(coordinates[j][0],coordinates[j][1]);
+        size = 8;
+        for(let [key,value] of Object.entries(this.VictoryLocations)) {
+            
+            ctx.fillRect(value[0] - (size/2), value[1] - (size/2), size, size);
         }
-        ctx.lineTo(coordinates[0][0],coordinates[0][1]);
-        if (fill) {
-            ctx.fill('evenodd');
-        } else {
-            ctx.strokeStyle = "#ffffff";
-            ctx.lineWidth = 1;
-            ctx.stroke();
-        }
-    }
-}
+    },
 
-// take player data and pick player color, or for now just random
-export function selectColor(territoryName) {
-    if (territoryName.search("Sea Zone") !== -1) {
-        return "#0000ff";
-    } else {
-        if (placements.hasOwnProperty(territoryName)) {
-            if (placements[territoryName].hasOwnProperty('occupier')) {
-                return color[placements[territoryName].occupier];
-            } else {
-                return "#ffffff";
+    init: async function() {
+        [polygons, placements] = await Promise.all(
+            [
+                wsp.RequestResponse({ method: 'loadPolygons' }),
+                wsp.RequestResponse({ method: 'loadPlacements' })
+            ]
+        );
+    
+        // Set background blue for lakes
+        ctx.fillStyle = "blue";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        this.drawMap();
+    },
+
+    drawMap: function() {
+        var i;
+        var polygonKeys = Object.keys(polygons);
+    
+        // Draw Waters
+        for (i = 0; i < polygonKeys.length; i++) {
+            if (polygonKeys[i].search("Sea Zone") !== -1) {
+                this.drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
             }
+        }
+        // Draw background country colors
+        for (i = 0; i < polygonKeys.length; i++) {
+            if (polygonKeys[i].search("Sea Zone") === -1) {
+                this.drawTerritory(true, polygons[polygonKeys[i]], polygonKeys[i]);
+            }
+        }
+        // Draw territory and sea boundaries
+        for (i = 0; i < polygonKeys.length; i++) {
+            this.drawTerritory(false, polygons[polygonKeys[i]], polygonKeys[i]);
+        }
+    
+        // Draw small red circles for capitals
+        this.drawCities();
+    },
+
+    drawTerritory: function(fill, territory, territoryName) {
+        ctx.fillStyle = this.selectColor(territoryName);
+        var i;
+        for (i = 0; i < territory.length; i++) {
+            var coordinates = territory[i];
+            var j;
+            ctx.beginPath();
+            ctx.moveTo(coordinates[0][0],coordinates[0][1]);
+            for (j = 0; j < coordinates.length; j++) {
+                ctx.lineTo(coordinates[j][0],coordinates[j][1]);
+            }
+            ctx.lineTo(coordinates[0][0],coordinates[0][1]);
+            if (fill) {
+                ctx.fill('evenodd');
+            } else {
+                ctx.strokeStyle = "#ffffff";
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
+        }
+    },
+    selectColor: function(territoryName) {
+        if (territoryName.search("Sea Zone") !== -1) {
+            return "#0000ff";
         } else {
-            return "#000000";
+            if (placements.hasOwnProperty(territoryName)) {
+                if (placements[territoryName].hasOwnProperty('occupier')) {
+                    return this.color[placements[territoryName].occupier];
+                } else {
+                    return "#ffffff";
+                }
+            } else {
+                return "#000000";
+            }
         }
     }
 }

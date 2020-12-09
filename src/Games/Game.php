@@ -2,6 +2,7 @@
 
 namespace Axis\Games;
 
+use Axis\Enum\Power;
 use Axis\Log;
 
 /**
@@ -16,7 +17,9 @@ class Game {
     public function __construct(string $name, StorageInterface $storage) {
         $this->name = $name;
         $this->storage = $storage;
-        $this->powers = array_fill_keys($storage->getPowers(), null);
+        foreach(Power::members() as $member) {
+            $this->powers[] = $member->value();
+        }
     }
 
     public function create() {
