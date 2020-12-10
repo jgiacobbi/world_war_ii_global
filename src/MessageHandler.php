@@ -37,6 +37,10 @@ class MessageHandler {
         return json_decode(file_get_contents(Globals::$data . "/polygons.json"), true);
     }
 
+    private function loadPlaceCoordinates() {
+        return json_decode(file_get_contents(Globals::$data . "/place.json"), true);
+    }
+
     private function loadPlacements($payload, ConnectionInterface $conn) {
         $name = ConnectionRegistry::GetGameById($conn->resourceId);
 

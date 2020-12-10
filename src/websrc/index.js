@@ -12,6 +12,7 @@ window.canvas = document.getElementById('mycanvas'); // this doesn't need to be 
 window.ctx = canvas.getContext('2d'); // this is only really required in mapDrawing.js, could scope it to there
 window.polygons = Object; // mapDrawing and clickHandler need this - maybe we make map.js which handles map interactions
 window.placements = Object; // mapDrawing and clickHandler, another candidate for map.js
+window.placeCoords = Object;
 window.wsp = GetWebSocket(); // we could probably scope this to index.js, and keep everything ui->backend-comms here?
 window.playerName = ''; // not actually sure of required scope, leaving everything global for debugging
 window.gameName = ''; // not actually sure of required scope, leaving everything global for debugging

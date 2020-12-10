@@ -58,16 +58,30 @@ export default {
 
         size = 8;
         for(let [key,value] of Object.entries(this.VictoryLocations)) {
-            
             ctx.fillRect(value[0] - (size/2), value[1] - (size/2), size, size);
         }
     },
 
+    drawPlaceLocations: function() {
+        console.log("Drawing place locations");
+        console.log(`Squares with placement coords: ${Object.values(placeCoords).length}`);
+        for(let [country, list] of Object.entries(placeCoords)) {
+            console.log(`${list.length} entries for ${country}`);
+            list.forEach(function(item, index) {
+                ctx.beginPath();
+                ctx.fillStyle = "white";
+                ctx.arc(item[0], item[1], 3, 0, 2 * Math.PI, false);
+                ctx.fill();
+            })
+        }
+    },
+
     init: async function() {
-        [polygons, placements] = await Promise.all(
+        [polygons, placements, placeCoords] = await Promise.all(
             [
                 wsp.RequestResponse({ method: 'loadPolygons' }),
-                wsp.RequestResponse({ method: 'loadPlacements' })
+                wsp.RequestResponse({ method: 'loadPlacements' }),
+                wsp.RequestResponse({ method: 'loadPlaceCoordinates' })
             ]
         );
     
@@ -100,6 +114,8 @@ export default {
     
         // Draw small red circles for capitals
         this.drawCities();
+
+        this.drawPlaceLocations();
     },
 
     drawTerritory: function(fill, territory, territoryName) {
