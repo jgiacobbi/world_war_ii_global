@@ -10,3 +10,6 @@ package-lock.json
 
 web/*
 !web/img
+
+#sandbox file
+meat.php
