@@ -2,10 +2,15 @@
 
 namespace Axis\Games;
 
-interface StorageInterface {
+interface StorageInterface
+{
     public function list(): array;
+
     public function exists(string $name): bool;
+
     public function createGame(string $name);
+
     public function deleteGame(string $name);
+
     public function getPlacements(string $name): array;
 }

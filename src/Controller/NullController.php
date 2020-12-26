@@ -3,8 +3,8 @@
 namespace Axis\Controller;
 
 /**
- * A controller for a NoOp "AI"
+ * A controller for a NoOp "AI".
  */
-class NullController {
-
+class NullController
+{
 }

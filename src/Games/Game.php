@@ -6,33 +6,38 @@ use Axis\Enum\Power;
 use Axis\Log;
 
 /**
- * This class represents a game in progress, and tracks current players
+ * This class represents a game in progress, and tracks current players.
  */
-class Game {
+class Game
+{
     private StorageInterface $storage;
     private string $name;
     private array $players = [];
     private array $powers = [];
 
-    public function __construct(string $name, StorageInterface $storage) {
+    public function __construct(string $name, StorageInterface $storage)
+    {
         $this->name = $name;
         $this->storage = $storage;
-        foreach(Power::members() as $member) {
+        foreach (Power::members() as $member) {
             $this->powers[] = $member->value();
         }
     }
 
-    public function create() {
+    public function create()
+    {
         if (!$this->storage->exists($this->name)) {
-            $this->storage->create($this->name);
+            $this->storage->createGame($this->name);
         }
     }
 
-    public function delete() {
-        $this->storage->delete($this->name);
+    public function delete()
+    {
+        $this->storage->deleteGame($this->name);
     }
 
-    public function addPlayer(int $id) {
+    public function addPlayer(int $id)
+    {
         if (isset($this->players[$id])) {
             throw new \Exception("Player with ID [$id] is already in the game");
         }
@@ -41,7 +46,8 @@ class Game {
         Log::info("Added [$id] to {$this->name}");
     }
 
-    public function removePlayer(int $id) {
+    public function removePlayer(int $id)
+    {
         if (!isset($this->players[$id])) {
             return;
         }
@@ -55,11 +61,13 @@ class Game {
         Log::info("Removed [$id] from {$this->name}");
     }
 
-    public function getPlacements(): array {
+    public function getPlacements(): array
+    {
         return $this->storage->getPlacements($this->name);
     }
 
-    public function coronate(int $id, string $power) {
+    public function coronate(int $id, string $power)
+    {
         if (!isset($this->powers[$power])) {
             throw new \Exception("Unknown power [$power]");
         }
@@ -79,7 +87,8 @@ class Game {
         Log::info("$power is now controlled by $name in game {$this->name}");
     }
 
-    public function abdicate(int $id, string $power) {
+    public function abdicate(int $id, string $power)
+    {
         if (!isset($this->powers[$power])) {
             throw new \Exception("Unknown power [$power]");
         }
@@ -89,7 +98,7 @@ class Game {
         }
 
         if ($this->powers[$power] != $id) {
-            throw new \Exception("Cannot abdicate for another player");
+            throw new \Exception('Cannot abdicate for another player');
         }
 
         $this->powers[$power] = null;
